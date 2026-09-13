@@ -4,6 +4,10 @@ Public attribution: **AKD — Independent Researcher**
 Prepared: 2026-09-13  
 Status: conceptual research proposal; no experimental validation is presented.
 
+## Subsequent protocol
+
+[SYMBIOSIS-Zero Experimental Protocol v1.0](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md) supersedes the brief Zero description for prospective experiment design. The source excerpts below remain an unchanged historical snapshot; they are not the current protocol. No external review is implied.
+
 ## Scope and provenance
 
 This file assembles the public principles, architecture and proposed SYMBIOSIS-Zero protocol for convenient review. It is not the complete historical white paper. The sections below reproduce repository documents at the blob revisions listed with them. The project documentation was developed with AI assistance.
