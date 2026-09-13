@@ -1,6 +1,6 @@
 # Reference Architecture
 
-## System view
+## Prospective full architecture
 
 ```mermaid
 flowchart TD
@@ -13,11 +13,15 @@ flowchart TD
     F -. "optional, consented" .-> X["Federated network"]
 ```
 
+## Zero implementation boundary
+
+Zero implements an observable shared workspace, permissions, contribution logs and interruption controls through conventional interfaces. Its structured vocabulary is not a validated Neural Interlingua. Neural components and embodiment in the diagram are prospective. See [the protocol](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md) and [levels Zero/1/2/N](../ROADMAP.md).
+
 ## Components
 
 ### Neural interface
 
-Captures intentional signals and, only in later research stages, may deliver narrowly constrained feedback. The baseline project assumes non-invasive input.
+Captures intentional signals and, only in later research stages, may deliver narrowly constrained feedback. This describes future interface research. Zero uses conventional interfaces without neural sensing.
 
 ### Trusted local processor
 
