@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use or discuss this framework, please cite it using these metadata."
+title: "SYMBIOSIS: A Framework for Voluntary Cognitive Symbiosis"
+type: generic
+authors:
+  - family-names: "Diallo"
+    given-names: "Abdoul Karim"
+version: 0.1.0
+date-released: 2026-09-13
+repository-code: "https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS"
+license: CC-BY-4.0
+keywords:
+  - cognitive symbiosis
+  - embodied AI
+  - mental sovereignty
+  - neurotechnology
+  - AI safety
