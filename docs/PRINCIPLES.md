@@ -49,3 +49,9 @@ Raw neural signals remain on a trusted local processor by default. Only purpose-
 ## 12. Safe failure
 
 Failure must degrade toward separation and autonomy, never toward forced persistence of the shared state.
+
+## Interpretation across experimental levels
+
+These are normative invariants, not established empirical properties. Revocation stops future access; it cannot erase human learning, previously disclosed information or all lasting influence. Zero tests bounded functional outcomes, not metaphysical identity continuity or absolute mental privacy.
+
+Reciprocal consent and the distinction between human persons and possible artificial persons remain part of the long-term vision. Software abstention or refusal does not establish present-day AI consciousness or personhood. Confidentiality, autonomy, identity, safety and pluralism remain requirements at every level.
