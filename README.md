@@ -53,6 +53,10 @@ Raw neural data remains local by default. The Cognitive Firewall controls repres
 
 See the complete [Reference Architecture](docs/ARCHITECTURE.md).
 
+## External review
+
+[Read the consolidated dossier and review questions](docs/EXTERNAL-AI-REVIEW.md). This public text brings the principles, architecture and proposed non-invasive protocol together, with source revisions and a common critical-review rubric. No external AI review or search-engine indexing is claimed.
+
 ## Start here
 
 - [Executive Brief](docs/EXECUTIVE-BRIEF.md)
