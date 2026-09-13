@@ -8,7 +8,7 @@
 
 > A research framework for voluntary, reversible, and pluralistic cognitive symbiosis between humans and embodied AI.
 
-**Status:** conceptual research framework · **Version:** 0.1.0 · **First prototype:** SYMBIOSIS-Zero
+**Status:** conceptual research framework · **Version:** 0.1.0 · **First proposed experimental protocol:** SYMBIOSIS-Zero
 
 ## Self → Shared → Self
 
@@ -69,7 +69,11 @@ See the complete [Reference Architecture](docs/ARCHITECTURE.md).
 
 ## SYMBIOSIS-Zero
 
-The first implementation is intentionally non-invasive. It tests voluntary learned vocabularies, provenance, permissions, uncertainty, abstention, measurable accuracy and latency, and reliable return to independent operation before any higher-bandwidth interface is considered.
+[Experimental Protocol v1.0 (French)](docs/SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md) · [Release notes](CHANGELOG-ZERO-v1.0.md)
+
+Published research proposal; no experimental validation or recruitment authorization is claimed. Protocol, repository and white-paper versions are independent.
+
+The first proposed experiment uses conventional interfaces without neural sensors or implants. It tests voluntary learned vocabularies, provenance, permissions, uncertainty, abstention, measurable accuracy and latency, and reliable return to independent operation before any higher-bandwidth interface is considered.
 
 ## Research programs
 
