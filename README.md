@@ -1,5 +1,11 @@
 # SYMBIOSIS
 
+![SYMBIOSIS concept art: distinct human and AI identities](assets/illustrations/symbiosis-hero.webp)
+
+[Lire l’article en français / Read the English introduction](docs/ARTICLE-FR-EN.md)
+
+*AI-generated concept art; no working device or experimental result is depicted.*
+
 > A research framework for voluntary, reversible, and pluralistic cognitive symbiosis between humans and embodied AI.
 
 **Status:** conceptual research framework · **Version:** 0.1.0 · **First prototype:** SYMBIOSIS-Zero
