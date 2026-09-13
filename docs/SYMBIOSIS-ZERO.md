@@ -1,48 +1,15 @@
 # SYMBIOSIS-Zero
 
-SYMBIOSIS-Zero is the first, deliberately non-invasive implementation of the framework. Its purpose is to test the governance and interaction model before increasing bandwidth or biological proximity.
+**Proposed experimental protocol v1.0 — not yet experimentally validated.**
 
-## Research question
+[Read the full protocol (French)](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md).
 
-Can a human and a personal AI develop a useful shared vocabulary while preserving consent, provenance, uncertainty, private space, and rapid return to independent operation?
+Self → Shared → Self: voluntary, temporary cooperation through conventional interfaces, with human decision authority and revocable access. No implants or neural sensors are used at this stage.
 
-## Proposed setup
+The protocol tests H1 human performance gain, H2 superiority over both human and AI alone, H3 agency and contribution provenance, H4 resistance to erroneous recommendations, and H5 autonomous performance after separation. Three randomized human arms (human alone, conventional assistance, Zero) are compared with an AI-only benchmark, followed by unaided immediate and delayed assessments.
 
-- Voluntary input through ordinary or non-invasive sensors.
-- A small learned vocabulary of intentional signals.
-- A trusted local policy engine acting as the Cognitive Firewall.
-- A personal AI that can accept, reject, question, or abstain.
-- A visible session boundary with an immediate disconnect control.
-- Append-only audit records containing representations and decisions, not raw neural data.
+The exploratory Symbiotic Benefit Index cannot compensate for failed agency, safety or autonomy criteria. Success, failure and inconclusive results are distinguished. Stopping an interaction does not erase learning or previously disclosed information.
 
-## Minimum protocol
+Pilot work, validated tasks, power simulation, a final sample size, analysis software and appropriate ethics review remain prerequisites to a confirmatory study. No study or working prototype is claimed.
 
-1. Enrol a participant through informed consent.
-2. Define the vocabulary and allowed purposes.
-3. Calibrate signals locally.
-4. Open a time-bounded Shared session.
-5. Record permissions, provenance, uncertainty, and abstentions.
-6. Trigger routine and emergency separation tests.
-7. Confirm post-session cognitive and data separation.
-8. Debrief the participant and permit deletion or withdrawal where applicable.
-
-## Measures
-
-| Dimension | Example measure |
-|---|---|
-| Accuracy | Correct interpretation rate by signal and intent |
-| Latency | Time from intentional input to authorized response |
-| Abstention | Appropriate refusal under ambiguity |
-| Provenance | Correct attribution of human, AI, or shared contribution |
-| Reversibility | Time and success rate for return to Self mode |
-| Privacy | Unauthorized information inferred or transmitted |
-| Agency | Participant-reported control and ability to dissent |
-| Safety | Near misses, policy violations, and recovery quality |
-
-## Stop conditions
-
-A session stops when consent is withdrawn, identity or provenance becomes materially ambiguous, the firewall is bypassed, unexpected persistence occurs, distress is reported, or the emergency separation path fails.
-
-## Non-goals
-
-SYMBIOSIS-Zero does not attempt invasive implantation, unrestricted neural decoding, autonomous neural stimulation, identity merging, or permanent collective cognition.
+Zero is the first experimental level of the complete vision, not its replacement. See [the roadmap](../ROADMAP.md) and [reference architecture](ARCHITECTURE.md).
