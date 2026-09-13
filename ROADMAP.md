@@ -2,6 +2,19 @@
 
 SYMBIOSIS advances through evidence gates rather than fixed promises or dates.
 
+## Experimental levels — distinct from work phases and document versions
+
+| Level | Scope |
+|---|---|
+| SYMBIOSIS-Zero | Conventional interfaces; [proposed protocol v1.0](docs/SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md); no neural sensors or implants. |
+| SYMBIOSIS-1 | Continuous, individualized multimodal interaction, subject to longitudinal evaluation. |
+| SYMBIOSIS-2 | Non-invasive or medically established neurotechnologies; an established indication does not validate a new use. |
+| SYMBIOSIS-N | Advanced bidirectional neural interfaces only if scientifically and ethically possible; no promised date. |
+
+Full vision: human ↔ autonomous embodied AI in its own body → temporary voluntary collective cognition → separation → preserved individuals.
+
+Consent (including prospective reciprocity), autonomy, distinct identities, bounded reversibility, mental privacy and sovereignty, safety and pluralism remain invariant. Artificial personhood is a prospective question, not an established property of current AI. The long-term vision includes preservation of knowledge, cultures, creations, ecosystems and forms of intelligence, respecting the choices of affected communities. Zero does not test these long-term outcomes.
+
 ## Phase 0 — Foundation
 
 - Publish the framework, principles, architecture, and terminology.
@@ -39,4 +52,4 @@ Consider higher-bandwidth or bidirectional interfaces only after prior gates are
 
 - **v0.1 repository foundation** — public conceptual baseline.
 - **v0.5 research specification** — testable protocols and threat model.
-- **v1.0 framework** — independently reviewed, internally consistent research standard.
+- **v1.0 framework target** — an independently reviewed framework remains a future goal; it is not implied by the separately versioned Zero protocol v1.0.
