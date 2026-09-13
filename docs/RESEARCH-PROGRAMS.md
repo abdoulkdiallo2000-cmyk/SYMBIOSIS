@@ -31,3 +31,7 @@ Turns the project's principles into executable constraints, testable invariants,
 ## Cross-program gates
 
 Every program must demonstrate informed consent, least privilege, safe disconnection, uncertainty handling, data minimization, independent review, and reproducible evaluation before advancing.
+
+## Connection to Zero
+
+The [proposed experimental protocol v1.0](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md) translates Firewall and Constitution Engine ideas into permission and interruption tests, and Identity Continuity into limited provenance and post-separation measures. These operational measures do not establish consciousness, preserved personal identity, neural communication or the feasibility of later programs.
