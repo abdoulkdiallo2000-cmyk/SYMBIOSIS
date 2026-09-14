@@ -1,9 +1,9 @@
 # Audit reproductible des White Papers 1.0 — sources figées
 
 **Date : 14 septembre 2026**  
-**Statut : lecture seule, hors GitHub.**
+**Statut : audit de traçabilité intégré à la branche de travail ; sources binaires non versionnées.**
 
-Deux fichiers Word récupérés de la bibliothèque de travail ont été figés dans `reference/white-paper/` afin que l’audit du White Paper devienne reproductible. Ils ne sont **pas déclarés automatiquement comme versions publiques finales** : leurs pages de titre contiennent encore des champs d’auteur/affiliation à harmoniser.
+Deux fichiers Word récupérés de la bibliothèque de travail ont été figés et hachés pendant l'audit. Leurs empreintes rendent la comparaison reproductible si les mêmes sources sont remises à disposition. Les binaires bruts, redondants et non harmonisés ne sont pas versionnés. Ils ne sont pas des versions publiques finales.
 
 | Source figée | SHA-256 |
 |---|---|
@@ -24,4 +24,4 @@ Deux fichiers Word récupérés de la bibliothèque de travail ont été figés 
 
 ## Conclusion
 
-L’avertissement de l’audit différentiel est désormais levé sur le plan **reproductible** : les sources figées utilisées pour vérifier le White Paper sont incluses et hachées. En revanche, elles restent à **harmoniser** avant toute publication. Leur présence dans ce pack n’autorise aucune modification de GitHub et ne constitue pas une nouvelle édition publique du White Paper.
+Les contradictions recensées ont été résolues dans les éditions Markdown canoniques [française](white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-FR.md) et [anglaise](white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-EN.md). Les empreintes ci-dessus identifient les sources historiques de comparaison ; elles ne constituent pas une publication. Toute diffusion, fusion ou édition de release reste soumise à une décision séparée.
