@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Generated document and visual-QA outputs
+qa/render_*/
+qa/*_sheets/
+qa/*.txt
+
+# Local archives and temporary files
+*.zip
+*.tmp
+*.bak
