@@ -1,12 +1,12 @@
 # SYMBIOSIS — External review dossier / Dossier de critique externe
 
 Public attribution: **AKD — Independent Researcher**  
-Prepared: 2026-09-13  
-Status: conceptual research proposal; no experimental validation is presented.
+Prepared: 2026-09-13 · Current-status notice: 2026-09-14
+Status: historical review snapshot; no experimental validation is presented.
 
 ## Subsequent protocol
 
-[SYMBIOSIS-Zero Experimental Protocol v1.0](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md) supersedes the brief Zero description for prospective experiment design. The source excerpts below remain an unchanged historical snapshot; they are not the current protocol. No external review is implied.
+[SYMBIOSIS-Zero Experimental Protocol v1.0](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md), the [Task Battery v1.0](SYMBIOSIS-ZERO-TASK-BATTERY-v1.0.md), the [French White Paper](white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-FR.md) and the [English White Paper](white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-EN.md) supersede the brief Zero description for current prospective design. The source excerpts below remain an unchanged historical snapshot; they are not the current specification. No external review, endorsement or indexing is implied.
 
 ## Scope and provenance
 
@@ -218,4 +218,3 @@ A session stops when consent is withdrawn, identity or provenance becomes materi
 ## Non-goals
 
 SYMBIOSIS-Zero does not attempt invasive implantation, unrestricted neural decoding, autonomous neural stimulation, identity merging, or permanent collective cognition.
-

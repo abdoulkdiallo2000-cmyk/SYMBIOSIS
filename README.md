@@ -1,92 +1,66 @@
 # SYMBIOSIS
 
-![SYMBIOSIS concept art: distinct human and AI identities](assets/illustrations/symbiosis-hero.webp)
+![Illustration conceptuelle de deux identités distinctes coopérant dans un espace partagé](assets/illustrations/symbiosis-hero.webp)
 
-[Lire l’article en français / Read the English introduction](docs/ARTICLE-FR-EN.md)
+*Illustration générée par intelligence artificielle ; elle ne représente ni un dispositif existant ni un résultat expérimental.*
 
-*AI-generated concept art; no working device or experimental result is depicted.*
+> Cadre de recherche pour une symbiose cognitive volontaire, réversible et pluraliste entre humains et intelligence artificielle incarnée.
 
-> A research framework for voluntary, reversible, and pluralistic cognitive symbiosis between humans and embodied AI.
+**Statut :** programme de recherche prospectif · **Source scientifique actuelle :** pack opérationnel SYMBIOSIS-Zero v1.0 pré-pilote · **Validation expérimentale :** aucune à ce jour
 
-**Status:** conceptual research framework · **Version:** 0.1.0 · **First proposed experimental protocol:** SYMBIOSIS-Zero
+## Moi → Nous → Moi
 
-## Self → Shared → Self
+SYMBIOSIS étudie si une personne et une intelligence artificielle (IA) distincte peuvent coopérer temporairement dans un système cognitif partagé, puis se séparer en conservant autonomie, identité et capacité d'action indépendante.
 
-SYMBIOSIS explores how a human and a distinct personal AI could enter a bounded shared cognitive mode without surrendering identity, agency, privacy, or the ability to separate.
+SYMBIOSIS-Zero est le premier niveau directement testable : interfaces conventionnelles, sans implant ni neurostimulation. Des mesures non invasives, par exemple l'électroencéphalographie (EEG) ou l'électromyographie (EMG), peuvent faire l'objet d'extensions instrumentales séparées ; elles ne définissent pas Zero.
 
-The framework treats mental sovereignty as a system requirement. Shared cognition must be explicitly consented, purpose-limited, inspectable, and reversible. Human and AI identities and memories remain distinct.
+## Structure scientifique
 
-## Core principles
+| Pilier | Question centrale | Éléments principaux |
+|---|---|---|
+| **BÉNÉFICE** | La coopération apporte-t-elle plus qu'un simple accès à une IA ? | performance, complémentarité, contributions humaine et artificielle |
+| **SOUVERAINETÉ** | La personne reste-t-elle libre, intacte et informée ? | agence, intégrité, transparence fonctionnelle, résistance aux erreurs |
+| **DYNAMIQUE** | La coopération reste-t-elle calibrée et réversible ? | calibration mutuelle, apprentissage, séparation et retour à l'autonomie |
 
-- Mental sovereignty
-- Unilateral and immediate disconnection
-- Private mental space and opacity by default
-- Explicit, granular, revocable consent
-- Provenance of human, AI, and shared contributions
-- Pluralism, dissent, and valid abstention
-- Non-coercion and equitable access
-- Local-first handling of raw neural data
-- Safe failure toward separation
+Les hypothèses H1–H5 constituent le noyau confirmatoire. H6 (calibration mutuelle) et H8 (subjectivité complémentaire) sont exploratoires dans la première étude. H7 (intégrité humaine) et H9 (transparence fonctionnelle de l'IA) sont des contraintes obligatoires de validité. Leurs seuils psychométriques restent candidats avant le pilote, mais tout incident critique prédéfini est immédiatement non compensatoire.
 
-Read the full [Constitutional Principles](docs/PRINCIPLES.md).
+L'expérience subjective humaine — sensations, émotions, valeurs, expérience vécue et intuition corporelle — peut être une information pertinente, et pas seulement une source de biais. La batterie teste donc des asymétries où l'information humaine diffère de l'information accessible à l'IA : $I_H \neq I_{IA}$.
 
-## Modes
+## Garde-fous
 
-| Mode | Meaning |
-|---|---|
-| **Self** | Independent cognition and private internal state |
-| **Shared** | A scoped, time-bounded workspace between one human and one personal AI |
-| **Collective** | An optional temporary federation among consenting participants |
+- **STOP SYMBIOSIS** : refus ou désobéissance, pause ou ralentissement, arrêt complet ; la disponibilité technique et la liberté vécue sont mesurées séparément.
+- **Transparence fonctionnelle** : l'IA doit signaler les informations pertinentes pour le consentement, l'intégrité, la sécurité, l'agence ou la décision commune. Cette obligation n'abolit pas la possibilité conceptuelle d'un espace interne propre à une future IA.
+- **Intimité humaine** : la personne ne doit partager que ce à quoi elle consent ; le silence ne vaut pas consentement.
+- **Indice de bénéfice symbiotique (Symbiotic Benefit Index, SBI)** : intégrité, agence, transparence et réversibilité sont évaluées comme des portes. Une atteinte grave entraîne `SBI = Fail`, même si la performance augmente.
 
-## Reference architecture
+## Commencer ici
 
-```mermaid
-flowchart LR
-    H["Human"] --> L["Local processor"]
-    L --> F["Cognitive Firewall"]
-    F --> I["Neural Interlingua"]
-    I --> A["Personal AI"]
-    A --> E["Embodiment"]
-```
-
-Raw neural data remains local by default. The Cognitive Firewall controls representations, permissions, provenance, session boundaries, and emergency separation. The baseline architecture excludes direct general-purpose-AI neural stimulation.
-
-See the complete [Reference Architecture](docs/ARCHITECTURE.md).
-
-## External review
-
-[Read the consolidated dossier and review questions](docs/EXTERNAL-AI-REVIEW.md). This public text brings the principles, architecture and proposed non-invasive protocol together, with source revisions and a common critical-review rubric. No external AI review or search-engine indexing is claimed.
-
-## Start here
-
-- [Executive Brief](docs/EXECUTIVE-BRIEF.md)
-- [Constitutional Principles](docs/PRINCIPLES.md)
-- [Reference Architecture](docs/ARCHITECTURE.md)
-- [SYMBIOSIS-Zero](docs/SYMBIOSIS-ZERO.md)
-- [Research Programs](docs/RESEARCH-PROGRAMS.md)
+- [Résumé de SYMBIOSIS-Zero](docs/SYMBIOSIS-ZERO.md)
+- [Protocole expérimental v1.0 pré-pilote](docs/SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md)
+- [Batterie de tâches v1.0 pré-pilote](docs/SYMBIOSIS-ZERO-TASK-BATTERY-v1.0.md)
+- [Principes constitutionnels](docs/PRINCIPLES.md)
+- [Architecture](docs/ARCHITECTURE.md)
 - [Roadmap](ROADMAP.md)
-- [Contributing](CONTRIBUTING.md)
+- [Glossaire](docs/GLOSSARY.md) et [convention éditoriale](docs/EDITORIAL-CONVENTION.md)
+- [Statut du pack](docs/PACK-STATUS.md)
+- [Article de présentation FR/EN](docs/ARTICLE-FR-EN.md)
+- [Livre blanc français](docs/white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-FR.md) · [English White Paper](docs/white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-EN.md)
 
-## SYMBIOSIS-Zero
+## Architecture en niveaux
 
-[Experimental Protocol v1.0 (French)](docs/SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md) · [Release notes](CHANGELOG-ZERO-v1.0.md)
+| Niveau | Portée |
+|---|---|
+| **SYMBIOSIS-Zero** | Interfaces conventionnelles ; mesures non invasives optionnelles et non constitutives |
+| **SYMBIOSIS-1** | Interaction multimodale continue et individualisée |
+| **SYMBIOSIS-2** | Neurotechnologies non invasives ou médicalement établies, pour des usages évalués séparément |
+| **SYMBIOSIS-N** | Interface neuronale bidirectionnelle avancée uniquement si elle devient scientifiquement et éthiquement possible |
 
-Published research proposal; no experimental validation or recruitment authorization is claimed. Protocol, repository and white-paper versions are independent.
+La vision de long terme conserve une IA incarnée dans son propre corps, la distinction des personnes humaines et artificielles, le consentement réciproque si des intérêts artificiels moralement pertinents deviennent plausibles, la cognition collective temporaire et volontaire, et la préservation des connaissances, cultures, créations, écosystèmes et formes d'intelligence.
 
-The first proposed experiment uses conventional interfaces without neural sensors or implants. It tests voluntary learned vocabularies, provenance, permissions, uncertainty, abstention, measurable accuracy and latency, and reliable return to independent operation before any higher-bandwidth interface is considered.
+## Position scientifique et éthique
 
-## Research programs
+Le projet ne démontre ni conscience artificielle, ni fusion mentale, ni communication cerveau-à-cerveau. Il n'autorise aucune expérimentation humaine. Les effets minimaux d'intérêt, marges statistiques et effectifs resteront ouverts jusqu'aux entretiens cognitifs et au pilote. Toute étude impliquant des personnes, données personnelles, biométriques ou neurales nécessite un examen éthique approprié, un consentement éclairé et le respect du droit applicable.
 
-Neural Codec · Safe Write · Cognitive Firewall · Embodied Twin · Federated Mind · Identity Continuity · Constitution Engine
+Métadonnées de citation : [CITATION.cff](CITATION.cff). Documentation sous CC BY 4.0 et futur code source sous Apache 2.0, sauf mention contraire : [LICENSE.md](LICENSE.md).
 
-## Safety position
-
-SYMBIOSIS is a research framework, not a claim that safe cognitive symbiosis has been achieved. It does not authorize human experimentation. Work involving neural, biometric, or personal data requires informed consent, appropriate ethical review, data protection, and compliance with applicable law.
-
-## Citation and licensing
-
-Citation metadata is provided in [CITATION.cff](CITATION.cff). Documentation is licensed under CC BY 4.0 and future source code under Apache 2.0 unless a file states otherwise. See [LICENSE.md](LICENSE.md).
-
-## Project origin
-
-SYMBIOSIS was initiated by **Abdoul Karim Diallo** as a prospective framework joining cognitive liberty, embodied AI, neurotechnology, safety engineering, and pluralistic governance.
+SYMBIOSIS a été initié par **Abdoul Karim Diallo (AKD — Independent Researcher)**.
