@@ -1,7 +1,7 @@
 # SYMBIOSIS-Zero — Experimental Protocol v1.0
 
 **AKD — Independent Researcher**  
-**Version candidate finale pré-pilote — non publiée — 14 septembre 2026**  
+**Version candidate finale pré-pilote — branche de travail, non fusionnée — 14 septembre 2026**
 Langue de travail : français. Titre international conservé. Rédaction assistée par intelligence artificielle (IA).
 
 Ce document constitue la version méthodologique candidate finale avant pré-pilote. Il n’est pas encore un protocole validé, préenregistré ou autorisé pour recruter. Les variables, estimands, contrastes et règles de décision sont définis ici, mais les effets minimaux d’intérêt et marges psychométriques restent **paramétriques** jusqu’aux entretiens cognitifs et au pilote. Les valeurs numériques éventuellement données plus loin sont uniquement des **valeurs candidates de simulation**, non des seuils confirmatoires décidés. Les règles déterministes d’incident critique et leur caractère non compensatoire sont, elles, obligatoires dès cette version. Aucun résultat humain ou avis indépendant n’est revendiqué.
@@ -26,7 +26,7 @@ La structure scientifique comporte trois piliers : **BÉNÉFICE** (H1, H2, H8, g
 
 La méta-analyse de Vaccaro et al. [1] distingue augmentation humaine et performance supérieure au meilleur composant. Elle justifie deux hypothèses séparées, H1 et H2 ; elle ne prédit pas que Zero réussira. Les interventions de réflexion préalable étudiées par Buçinca et al. [2] motivent le mécanisme testé, tout en signalant un coût possible d’effort et d’acceptabilité.
 
-## 2. Examen du dépôt et changements proposés
+## 2. Traçabilité de l'audit et intégration
 
 Lecture directe de sept fichiers du dépôt `abdoulkdiallo2000-cmyk/SYMBIOSIS`, branche par défaut, le 13 septembre 2026. Les lectures sont identifiées par une empreinte cryptographique (*Secure Hash Algorithm*, SHA) de fichier ; elles ne constituent pas un inventaire récursif exhaustif du dépôt. La comparaison couvre les documents structurants concernés et le dossier qui les recopie.
 
@@ -42,7 +42,7 @@ Lecture directe de sept fichiers du dépôt `abdoulkdiallo2000-cmyk/SYMBIOSIS`, 
 
 SHA lus : README `9ec8d50d7b9bc93bd40727cd999cb68d19beecc6` ; PRINCIPLES `3c1b70d80b0c49d31e4c8ca03069f1144283174d` ; ARCHITECTURE `2ca64f6fc8137dcf53a24c26c9329d6fc53db3f9` ; ZERO `57b3e1fed360e53c79a98a3e20b43351ad732d4e` ; ROADMAP `ae0e444b7bdff575335d89828f6095e65dcb6b1d` ; RESEARCH-PROGRAMS `77f66c0680a908babb81b6609fc845a0cf0a23ba` ; EXTERNAL-AI-REVIEW `04216a89d5117a8c5e23f175f959fe15a6b29416`.
 
-Les formulations proposées ici ne sont pas des modifications effectuées sur GitHub. Avant application, relire les SHA courants et résoudre toute divergence.
+Ces constats ont servi à l'intégration sur la branche de travail `docs/symbiosis-zero-operational-v1.0`, créée depuis `main` au commit `94314078cf582026206e05cc1c9f77859e8b4809`. Ils sont conservés pour la traçabilité. La branche ne constitue ni une fusion, ni une publication scientifique, ni une autorisation de recrutement.
 
 ### Tensions résolues dans la présente proposition
 
@@ -50,7 +50,7 @@ Les formulations proposées ici ne sont pas des modifications effectuées sur Gi
 2. **Périmètre de Zero :** les interfaces conventionnelles constituent Zero. Les capteurs non invasifs sont seulement des mesures optionnelles d'une extension instrumentale ; implants et neurostimulation sont exclus. Les niveaux ultérieurs portent l'interaction multimodale plus profonde puis les neurotechnologies.
 3. **Compensation des dommages :** le White Paper qualifie un axe de défavorable s’il cause certains dommages « sans bénéfice compensatoire mesurable ». H7 interdit désormais toute compensation lorsqu’une atteinte grave à l’intégrité ou à l’agence est observée. H7 prévaut dans cette version de travail.
 4. **Transparence et mémoire propre de l’IA :** le White Paper prévoit des mémoires distinctes et une réciprocité conditionnelle. H9 n’exige pas l’exposition d’un hypothétique flux interne complet ; elle exige une divulgation fonctionnelle vérifiable des informations, incertitudes, hypothèses, alternatives, risques, limites, données manquantes et orientations pertinentes pour l’interaction. Cette obligation devra être réexaminée si de futurs systèmes présentent des intérêts moralement pertinents.
-5. **Statut de publication :** une proposition v1.0 est déjà publique dans GitHub. La présente synchronisation reste une version de travail et ne doit ni écraser ni être ajoutée au dépôt avant approbation explicite. Le terme « v0.1 » ne sera pas réintroduit.
+5. **Statut de publication :** l'ancienne proposition v1.0 demeure l'état de `main`. La version opérationnelle corrigée est préparée sur une branche de travail après approbation, sans fusion, demande de fusion, release ni revendication de validation. Le terme « v0.1 » n'est pas réintroduit dans les spécifications actives.
 
 ## 3. Design et conditions
 

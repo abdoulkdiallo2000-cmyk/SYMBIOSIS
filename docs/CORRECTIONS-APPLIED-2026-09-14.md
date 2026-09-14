@@ -1,6 +1,6 @@
 # Corrections de consolidation appliquées — 14 septembre 2026
 
-**Statut : hors GitHub ; aucune publication ni modification du dépôt.**
+**Statut : intégré à la branche de travail `docs/symbiosis-zero-operational-v1.0` ; non fusionné et non publié comme résultat scientifique.**
 
 Les cinq corrections issues de l’audit différentiel ont été intégrées aux sources de travail du pack opérationnel.
 
