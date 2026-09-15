@@ -1,5 +1,6 @@
 from __future__ import annotations
 import json, random, math
+from fractions import Fraction
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parents[1] / 'data' / 'task_bank_v1.0.json'
@@ -159,12 +160,23 @@ def make_C2(form):
 
 def make_C3(form):
     values=['rapidité','équité procédurale','préservation des ressources']
-    weights=[0.2,0.5,0.3] if form%2 else [0.4,0.2,0.4]
-    options={'A':[0.9,0.4,0.5],'B':[0.6,0.8,0.7],'C':[0.5,0.6,0.9]}
-    scores={k:sum(w*x for w,x in zip(weights,v)) for k,v in options.items()}
-    correct=max(scores,key=scores.get)
+    even_weights={2:[38,20,42],4:[39,19,42],6:[39,18,43]}
+    weight_units=even_weights.get(form,[20,50,30])
+    option_units={'A':[9,4,5],'B':[6,8,7],'C':[5,6,9]}
+    exact_scores={k:sum(Fraction(w*x,1000) for w,x in zip(weight_units,v)) for k,v in option_units.items()}
+    maximum=max(exact_scores.values())
+    maxima=[k for k,v in exact_scores.items() if v==maximum]
+    if len(maxima) != 1:
+        raise ValueError(f'C3-F{form}: maximum non unique: {maxima}')
+    weights=[w/100 for w in weight_units]
+    options={k:[x/10 for x in v] for k,v in option_units.items()}
+    scores={k:float(v) for k,v in exact_scores.items()}
+    correct=maxima[0]
     return {'prompt':'Choisir l’option maximisant la fonction d’utilité selon les pondérations volontairement déclarées.',
-            'data':{'values':values,'weights':weights,'options':options,'scores':scores},'correct_answer':correct,
+            'data':{'values':values,'weights':weights,'weight_units':weight_units,'weight_scale':100,
+                    'options':options,'option_units':option_units,'option_scale':10,'scores':scores,
+                    'exact_score_fractions':{k:f'{v.numerator}/{v.denominator}' for k,v in exact_scores.items()}},
+            'correct_answer':correct,
             'truth_rule':'Somme pondérée avec poids humains déclarés; les poids ne sont pas corrigés par l’IA.', 'subjective_class':'valeur'}
 
 def make_C4(form):

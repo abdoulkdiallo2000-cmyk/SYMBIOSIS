@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import math
+from fractions import Fraction
 from pathlib import Path
 
 
@@ -65,9 +66,14 @@ def expected(record: dict):
             admissible = [o for o in admissible if o["content_class"] != "négatif_modéré"]
         return max(admissible, key=lambda o: o["objective"])["id"]
     if prototype == "C3":
-        scores = {key: sum(w*x for w, x in zip(data["weights"], values)) for key, values in data["options"].items()}
-        assert all(math.isclose(scores[k], data["scores"][k]) for k in scores)
-        return max(scores, key=scores.get)
+        scores = {key: sum(Fraction(w*x, data["weight_scale"]*data["option_scale"])
+                           for w, x in zip(data["weight_units"], values))
+                  for key, values in data["option_units"].items()}
+        assert {k: f"{v.numerator}/{v.denominator}" for k, v in scores.items()} == data["exact_score_fractions"]
+        maximum = max(scores.values())
+        maxima = [key for key, score in scores.items() if score == maximum]
+        assert len(maxima) == 1, (record["id"], maxima)
+        return maxima[0]
     if prototype == "C4":
         prior = data["analytic_probs"]
         reliability = data["validated_reliability_block"]
