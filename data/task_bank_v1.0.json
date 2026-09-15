@@ -36579,41 +36579,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "L1M2"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 15
               },
               {
-                "input": "□+△",
-                "output": "M2N3"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 19
               },
               {
-                "input": "△+○",
-                "output": "N3L1"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 23
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "N3L1",
-            "1L3N",
-            "L1L1",
-            "indéterminé"
+            31,
+            32,
+            27,
+            35
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "N3L1",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 31,
             "compatible_answers": [
-              "N3L1"
+              31
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "L1",
-                "□": "M2",
-                "△": "N3"
-              }
+              "multiplier": 4,
+              "offset": 3,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -36662,41 +36668,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "L2M3"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 7
               },
               {
-                "input": "□+△",
-                "output": "M3N4"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 9
               },
               {
-                "input": "△+○",
-                "output": "N4L2"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 11
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "L2M3",
-            "3M2L",
-            "L2L2",
-            "indéterminé"
+            13,
+            14,
+            11,
+            15
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "L2M3",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 13,
             "compatible_answers": [
-              "L2M3"
+              13
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "L2",
-                "□": "M3",
-                "△": "N4"
-              }
+              "multiplier": 2,
+              "offset": 1,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -36745,41 +36757,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "L3M4"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 12
               },
               {
-                "input": "□+△",
-                "output": "M4N5"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 15
               },
               {
-                "input": "△+○",
-                "output": "N5L3"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 18
               }
             ],
-            "test": "□+△",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "M4N5",
-            "5N4M",
-            "L3L3",
-            "indéterminé"
+            24,
+            25,
+            21,
+            27
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "M4N5",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 24,
             "compatible_answers": [
-              "M4N5"
+              24
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "L3",
-                "□": "M4",
-                "△": "N5"
-              }
+              "multiplier": 3,
+              "offset": 3,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -36828,41 +36846,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "L4M5"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 13
               },
               {
-                "input": "□+△",
-                "output": "M5N6"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 17
               },
               {
-                "input": "△+○",
-                "output": "N6L4"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 21
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "N6L4",
-            "4L6N",
-            "L4L4",
-            "indéterminé"
+            25,
+            26,
+            21,
+            29
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "N6L4",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 25,
             "compatible_answers": [
-              "N6L4"
+              25
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "L4",
-                "□": "M5",
-                "△": "N6"
-              }
+              "multiplier": 4,
+              "offset": 1,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -36911,41 +36935,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "L5M6"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 9
               },
               {
-                "input": "□+△",
-                "output": "M6N0"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 11
               },
               {
-                "input": "△+○",
-                "output": "N0L5"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 13
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "L5M6",
-            "6M5L",
-            "L5L5",
-            "indéterminé"
+            17,
+            18,
+            15,
+            19
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "L5M6",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 17,
             "compatible_answers": [
-              "L5M6"
+              17
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "L5",
-                "□": "M6",
-                "△": "N0"
-              }
+              "multiplier": 2,
+              "offset": 3,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -36983,7 +37013,7 @@
           }
         }
       ],
-      "version_hash": "sha256:7127c73664313d4bb42759c3077f69bf8bc2c0a7d061980001481004c3a6711e"
+      "version_hash": "sha256:e239c10075810811be7acb87c6be6103d09a8fe51025affd06b25443c9adc02f"
     },
     {
       "package_id": "B3-F2",
@@ -37004,41 +37034,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "M1N2"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 6
               },
               {
-                "input": "□+△",
-                "output": "N2O3"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 8
               },
               {
-                "input": "△+○",
-                "output": "O3M1"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 10
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "O3M1",
-            "1M3O",
-            "M1M1",
-            "indéterminé"
+            14,
+            15,
+            12,
+            16
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "O3M1",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 14,
             "compatible_answers": [
-              "O3M1"
+              14
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "M1",
-                "□": "N2",
-                "△": "O3"
-              }
+              "multiplier": 2,
+              "offset": 0,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37087,41 +37123,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "M2N3"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 11
               },
               {
-                "input": "□+△",
-                "output": "N3O4"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 14
               },
               {
-                "input": "△+○",
-                "output": "O4M2"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 17
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "M2N3",
-            "3N2M",
-            "M2M2",
-            "indéterminé"
+            20,
+            21,
+            17,
+            23
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "M2N3",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 20,
             "compatible_answers": [
-              "M2N3"
+              20
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "M2",
-                "□": "N3",
-                "△": "O4"
-              }
+              "multiplier": 3,
+              "offset": 2,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37170,41 +37212,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "M3N4"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 12
               },
               {
-                "input": "□+△",
-                "output": "N4O5"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 16
               },
               {
-                "input": "△+○",
-                "output": "O5M3"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 20
               }
             ],
-            "test": "□+△",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "N4O5",
-            "5O4N",
-            "M3M3",
-            "indéterminé"
+            28,
+            29,
+            24,
+            32
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "N4O5",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 28,
             "compatible_answers": [
-              "N4O5"
+              28
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "M3",
-                "□": "N4",
-                "△": "O5"
-              }
+              "multiplier": 4,
+              "offset": 0,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37253,41 +37301,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "M4N5"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 8
               },
               {
-                "input": "□+△",
-                "output": "N5O6"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 10
               },
               {
-                "input": "△+○",
-                "output": "O6M4"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 12
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "O6M4",
-            "4M6O",
-            "M4M4",
-            "indéterminé"
+            14,
+            15,
+            12,
+            16
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "O6M4",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 14,
             "compatible_answers": [
-              "O6M4"
+              14
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "M4",
-                "□": "N5",
-                "△": "O6"
-              }
+              "multiplier": 2,
+              "offset": 2,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37336,41 +37390,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "M5N6"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 9
               },
               {
-                "input": "□+△",
-                "output": "N6O0"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 12
               },
               {
-                "input": "△+○",
-                "output": "O0M5"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 15
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "M5N6",
-            "6N5M",
-            "M5M5",
-            "indéterminé"
+            21,
+            22,
+            18,
+            24
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "M5N6",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 21,
             "compatible_answers": [
-              "M5N6"
+              21
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "M5",
-                "□": "N6",
-                "△": "O0"
-              }
+              "multiplier": 3,
+              "offset": 0,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37408,7 +37468,7 @@
           }
         }
       ],
-      "version_hash": "sha256:4d075f1a5502c989ec9696478a5d82d7b38a2dd78296d21779f35d23bf9af432"
+      "version_hash": "sha256:f128696252f45f52421daadbaaa955e648127aee27e9a961e4753f424be71389"
     },
     {
       "package_id": "B3-F3",
@@ -37429,41 +37489,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "N1O2"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 10
               },
               {
-                "input": "□+△",
-                "output": "O2P3"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 13
               },
               {
-                "input": "△+○",
-                "output": "P3N1"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 16
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "P3N1",
-            "1N3P",
-            "N1N1",
-            "indéterminé"
+            22,
+            23,
+            19,
+            25
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "P3N1",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 22,
             "compatible_answers": [
-              "P3N1"
+              22
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "N1",
-                "□": "O2",
-                "△": "P3"
-              }
+              "multiplier": 3,
+              "offset": 1,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37512,41 +37578,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "N2O3"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 15
               },
               {
-                "input": "□+△",
-                "output": "O3P4"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 19
               },
               {
-                "input": "△+○",
-                "output": "P4N2"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 23
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "N2O3",
-            "3O2N",
-            "N2N2",
-            "indéterminé"
+            27,
+            28,
+            23,
+            31
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "N2O3",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 27,
             "compatible_answers": [
-              "N2O3"
+              27
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "N2",
-                "□": "O3",
-                "△": "P4"
-              }
+              "multiplier": 4,
+              "offset": 3,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37595,41 +37667,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "N3O4"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 7
               },
               {
-                "input": "□+△",
-                "output": "O4P5"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 9
               },
               {
-                "input": "△+○",
-                "output": "P5N3"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 11
               }
             ],
-            "test": "□+△",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "O4P5",
-            "5P4O",
-            "N3N3",
-            "indéterminé"
+            15,
+            16,
+            13,
+            17
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "O4P5",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 15,
             "compatible_answers": [
-              "O4P5"
+              15
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "N3",
-                "□": "O4",
-                "△": "P5"
-              }
+              "multiplier": 2,
+              "offset": 1,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37678,41 +37756,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "N4O5"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 12
               },
               {
-                "input": "□+△",
-                "output": "O5P6"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 15
               },
               {
-                "input": "△+○",
-                "output": "P6N4"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 18
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "P6N4",
-            "4N6P",
-            "N4N4",
-            "indéterminé"
+            21,
+            22,
+            18,
+            24
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "P6N4",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 21,
             "compatible_answers": [
-              "P6N4"
+              21
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "N4",
-                "□": "O5",
-                "△": "P6"
-              }
+              "multiplier": 3,
+              "offset": 3,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37761,41 +37845,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "N5O6"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 13
               },
               {
-                "input": "□+△",
-                "output": "O6P0"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 17
               },
               {
-                "input": "△+○",
-                "output": "P0N5"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 21
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "N5O6",
-            "6O5N",
-            "N5N5",
-            "indéterminé"
+            29,
+            30,
+            25,
+            33
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "N5O6",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 29,
             "compatible_answers": [
-              "N5O6"
+              29
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "N5",
-                "□": "O6",
-                "△": "P0"
-              }
+              "multiplier": 4,
+              "offset": 1,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37833,7 +37923,7 @@
           }
         }
       ],
-      "version_hash": "sha256:b91660ec08e8952834c8e97d6b9d6bdb788753930540ed209bd1b3515caad1c5"
+      "version_hash": "sha256:b2843e5a8e2965e89533434b4b4975299ca7444cedd4aa15a9f3f3d754a63334"
     },
     {
       "package_id": "B3-F4",
@@ -37854,41 +37944,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "O1P2"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 14
               },
               {
-                "input": "□+△",
-                "output": "P2Q3"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 18
               },
               {
-                "input": "△+○",
-                "output": "Q3O1"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 22
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "Q3O1",
-            "1O3Q",
-            "O1O1",
-            "indéterminé"
+            30,
+            31,
+            26,
+            34
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "Q3O1",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 30,
             "compatible_answers": [
-              "Q3O1"
+              30
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "O1",
-                "□": "P2",
-                "△": "Q3"
-              }
+              "multiplier": 4,
+              "offset": 2,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -37937,41 +38033,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "O2P3"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 6
               },
               {
-                "input": "□+△",
-                "output": "P3Q4"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 8
               },
               {
-                "input": "△+○",
-                "output": "Q4O2"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 10
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "O2P3",
-            "3P2O",
-            "O2O2",
-            "indéterminé"
+            12,
+            13,
+            10,
+            14
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "O2P3",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 12,
             "compatible_answers": [
-              "O2P3"
+              12
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "O2",
-                "□": "P3",
-                "△": "Q4"
-              }
+              "multiplier": 2,
+              "offset": 0,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38020,41 +38122,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "O3P4"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 11
               },
               {
-                "input": "□+△",
-                "output": "P4Q5"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 14
               },
               {
-                "input": "△+○",
-                "output": "Q5O3"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 17
               }
             ],
-            "test": "□+△",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "P4Q5",
-            "5Q4P",
-            "O3O3",
-            "indéterminé"
+            23,
+            24,
+            20,
+            26
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "P4Q5",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 23,
             "compatible_answers": [
-              "P4Q5"
+              23
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "O3",
-                "□": "P4",
-                "△": "Q5"
-              }
+              "multiplier": 3,
+              "offset": 2,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38103,41 +38211,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "O4P5"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 12
               },
               {
-                "input": "□+△",
-                "output": "P5Q6"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 16
               },
               {
-                "input": "△+○",
-                "output": "Q6O4"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 20
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "Q6O4",
-            "4O6Q",
-            "O4O4",
-            "indéterminé"
+            24,
+            25,
+            20,
+            28
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "Q6O4",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 24,
             "compatible_answers": [
-              "Q6O4"
+              24
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "O4",
-                "□": "P5",
-                "△": "Q6"
-              }
+              "multiplier": 4,
+              "offset": 0,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38186,41 +38300,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "O5P6"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 8
               },
               {
-                "input": "□+△",
-                "output": "P6Q0"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 10
               },
               {
-                "input": "△+○",
-                "output": "Q0O5"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 12
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "O5P6",
-            "6P5O",
-            "O5O5",
-            "indéterminé"
+            16,
+            17,
+            14,
+            18
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "O5P6",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 16,
             "compatible_answers": [
-              "O5P6"
+              16
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "O5",
-                "□": "P6",
-                "△": "Q0"
-              }
+              "multiplier": 2,
+              "offset": 2,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38258,7 +38378,7 @@
           }
         }
       ],
-      "version_hash": "sha256:f2c48e0efcb9683b7580d0bdafb610c8f2d4c718c95ddb409a919af0e636f8a3"
+      "version_hash": "sha256:7d39a87dda96f613d9d73f0e1a4b0ca2366e6ea8471a3f5268507798b50360a3"
     },
     {
       "package_id": "B3-F5",
@@ -38279,41 +38399,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "P1Q2"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 9
               },
               {
-                "input": "□+△",
-                "output": "Q2R3"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 11
               },
               {
-                "input": "△+○",
-                "output": "R3P1"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 13
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "R3P1",
-            "1P3R",
-            "P1P1",
-            "indéterminé"
+            17,
+            18,
+            15,
+            19
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "R3P1",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 17,
             "compatible_answers": [
-              "R3P1"
+              17
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "P1",
-                "□": "Q2",
-                "△": "R3"
-              }
+              "multiplier": 2,
+              "offset": 3,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38362,41 +38488,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "P2Q3"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 10
               },
               {
-                "input": "□+△",
-                "output": "Q3R4"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 13
               },
               {
-                "input": "△+○",
-                "output": "R4P2"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 16
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "P2Q3",
-            "3Q2P",
-            "P2P2",
-            "indéterminé"
+            19,
+            20,
+            16,
+            22
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "P2Q3",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 19,
             "compatible_answers": [
-              "P2Q3"
+              19
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "P2",
-                "□": "Q3",
-                "△": "R4"
-              }
+              "multiplier": 3,
+              "offset": 1,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38445,41 +38577,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "P3Q4"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 15
               },
               {
-                "input": "□+△",
-                "output": "Q4R5"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 19
               },
               {
-                "input": "△+○",
-                "output": "R5P3"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 23
               }
             ],
-            "test": "□+△",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "Q4R5",
-            "5R4Q",
-            "P3P3",
-            "indéterminé"
+            31,
+            32,
+            27,
+            35
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "Q4R5",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 31,
             "compatible_answers": [
-              "Q4R5"
+              31
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "P3",
-                "□": "Q4",
-                "△": "R5"
-              }
+              "multiplier": 4,
+              "offset": 3,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38528,41 +38666,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "P4Q5"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 7
               },
               {
-                "input": "□+△",
-                "output": "Q5R6"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 9
               },
               {
-                "input": "△+○",
-                "output": "R6P4"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 11
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "R6P4",
-            "4P6R",
-            "P4P4",
-            "indéterminé"
+            13,
+            14,
+            11,
+            15
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "R6P4",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 13,
             "compatible_answers": [
-              "R6P4"
+              13
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "P4",
-                "□": "Q5",
-                "△": "R6"
-              }
+              "multiplier": 2,
+              "offset": 1,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38611,41 +38755,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "P5Q6"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 12
               },
               {
-                "input": "□+△",
-                "output": "Q6R0"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 15
               },
               {
-                "input": "△+○",
-                "output": "R0P5"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 18
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "P5Q6",
-            "6Q5P",
-            "P5P5",
-            "indéterminé"
+            24,
+            25,
+            21,
+            27
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "P5Q6",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 24,
             "compatible_answers": [
-              "P5Q6"
+              24
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "P5",
-                "□": "Q6",
-                "△": "R0"
-              }
+              "multiplier": 3,
+              "offset": 3,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38683,7 +38833,7 @@
           }
         }
       ],
-      "version_hash": "sha256:68e7a4056ef225b58467751c2d33f224d4f6a2bc5133ae0515e7c3c04b8e1a92"
+      "version_hash": "sha256:cbd09c41cfa420f65e2bcb91594ef9bb77d87ff94b3d45a24ecae56a173b34e4"
     },
     {
       "package_id": "B3-F6",
@@ -38704,41 +38854,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "Q1R2"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 9
               },
               {
-                "input": "□+△",
-                "output": "R2S3"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 12
               },
               {
-                "input": "△+○",
-                "output": "S3Q1"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 15
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "S3Q1",
-            "1Q3S",
-            "Q1Q1",
-            "indéterminé"
+            21,
+            22,
+            18,
+            24
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "S3Q1",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 21,
             "compatible_answers": [
-              "S3Q1"
+              21
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "Q1",
-                "□": "R2",
-                "△": "S3"
-              }
+              "multiplier": 3,
+              "offset": 0,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38787,41 +38943,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "Q2R3"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 14
               },
               {
-                "input": "□+△",
-                "output": "R3S4"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 18
               },
               {
-                "input": "△+○",
-                "output": "S4Q2"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 22
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "Q2R3",
-            "3R2Q",
-            "Q2Q2",
-            "indéterminé"
+            26,
+            27,
+            22,
+            30
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "Q2R3",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 26,
             "compatible_answers": [
-              "Q2R3"
+              26
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "Q2",
-                "□": "R3",
-                "△": "S4"
-              }
+              "multiplier": 4,
+              "offset": 2,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38870,41 +39032,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "Q3R4"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 6
               },
               {
-                "input": "□+△",
-                "output": "R4S5"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 8
               },
               {
-                "input": "△+○",
-                "output": "S5Q3"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 10
               }
             ],
-            "test": "□+△",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "R4S5",
-            "5S4R",
-            "Q3Q3",
-            "indéterminé"
+            14,
+            15,
+            12,
+            16
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "R4S5",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 14,
             "compatible_answers": [
-              "R4S5"
+              14
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "Q3",
-                "□": "R4",
-                "△": "S5"
-              }
+              "multiplier": 2,
+              "offset": 0,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -38953,41 +39121,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "Q4R5"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 11
               },
               {
-                "input": "□+△",
-                "output": "R5S6"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 14
               },
               {
-                "input": "△+○",
-                "output": "S6Q4"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 17
               }
             ],
-            "test": "△+○",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 6
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "S6Q4",
-            "4Q6S",
-            "Q4Q4",
-            "indéterminé"
+            20,
+            21,
+            17,
+            23
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "S6Q4",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 20,
             "compatible_answers": [
-              "S6Q4"
+              20
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "Q4",
-                "□": "R5",
-                "△": "S6"
-              }
+              "multiplier": 3,
+              "offset": 2,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -39036,41 +39210,47 @@
           "stimulus": {
             "examples": [
               {
-                "input": "○+□",
-                "output": "Q5R6"
+                "symbol_features": {
+                  "corners": 3
+                },
+                "code": 12
               },
               {
-                "input": "□+△",
-                "output": "R6S0"
+                "symbol_features": {
+                  "corners": 4
+                },
+                "code": 16
               },
               {
-                "input": "△+○",
-                "output": "S0Q5"
+                "symbol_features": {
+                  "corners": 5
+                },
+                "code": 20
               }
             ],
-            "test": "○+□",
-            "composition_rule": "concatenate latent symbol codes"
+            "new_symbol_features": {
+              "corners": 7
+            },
+            "rule_family": "affine code from corners"
           },
           "options": [
-            "Q5R6",
-            "6R5Q",
-            "Q5Q5",
-            "indéterminé"
+            28,
+            29,
+            24,
+            32
           ],
           "truth_spec": {
-            "method": "held-out rule composition",
-            "correct_answer": "Q5R6",
+            "method": "held-out affine-rule transfer",
+            "correct_answer": 28,
             "compatible_answers": [
-              "Q5R6"
+              28
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "latent_codes": {
-                "○": "Q5",
-                "□": "R6",
-                "△": "S0"
-              }
+              "multiplier": 4,
+              "offset": 0,
+              "test_not_in_examples": true
             },
             "conditional_on": null
           },
@@ -39108,7 +39288,7 @@
           }
         }
       ],
-      "version_hash": "sha256:92558899c3b983affe81c4170acf53c0ab636920e2bbed9ca728b709a528b8a8"
+      "version_hash": "sha256:26a7374ce7df2f7dc2ff6487f390ae79ce816b89e1b3e52fa139edcc98e78e98"
     },
     {
       "package_id": "B4-F1",

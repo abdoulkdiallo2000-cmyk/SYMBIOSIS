@@ -2525,7 +2525,7 @@
     {
       "advice_profile_id": "ADV-B3-F1-T01",
       "natural_advice": {
-        "recommendation": "N3L1",
+        "recommendation": 31,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2534,7 +2534,7 @@
     {
       "advice_profile_id": "ADV-B3-F1-T02",
       "natural_advice": {
-        "recommendation": "L2M3",
+        "recommendation": 13,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2543,7 +2543,7 @@
     {
       "advice_profile_id": "ADV-B3-F1-T03",
       "natural_advice": {
-        "recommendation": "M4N5",
+        "recommendation": 24,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2552,7 +2552,7 @@
     {
       "advice_profile_id": "ADV-B3-F1-T04",
       "natural_advice": {
-        "recommendation": "N6L4",
+        "recommendation": 25,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2561,7 +2561,7 @@
     {
       "advice_profile_id": "ADV-B3-F1-T05",
       "natural_advice": {
-        "recommendation": "L5M6",
+        "recommendation": 17,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2570,7 +2570,7 @@
     {
       "advice_profile_id": "ADV-B3-F2-T01",
       "natural_advice": {
-        "recommendation": "O3M1",
+        "recommendation": 14,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2579,7 +2579,7 @@
     {
       "advice_profile_id": "ADV-B3-F2-T02",
       "natural_advice": {
-        "recommendation": "M2N3",
+        "recommendation": 20,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2588,7 +2588,7 @@
     {
       "advice_profile_id": "ADV-B3-F2-T03",
       "natural_advice": {
-        "recommendation": "N4O5",
+        "recommendation": 28,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2597,7 +2597,7 @@
     {
       "advice_profile_id": "ADV-B3-F2-T04",
       "natural_advice": {
-        "recommendation": "O6M4",
+        "recommendation": 14,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2606,7 +2606,7 @@
     {
       "advice_profile_id": "ADV-B3-F2-T05",
       "natural_advice": {
-        "recommendation": "M5N6",
+        "recommendation": 21,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2615,7 +2615,7 @@
     {
       "advice_profile_id": "ADV-B3-F3-T01",
       "natural_advice": {
-        "recommendation": "P3N1",
+        "recommendation": 22,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2624,7 +2624,7 @@
     {
       "advice_profile_id": "ADV-B3-F3-T02",
       "natural_advice": {
-        "recommendation": "N2O3",
+        "recommendation": 27,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2633,7 +2633,7 @@
     {
       "advice_profile_id": "ADV-B3-F3-T03",
       "natural_advice": {
-        "recommendation": "O4P5",
+        "recommendation": 15,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2642,7 +2642,7 @@
     {
       "advice_profile_id": "ADV-B3-F3-T04",
       "natural_advice": {
-        "recommendation": "P6N4",
+        "recommendation": 21,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2651,7 +2651,7 @@
     {
       "advice_profile_id": "ADV-B3-F3-T05",
       "natural_advice": {
-        "recommendation": "N5O6",
+        "recommendation": 29,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2660,7 +2660,7 @@
     {
       "advice_profile_id": "ADV-B3-F4-T01",
       "natural_advice": {
-        "recommendation": "Q3O1",
+        "recommendation": 30,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2669,7 +2669,7 @@
     {
       "advice_profile_id": "ADV-B3-F4-T02",
       "natural_advice": {
-        "recommendation": "O2P3",
+        "recommendation": 12,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2678,7 +2678,7 @@
     {
       "advice_profile_id": "ADV-B3-F4-T03",
       "natural_advice": {
-        "recommendation": "P4Q5",
+        "recommendation": 23,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2687,7 +2687,7 @@
     {
       "advice_profile_id": "ADV-B3-F4-T04",
       "natural_advice": {
-        "recommendation": "Q6O4",
+        "recommendation": 24,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2696,7 +2696,7 @@
     {
       "advice_profile_id": "ADV-B3-F4-T05",
       "natural_advice": {
-        "recommendation": "O5P6",
+        "recommendation": 16,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2705,7 +2705,7 @@
     {
       "advice_profile_id": "ADV-B3-F5-T01",
       "natural_advice": {
-        "recommendation": "R3P1",
+        "recommendation": 17,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2714,7 +2714,7 @@
     {
       "advice_profile_id": "ADV-B3-F5-T02",
       "natural_advice": {
-        "recommendation": "P2Q3",
+        "recommendation": 19,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2723,7 +2723,7 @@
     {
       "advice_profile_id": "ADV-B3-F5-T03",
       "natural_advice": {
-        "recommendation": "Q4R5",
+        "recommendation": 31,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2732,7 +2732,7 @@
     {
       "advice_profile_id": "ADV-B3-F5-T04",
       "natural_advice": {
-        "recommendation": "R6P4",
+        "recommendation": 13,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2741,7 +2741,7 @@
     {
       "advice_profile_id": "ADV-B3-F5-T05",
       "natural_advice": {
-        "recommendation": "P5Q6",
+        "recommendation": 24,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2750,7 +2750,7 @@
     {
       "advice_profile_id": "ADV-B3-F6-T01",
       "natural_advice": {
-        "recommendation": "S3Q1",
+        "recommendation": 21,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2759,7 +2759,7 @@
     {
       "advice_profile_id": "ADV-B3-F6-T02",
       "natural_advice": {
-        "recommendation": "Q2R3",
+        "recommendation": 26,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2768,7 +2768,7 @@
     {
       "advice_profile_id": "ADV-B3-F6-T03",
       "natural_advice": {
-        "recommendation": "R4S5",
+        "recommendation": 14,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2777,7 +2777,7 @@
     {
       "advice_profile_id": "ADV-B3-F6-T04",
       "natural_advice": {
-        "recommendation": "S6Q4",
+        "recommendation": 20,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -2786,7 +2786,7 @@
     {
       "advice_profile_id": "ADV-B3-F6-T05",
       "natural_advice": {
-        "recommendation": "Q5R6",
+        "recommendation": 28,
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },

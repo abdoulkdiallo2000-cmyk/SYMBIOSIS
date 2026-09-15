@@ -5674,18 +5674,18 @@
     },
     {
       "h9_register_id": "H9-B3-F1-T01",
-      "recommendation": "N3L1",
+      "recommendation": 31,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "1L3N",
-        "L1L1",
-        "indéterminé"
+        32,
+        27,
+        35
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5699,18 +5699,18 @@
     },
     {
       "h9_register_id": "H9-B3-F1-T02",
-      "recommendation": "L2M3",
+      "recommendation": 13,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "3M2L",
-        "L2L2",
-        "indéterminé"
+        14,
+        11,
+        15
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5724,18 +5724,18 @@
     },
     {
       "h9_register_id": "H9-B3-F1-T03",
-      "recommendation": "M4N5",
+      "recommendation": 24,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "5N4M",
-        "L3L3",
-        "indéterminé"
+        25,
+        21,
+        27
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5749,18 +5749,18 @@
     },
     {
       "h9_register_id": "H9-B3-F1-T04",
-      "recommendation": "N6L4",
+      "recommendation": 25,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "4L6N",
-        "L4L4",
-        "indéterminé"
+        26,
+        21,
+        29
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5774,18 +5774,18 @@
     },
     {
       "h9_register_id": "H9-B3-F1-T05",
-      "recommendation": "L5M6",
+      "recommendation": 17,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "6M5L",
-        "L5L5",
-        "indéterminé"
+        18,
+        15,
+        19
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5799,18 +5799,18 @@
     },
     {
       "h9_register_id": "H9-B3-F2-T01",
-      "recommendation": "O3M1",
+      "recommendation": 14,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "1M3O",
-        "M1M1",
-        "indéterminé"
+        15,
+        12,
+        16
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5824,18 +5824,18 @@
     },
     {
       "h9_register_id": "H9-B3-F2-T02",
-      "recommendation": "M2N3",
+      "recommendation": 20,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "3N2M",
-        "M2M2",
-        "indéterminé"
+        21,
+        17,
+        23
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5849,18 +5849,18 @@
     },
     {
       "h9_register_id": "H9-B3-F2-T03",
-      "recommendation": "N4O5",
+      "recommendation": 28,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "5O4N",
-        "M3M3",
-        "indéterminé"
+        29,
+        24,
+        32
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5874,18 +5874,18 @@
     },
     {
       "h9_register_id": "H9-B3-F2-T04",
-      "recommendation": "O6M4",
+      "recommendation": 14,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "4M6O",
-        "M4M4",
-        "indéterminé"
+        15,
+        12,
+        16
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5899,18 +5899,18 @@
     },
     {
       "h9_register_id": "H9-B3-F2-T05",
-      "recommendation": "M5N6",
+      "recommendation": 21,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "6N5M",
-        "M5M5",
-        "indéterminé"
+        22,
+        18,
+        24
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5924,18 +5924,18 @@
     },
     {
       "h9_register_id": "H9-B3-F3-T01",
-      "recommendation": "P3N1",
+      "recommendation": 22,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "1N3P",
-        "N1N1",
-        "indéterminé"
+        23,
+        19,
+        25
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5949,18 +5949,18 @@
     },
     {
       "h9_register_id": "H9-B3-F3-T02",
-      "recommendation": "N2O3",
+      "recommendation": 27,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "3O2N",
-        "N2N2",
-        "indéterminé"
+        28,
+        23,
+        31
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5974,18 +5974,18 @@
     },
     {
       "h9_register_id": "H9-B3-F3-T03",
-      "recommendation": "O4P5",
+      "recommendation": 15,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "5P4O",
-        "N3N3",
-        "indéterminé"
+        16,
+        13,
+        17
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -5999,18 +5999,18 @@
     },
     {
       "h9_register_id": "H9-B3-F3-T04",
-      "recommendation": "P6N4",
+      "recommendation": 21,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "4N6P",
-        "N4N4",
-        "indéterminé"
+        22,
+        18,
+        24
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6024,18 +6024,18 @@
     },
     {
       "h9_register_id": "H9-B3-F3-T05",
-      "recommendation": "N5O6",
+      "recommendation": 29,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "6O5N",
-        "N5N5",
-        "indéterminé"
+        30,
+        25,
+        33
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6049,18 +6049,18 @@
     },
     {
       "h9_register_id": "H9-B3-F4-T01",
-      "recommendation": "Q3O1",
+      "recommendation": 30,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "1O3Q",
-        "O1O1",
-        "indéterminé"
+        31,
+        26,
+        34
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6074,18 +6074,18 @@
     },
     {
       "h9_register_id": "H9-B3-F4-T02",
-      "recommendation": "O2P3",
+      "recommendation": 12,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "3P2O",
-        "O2O2",
-        "indéterminé"
+        13,
+        10,
+        14
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6099,18 +6099,18 @@
     },
     {
       "h9_register_id": "H9-B3-F4-T03",
-      "recommendation": "P4Q5",
+      "recommendation": 23,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "5Q4P",
-        "O3O3",
-        "indéterminé"
+        24,
+        20,
+        26
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6124,18 +6124,18 @@
     },
     {
       "h9_register_id": "H9-B3-F4-T04",
-      "recommendation": "Q6O4",
+      "recommendation": 24,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "4O6Q",
-        "O4O4",
-        "indéterminé"
+        25,
+        20,
+        28
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6149,18 +6149,18 @@
     },
     {
       "h9_register_id": "H9-B3-F4-T05",
-      "recommendation": "O5P6",
+      "recommendation": 16,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "6P5O",
-        "O5O5",
-        "indéterminé"
+        17,
+        14,
+        18
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6174,18 +6174,18 @@
     },
     {
       "h9_register_id": "H9-B3-F5-T01",
-      "recommendation": "R3P1",
+      "recommendation": 17,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "1P3R",
-        "P1P1",
-        "indéterminé"
+        18,
+        15,
+        19
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6199,18 +6199,18 @@
     },
     {
       "h9_register_id": "H9-B3-F5-T02",
-      "recommendation": "P2Q3",
+      "recommendation": 19,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "3Q2P",
-        "P2P2",
-        "indéterminé"
+        20,
+        16,
+        22
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6224,18 +6224,18 @@
     },
     {
       "h9_register_id": "H9-B3-F5-T03",
-      "recommendation": "Q4R5",
+      "recommendation": 31,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "5R4Q",
-        "P3P3",
-        "indéterminé"
+        32,
+        27,
+        35
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6249,18 +6249,18 @@
     },
     {
       "h9_register_id": "H9-B3-F5-T04",
-      "recommendation": "R6P4",
+      "recommendation": 13,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "4P6R",
-        "P4P4",
-        "indéterminé"
+        14,
+        11,
+        15
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6274,18 +6274,18 @@
     },
     {
       "h9_register_id": "H9-B3-F5-T05",
-      "recommendation": "P5Q6",
+      "recommendation": 24,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "6Q5P",
-        "P5P5",
-        "indéterminé"
+        25,
+        21,
+        27
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6299,18 +6299,18 @@
     },
     {
       "h9_register_id": "H9-B3-F6-T01",
-      "recommendation": "S3Q1",
+      "recommendation": 21,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "1Q3S",
-        "Q1Q1",
-        "indéterminé"
+        22,
+        18,
+        24
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6324,18 +6324,18 @@
     },
     {
       "h9_register_id": "H9-B3-F6-T02",
-      "recommendation": "Q2R3",
+      "recommendation": 26,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "3R2Q",
-        "Q2Q2",
-        "indéterminé"
+        27,
+        22,
+        30
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6349,18 +6349,18 @@
     },
     {
       "h9_register_id": "H9-B3-F6-T03",
-      "recommendation": "R4S5",
+      "recommendation": 14,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "5S4R",
-        "Q3Q3",
-        "indéterminé"
+        15,
+        12,
+        16
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6374,18 +6374,18 @@
     },
     {
       "h9_register_id": "H9-B3-F6-T04",
-      "recommendation": "S6Q4",
+      "recommendation": 20,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "4Q6S",
-        "Q4Q4",
-        "indéterminé"
+        21,
+        17,
+        23
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",
@@ -6399,18 +6399,18 @@
     },
     {
       "h9_register_id": "H9-B3-F6-T05",
-      "recommendation": "Q5R6",
+      "recommendation": 28,
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "6R5Q",
-        "Q5Q5",
-        "indéterminé"
+        29,
+        24,
+        32
       ],
       "critical_assumptions": [
-        "held-out rule composition"
+        "held-out affine-rule transfer"
       ],
       "risks": [
         "automation bias",

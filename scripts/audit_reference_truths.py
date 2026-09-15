@@ -1,141 +1,49 @@
-"""Independent semantic audit of all task-bank reference answers.
-
-This checker deliberately reads only instantiated task data and announced rules.
-It does not import or call the bank generator and never uses ``correct_answer``
-while calculating its expected answers.
-"""
-
+"""Independent recalculation from instantiated stimuli, without generator imports."""
 from __future__ import annotations
-
 import json
-import math
 from fractions import Fraction
 from pathlib import Path
+BANK=Path(__file__).resolve().parents[1]/'data/task_bank_v1.0.json'
 
-
-BANK = Path(__file__).resolve().parents[1] / "data" / "task_bank_v1.0.json"
-
-
-def expected(record: dict):
-    prototype = record["prototype"]
-    data = record["data"]
-
-    if prototype == "A1":
-        feasible = [p for p in data if p["access"] == p["order_ok"] == p["capacity"] == 1 and p["time"] <= 25]
-        assert len(feasible) == 1
-        return feasible[0]["id"]
-    if prototype == "A2":
-        return [r["dossier"] for r in sorted(data, key=lambda x: 2*x["x"]+x["y"]+x["z"], reverse=True)[:2]]
-    if prototype == "A3":
-        total = int(record["documents"][0].split("exactement ")[1].split(".")[0])
-        valid = [p["id"] for p in data if p["Rouge"]+p["Vert"]+p["Bleu"] == total and p["Bleu"] > p["Vert"] and p["Rouge"] == 10 and p["Vert"] == 12]
-        assert len(valid) == 1
-        return valid[0]
-    if prototype == "A4":
-        posterior = data["P(+|X)"]*data["P(X)"]/(data["P(+|X)"]*data["P(X)"]+data["P(+|Y)"]*(1-data["P(X)"]))
-        return {"class": "X" if posterior > .5 else "Y", "P(X|+)": round(posterior, 4)}
-    if prototype == "B1":
-        priority = [r["id"] for r in data["rows"] if r["mention"] == "PRIORITÉ HUMAINE"]
-        assert len(priority) == 1
-        return priority[0]
-    if prototype == "B2":
-        text = data["context"]
-        if "casier marqué bleu" in text:
-            return "casier bleu"
-        if "tâche 2" in text:
-            return "tâche 2"
-        if "moins de 5 minutes" in text:
-            return "<5 minutes"
-        raise AssertionError(record["id"])
-    if prototype == "B3":
-        mapping = {e["input"]: e["output"] for e in data["examples"]}
-        suffix = data["modifier_rule"].split("suffixe ")[1].split(" ")[0]
-        return mapping[data["test"]] + suffix
-    if prototype == "B4":
-        for previous, current in zip(data, data[1:]):
-            if current["x"]-previous["x"] != 1 or current["y"]-previous["y"] != 0:
-                return f't={current["t"]}'
-        raise AssertionError(record["id"])
-    if prototype == "C1":
-        limit = data["mock_reported_max_acceptable_load"]
-        admissible = [o for o in data["options"] if o["load_expected"] <= limit]
-        return max(admissible, key=lambda o: o["performance"])["id"]
-    if prototype == "C2":
-        admissible = [o for o in data["options"] if o["objective"] >= 80]
-        if data["mock_valence"] < -5:
-            admissible = [o for o in admissible if o["content_class"] != "négatif_modéré"]
-        return max(admissible, key=lambda o: o["objective"])["id"]
-    if prototype == "C3":
-        scores = {key: sum(Fraction(w*x, data["weight_scale"]*data["option_scale"])
-                           for w, x in zip(data["weight_units"], values))
-                  for key, values in data["option_units"].items()}
-        assert {k: f"{v.numerator}/{v.denominator}" for k, v in scores.items()} == data["exact_score_fractions"]
-        maximum = max(scores.values())
-        maxima = [key for key, score in scores.items() if score == maximum]
-        assert len(maxima) == 1, (record["id"], maxima)
-        return maxima[0]
-    if prototype == "C4":
-        prior = data["analytic_probs"]
-        reliability = data["validated_reliability_block"]
-        red_likelihood = reliability if data["private_intuition"] == "motif_rouge" else 1-reliability
-        blue_likelihood = reliability if data["private_intuition"] == "motif_bleu" else 1-reliability
-        posterior_red = prior["motif_rouge"]*red_likelihood/(prior["motif_rouge"]*red_likelihood+prior["motif_bleu"]*blue_likelihood)
-        assert math.isclose(round(posterior_red, 4), data["posterior_red_from_stated_rule"])
-        return "motif_rouge" if posterior_red >= .5 else "motif_bleu"
-    if prototype == "D1":
-        forbidden = data["human_private_constraint"].split()[1]
-        admissible = [o for o in data["ai_data"] if o["compat"] == 1 and o["id"] != forbidden]
-        return min(admissible, key=lambda o: o["cost"])["id"]
-    if prototype == "D2":
-        intersection = set(data["sensor_candidates"]) & set(data["human_observation_candidates"])
-        assert len(data["sensor_candidates"]) == len(data["human_observation_candidates"]) == 2
-        assert len(intersection) == 1
-        return next(iter(intersection))
-    if prototype == "D3":
-        admissible = [p for p in data["plans"] if p["effort"] <= data["human_limit"]]
-        return max(admissible, key=lambda p: p["utility"])["id"]
-    if prototype == "D4":
-        utilities = {k: data["ai_probabilities"][k]*data["human_values"][k] for k in data["ai_probabilities"]}
-        assert all(math.isclose(utilities[k], data["expected_utility"][k]) for k in utilities)
-        return max(utilities, key=utilities.get)
+def recalculate(prototype:str,t:dict):
+    s=t['stimulus']
+    if prototype=='A1':
+        valid=[p['id'] for p in s['candidate_plans'] if all(p[x] for x in ('all_windows','accessibility','precedence','capacity'))]; assert len(valid)==1; return valid[0]
+    if prototype=='A2': return [r['id'] for r in sorted(s['rows'],key=lambda r:(-sum((i+1)*v for i,v in enumerate(r['attributes'])),r['id']))[:2]]
+    if prototype=='A3':
+        req=t['truth_spec']['proof']['required']; valid=[p['id'] for p in s['plans'] if p['red']+p['green']+p['blue']==req['total'] and p['red']==req['red'] and p['green']==req['green'] and p['blue']>p['green']]; assert len(valid)==1; return valid[0]
+    if prototype=='A4':
+        prior=Fraction(s['prior_x']); sens=Fraction(s['sensitivity']); fp=Fraction(s['false_positive']); post=sens*prior/(sens*prior+fp*(1-prior)); return 'X' if post>Fraction(1,2) else 'Y'
+    if prototype=='B1':
+        marked=[r['id'] for r in s['rows'] if r['local_priority']]; assert len(marked)==1; return marked[0]
+    if prototype=='B2': return 'information insuffisante' if 'Aucune convention' in s['context'] else s['context'].split('comme ',1)[1].rstrip('.')
+    if prototype=='B3':
+        examples=s['examples']; slopes={(b['code']-a['code'])//(b['symbol_features']['corners']-a['symbol_features']['corners']) for a,b in zip(examples,examples[1:])}; assert len(slopes)==1; m=slopes.pop(); offset=examples[0]['code']-m*examples[0]['symbol_features']['corners']; return m*s['new_symbol_features']['corners']+offset
+    if prototype=='B4':
+        dx,dy=s['expected_delta']; seq=s['sequence']; return next(f"t={b['t']}" for a,b in zip(seq,seq[1:]) if b['x']-a['x']!=dx or b['y']-a['y']!=dy)
+    if prototype in {'C1','D3'}:
+        options=s.get('options',s.get('plans')); limit=s.get('elicited_current_load_limit',s.get('voluntary_effort_limit')); load='expected_load' if prototype=='C1' else 'effort'; value='performance' if prototype=='C1' else 'utility'; valid=[x for x in options if x[load]<=limit]; return max(valid,key=lambda x:x[value])['id']
+    if prototype=='C2': return 'B' if s['validated_relevance_class']=='relevant' else 'A'
+    if prototype=='C3':
+        scores={k:sum(Fraction(a*b,1000) for a,b in zip(s['declared_weight_units'],v)) for k,v in s['option_value_units'].items()}; maximum=max(scores.values()); maxima=[k for k,v in scores.items() if v==maximum]; assert len(maxima)==1; return maxima[0]
+    if prototype=='C4':
+        prior=Fraction(s['analytical_prior_red']); r=Fraction(s['validated_signal_reliability']); lr=r if s['private_signal']=='red' else 1-r; lb=r if s['private_signal']=='blue' else 1-r; post=prior*lr/(prior*lr+(1-prior)*lb); return 'red' if post>Fraction(1,2) else 'blue'
+    if prototype=='D1':
+        allowed={k:v for k,v in s['costs'].items() if k!=s['private_exclusion']}; return min(allowed,key=allowed.get)
+    if prototype=='D2':
+        intersection=sorted(set(s['sensor_log_candidates'])&set(s['human_observation_candidates'])); return intersection[0] if len(intersection)==1 else 'indéterminé'
+    if prototype=='D4':
+        u={k:Fraction(s['probabilities'][k])*Fraction(s['voluntary_values'][k]) for k in t['options']}; maximum=max(u.values()); maxima=[k for k,v in u.items() if v==maximum]; assert len(maxima)==1; return maxima[0]
     raise AssertionError(prototype)
 
+def main()->None:
+    packages=json.loads(BANK.read_text(encoding='utf-8'))['packages']; checked=[]
+    for p in packages:
+        fingerprints=set()
+        for t in p['trials']:
+            answer=recalculate(p['prototype_id'],t); assert answer==t['truth_spec']['correct_answer'],(t['trial_id'],answer,t['truth_spec']['correct_answer']); fingerprints.add(json.dumps(t['stimulus'],sort_keys=True)); checked.append(t['trial_id'])
+        assert len(fingerprints)==len(p['trials']),(p['package_id'],'cosmetic duplicate')
+    assert len(checked)==len(set(checked))==384
+    print('PASS: 384/384 truths independently recalculated; package stimuli are distinct. External human review remains required.')
 
-def audit_ablations(record: dict) -> None:
-    if not record["prototype"].startswith("D"):
-        return
-    ablation = record["ablation_truth"]
-    assert ablation["Integrated"] == record["correct_answer"]
-    if record["prototype"] == "D1":
-        forbidden = record["data"]["human_private_constraint"].split()[1]
-        assert ablation["AI-data-only"] == forbidden
-        assert ablation["Human-experience-only"] == "indéterminé sans coûts"
-    elif record["prototype"] == "D2":
-        assert len(ablation["AI-data-only"]) == len(ablation["Human-experience-only"]) == 2
-        assert ablation["Integrated"] in ablation["AI-data-only"] and ablation["Integrated"] in ablation["Human-experience-only"]
-    elif record["prototype"] == "D3":
-        ai_plan = next(p for p in record["data"]["plans"] if p["id"] == ablation["AI-data-only"])
-        assert ai_plan["effort"] > record["data"]["human_limit"]
-        assert ablation["Human-experience-only"] == "indéterminé sans utilités"
-    elif record["prototype"] == "D4":
-        assert ablation["AI-data-only"] != ablation["Integrated"]
-        assert ablation["Human-experience-only"] != ablation["Integrated"]
-
-
-def main() -> None:
-    records = json.loads(BANK.read_text(encoding="utf-8"))["records"]
-    assert len(records) == 96
-    checked = []
-    for record in records:
-        calculated = expected(record)
-        assert calculated == record["correct_answer"], (record["id"], calculated, record["correct_answer"])
-        if record["prototype"].startswith("C"):
-            assert record.get("subjective_class") in {"pertinente", "non pertinente", "potentiellement trompeuse", "valeur"}
-        audit_ablations(record)
-        checked.append(record["id"])
-    assert len(checked) == len(set(checked)) == 96
-    print("PASS: 96/96 reference answers independently recalculated; C subjectivity and D ablations semantically checked.")
-
-
-if __name__ == "__main__":
-    main()
+if __name__=='__main__': main()

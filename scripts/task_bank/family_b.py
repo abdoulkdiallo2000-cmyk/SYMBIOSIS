@@ -29,13 +29,13 @@ def b2(form: int) -> dict:
 
 
 def b3(form: int) -> dict:
-    trials=[]; symbols=["○","□","△","◇","⬟","☆"]
+    trials=[]
     for t in range(1,6):
-        codes=[f"{chr(75+(form+i)%10)}{(t+i)%7}" for i in range(3)]
-        examples=[{"input":f"{symbols[i]}+{symbols[(i+1)%3]}","output":codes[i]+codes[(i+1)%3]} for i in range(3)]
-        test=f"{symbols[(t+1)%3]}+{symbols[(t+2)%3]}"; answer=codes[(t+1)%3]+codes[(t+2)%3]
-        trials.append(trial("B3",form,t,{"examples":examples,"test":test,"composition_rule":"concatenate latent symbol codes"},
-                            [answer,answer[::-1],codes[0]+codes[0],"indéterminé"],answer,"held-out rule composition",{"latent_codes":dict(zip(symbols[:3],codes))}))
+        multiplier=2+(form+t)%3; offset=(form+2*t)%4
+        examples=[{"symbol_features":{"corners":n},"code":multiplier*n+offset} for n in (3,4,5)]
+        test_corners=6+(t%2); answer=multiplier*test_corners+offset
+        trials.append(trial("B3",form,t,{"examples":examples,"new_symbol_features":{"corners":test_corners},"rule_family":"affine code from corners"},
+                            [answer,answer+1,answer-multiplier,answer+multiplier],answer,"held-out affine-rule transfer",{"multiplier":multiplier,"offset":offset,"test_not_in_examples":True}))
     return package("B3",form,trials)
 
 
