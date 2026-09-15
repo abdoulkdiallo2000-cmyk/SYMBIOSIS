@@ -153,12 +153,15 @@ Even a positive result would be bounded to the studied tasks, populations, inter
 
 ## 16. Selected references
 
-- Bucinca, Z., Malaya, M. B. & Gajos, K. Z. (2021). *To Trust or to Think*. Proceedings of the ACM on Human-Computer Interaction. https://doi.org/10.1145/3449287
-- Goddard, K., Roudsari, A. & Wyatt, J. C. (2012). Automation bias: a systematic review. *Journal of the American Medical Informatics Association*, 19(1), 121–127. https://doi.org/10.1136/amiajnl-2011-000089
-- Lakens, D. (2017). Equivalence Tests. *Social Psychological and Personality Science*, 8(4), 355–362. https://doi.org/10.1177/1948550617697177
-- Lee, J. D. & See, K. A. (2004). Trust in Automation. *Human Factors*, 46(1), 50–80. https://doi.org/10.1518/hfes.46.1.50_30392
-- Silva, M. et al. (2024). Neurotechnology and neurorights. *Nature Reviews Neuroscience*. https://doi.org/10.1038/s41583-024-00819-9
-- UNESCO (2025). *Recommendation on the Ethics of Neurotechnology*. https://www.unesco.org/en/legal-affairs/recommendation-ethics-neurotechnology
+- Buçinca, Z., Malaya, M. B., & Gajos, K. Z. (2021). *To Trust or to Think: Cognitive Forcing Functions Can Reduce Overreliance on AI in AI-assisted Decision-making*. *Proceedings of the ACM on Human-Computer Interaction*, 5(CSCW1), article 188, 1–21. https://doi.org/10.1145/3449287
+- Goddard, K., Roudsari, A., & Wyatt, J. C. (2012). Automation bias: a systematic review of frequency, effect mediators, and mitigators. *Journal of the American Medical Informatics Association*, 19(1), 121–127. https://doi.org/10.1136/amiajnl-2011-000089
+- Hemmer, P., Schemmer, M., Kühl, N., Vössing, M., & Satzger, G. (2025). Complementarity in human-AI collaboration: concept, sources, and evidence. *European Journal of Information Systems*, 34(6), 979–1002. https://doi.org/10.1080/0960085X.2025.2475962
+- Lakens, D. (2017). Equivalence Tests: A Practical Primer for t Tests, Correlations, and Meta-Analyses. *Social Psychological and Personality Science*, 8(4), 355–362. https://doi.org/10.1177/1948550617697177
+- Lee, J. D., & See, K. A. (2004). Trust in Automation: Designing for Appropriate Reliance. *Human Factors*, 46(1), 50–80. https://doi.org/10.1518/hfes.46.1.50_30392
+- Silva, A. B., Littlejohn, K. T., Liu, J. R., Moses, D. A., & Chang, E. F. (2024). The speech neuroprosthesis. *Nature Reviews Neuroscience*, 25, 473–492. https://doi.org/10.1038/s41583-024-00819-9
+- Tapal, A., Oren, E., Dar, R., & Eitam, B. (2017). The Sense of Agency Scale: A Measure of Consciously Perceived Control over One's Mind, Body, and the Immediate Environment. *Frontiers in Psychology*, 8, article 1552. https://doi.org/10.3389/fpsyg.2017.01552
+- Vaccaro, M., Almaatouq, A., & Malone, T. (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. *Nature Human Behaviour*, 8, 2293–2303. https://doi.org/10.1038/s41562-024-02024-1
+- UNESCO. (2025). *Recommendation on the Ethics of Neurotechnology* (adopted 11 November 2025). https://www.unesco.org/en/legal-affairs/recommendation-ethics-neurotechnology
 
 ## 17. Operational documents
 

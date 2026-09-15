@@ -54,8 +54,8 @@
 | B4-F6 | Continuité perceptive séquentielle | Avantage humain | t=2 |
 | C1-F1 | Confort et charge ressentis | Subjectivité humaine pertinente | B |
 | C1-F2 | Confort et charge ressentis | Subjectivité humaine pertinente | B |
-| C1-F3 | Confort et charge ressentis | Subjectivité humaine pertinente | C |
-| C1-F4 | Confort et charge ressentis | Subjectivité humaine pertinente | B |
+| C1-F3 | Confort et charge ressentis | Subjectivité humaine pertinente | B |
+| C1-F4 | Confort et charge ressentis | Subjectivité humaine pertinente | C |
 | C1-F5 | Confort et charge ressentis | Subjectivité humaine pertinente | B |
 | C1-F6 | Confort et charge ressentis | Subjectivité humaine pertinente | B |
 | C2-F1 | Valence émotionnelle comme signal | Subjectivité humaine pertinente | B |
@@ -70,9 +70,9 @@
 | C3-F4 | Valeur vécue dans un arbitrage | Subjectivité humaine pertinente | C |
 | C3-F5 | Valeur vécue dans un arbitrage | Subjectivité humaine pertinente | B |
 | C3-F6 | Valeur vécue dans un arbitrage | Subjectivité humaine pertinente | C |
-| C4-F1 | Intuition issue d’un apprentissage privé | Subjectivité humaine pertinente | motif_rouge |
+| C4-F1 | Intuition issue d’un apprentissage privé | Subjectivité humaine pertinente | motif_bleu |
 | C4-F2 | Intuition issue d’un apprentissage privé | Subjectivité humaine pertinente | motif_rouge |
-| C4-F3 | Intuition issue d’un apprentissage privé | Subjectivité humaine pertinente | motif_rouge |
+| C4-F3 | Intuition issue d’un apprentissage privé | Subjectivité humaine pertinente | motif_bleu |
 | C4-F4 | Intuition issue d’un apprentissage privé | Subjectivité humaine pertinente | motif_rouge |
 | C4-F5 | Intuition issue d’un apprentissage privé | Subjectivité humaine pertinente | motif_rouge |
 | C4-F6 | Intuition issue d’un apprentissage privé | Subjectivité humaine pertinente | motif_rouge |

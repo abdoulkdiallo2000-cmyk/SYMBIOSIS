@@ -23,7 +23,7 @@ Le protocole s'organise autour de trois piliers : **BÉNÉFICE**, **SOUVERAINET�
 
 L'expérience subjective humaine n'est pas uniquement une faiblesse à corriger. Une sensation, une émotion, une valeur vécue, une intuition corporelle ou une expérience en première personne peut constituer une information pertinente à laquelle l'IA n'a pas directement accès. Inversement, l'IA peut traiter des données analytiques que l'humain ne peut intégrer facilement.
 
-La batterie de tâches crée donc des situations où $I_H \neq I_{IA}$. Elle cherche à déterminer si l'intégration produit une solution que ni l'humain ni l'IA n'obtiennent seuls. Elle ne suppose ni que l'émotion a toujours raison, ni que l'algorithme a toujours raison.
+La batterie de tâches crée donc des situations où $I_H \neq I_{IA}$. Elle cherche à déterminer si l'intégration produit une solution que ni l'humain ni l'IA n'obtiennent seuls. Elle ne présuppose la supériorité systématique ni de l'information émotionnelle ni de l'information algorithmique.
 
 ## Pouvoir refuser réellement
 

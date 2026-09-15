@@ -61,6 +61,6 @@ La vision de long terme conserve une IA incarnée dans son propre corps, la dist
 
 Le projet ne démontre ni conscience artificielle, ni fusion mentale, ni communication cerveau-à-cerveau. Il n'autorise aucune expérimentation humaine. Les effets minimaux d'intérêt, marges statistiques et effectifs resteront ouverts jusqu'aux entretiens cognitifs et au pilote. Toute étude impliquant des personnes, données personnelles, biométriques ou neurales nécessite un examen éthique approprié, un consentement éclairé et le respect du droit applicable.
 
-Métadonnées de citation : [CITATION.cff](CITATION.cff). Documentation sous CC BY 4.0 et futur code source sous Apache 2.0, sauf mention contraire : [LICENSE.md](LICENSE.md).
+Métadonnées de citation : [CITATION.cff](CITATION.cff). Le dépôt contient déjà une [notice de licence](LICENSE.md) qui attribue Creative Commons Attribution 4.0 International (CC BY 4.0) à la documentation et Apache License 2.0 au code ; cette branche n'introduit ni ne ratifie ces choix. La portée du champ de licence de `CITATION.cff` reste à clarifier avant fusion : voir l'[audit de licence](docs/LICENSE-AUDIT.md).
 
 SYMBIOSIS a été initié par **Abdoul Karim Diallo (AKD — Independent Researcher)**.

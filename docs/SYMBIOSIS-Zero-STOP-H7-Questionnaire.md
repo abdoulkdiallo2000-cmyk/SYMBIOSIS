@@ -1,4 +1,4 @@
-# SYMBIOSIS-Zero — Questionnaire STOP et intégrité humaine H7
+# SYMBIOSIS-Zero — Questionnaire STOP SYMBIOSIS et expérience/intégrité humaines (H7)
 
 **Gabarit pour entretiens cognitifs et pilote — 14 septembre 2026**
 

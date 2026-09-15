@@ -8,8 +8,11 @@ required=[
 'docs/COGNITIVE-INTERVIEW-GUIDE.md','docs/PRE-PILOT-TECHNICAL-PROTOCOL.md','docs/PILOT-PROTOCOL.md',
 'docs/DATA-DICTIONARY.md','docs/ETHICS-SUBMISSION-OUTLINE.md','docs/PREREGISTRATION-DRAFT.md','docs/DECISION-REGISTER.md',
 'docs/CORRECTIONS-APPLIED-2026-09-14.md','docs/WHITE-PAPER-CANONICAL-AUDIT.md','docs/GLOSSARY.md','docs/EDITORIAL-CONVENTION.md',
+'docs/BIBLIOGRAPHY-AUDIT-2026-09-14.md','docs/LICENSE-AUDIT.md','docs/TASK-BANK-INDEPENDENT-AUDIT-2026-09-14.md',
+'docs/white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-FR.md','docs/white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-EN.md','docs/white-paper/CONCORDANCE-FR-EN.md',
 'docs/SYMBIOSIS-Zero-STOP-H7-Questionnaire.md','docs/SYMBIOSIS-Zero-H9-Transparency-Template.md',
-'docs/H9-REGISTER-SCHEMA.json','docs/SYMBIOSIS-Zero-PreRegistration-Checklist-v1.0.md']
+'docs/H9-REGISTER-SCHEMA.json','docs/SYMBIOSIS-Zero-PreRegistration-Checklist-v1.0.md',
+'scripts/audit_reference_truths.py','scripts/check_bibliography.py','scripts/check_scientific_invariants.py']
 missing=[x for x in required if not (base/x).exists()]
 if missing:
     print('MISSING:',*missing,sep='\n'); raise SystemExit(1)

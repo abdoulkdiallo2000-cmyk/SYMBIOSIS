@@ -1,4 +1,4 @@
-# SYMBIOSIS-Zero — Fiche de transparence fonctionnelle H9
+# SYMBIOSIS-Zero — Fiche de transparence fonctionnelle de l'intelligence artificielle (H9)
 
 **Gabarit pré-pilote — 14 septembre 2026**
 

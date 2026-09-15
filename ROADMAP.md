@@ -25,7 +25,7 @@ Consentement, autonomie, identité, réversibilité bornée, intimité et souver
 
 - Réaliser les entretiens cognitifs sur les tâches, consignes et instruments.
 - Éprouver les formes parallèles, les trois niveaux de STOP SYMBIOSIS et le registre de transparence fonctionnelle.
-- Piloter la randomisation, le contrebalancement, les ablations et la collecte PRE/POST.
+- Piloter la randomisation, le contrebalancement, les ablations, la mesure préalable (PRE) et la mesure après séparation (POST).
 - Estimer la qualité psychométrique avant de figer les seuils, effets minimaux d'intérêt, marges et effectifs.
 
 ## Phase C — Étude confirmatoire

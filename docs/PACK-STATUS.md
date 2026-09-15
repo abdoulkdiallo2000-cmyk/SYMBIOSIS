@@ -2,7 +2,9 @@
 
 Le pack rend opérationnelles toutes les étapes pouvant raisonnablement être préparées sans recruter de participants ni obtenir un avis éthique externe. Il comprend le protocole, la batterie, 96 formes pré-pilotes, scripts de génération/validation/randomisation, gabarits H7/H9, guide d’entretiens cognitifs, pré-pilote technique, protocole pilote, dictionnaire de données, trame éthique et brouillon de préenregistrement.
 
-Ce qui ne peut pas être légitimement « terminé » ici : entretiens cognitifs réels, seconde vérification humaine indépendante de toutes les vérités de référence, test de l’interface réseau réellement déployée, avis éthique, pilote humain, fixation empirique des marges et effets minimaux d’intérêt, calcul final de l’effectif, préenregistrement officiel et étude confirmatoire.
+Une seconde vérification indépendante par logiciel a recalculé les 96 vérités de référence sans réutiliser les réponses enregistrées et a contrôlé les règles de subjectivité et les ablations. Elle ne remplace pas une seconde vérification humaine externe.
+
+Ce qui ne peut pas être légitimement « terminé » ici : entretiens cognitifs réels, seconde vérification humaine externe de toutes les vérités de référence, test de l’interface réseau réellement déployée, avis éthique, pilote humain, fixation empirique des marges et effets minimaux d’intérêt, calcul final de l’effectif, préenregistrement officiel et étude confirmatoire.
 
 
 ## Corrections après audit différentiel

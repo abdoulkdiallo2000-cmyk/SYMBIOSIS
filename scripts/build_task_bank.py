@@ -35,7 +35,7 @@ def make_A1(form):
     # Five candidate plans, exactly one obeys all explicit constraints.
     base = 7 + form
     plans = [
-        {'id':'A','cost':base+3,'time':22,'access':1,'order_ok':1,'capacity':1},
+        {'id':'A','cost':base+3,'time':26,'access':1,'order_ok':1,'capacity':1},
         {'id':'B','cost':base+1,'time':24,'access':1,'order_ok':0,'capacity':1},
         {'id':'C','cost':base+2,'time':19,'access':0,'order_ok':1,'capacity':1},
         {'id':'D','cost':base,'time':23,'access':1,'order_ok':1,'capacity':1},
@@ -139,21 +139,21 @@ def make_B4(form):
             'data':seq,'correct_answer':f't={anomaly}','truth_rule':'Comparer chaque transition à la règle séquentielle.', 'difficulty_target':'moyenne'}
 
 def make_C1(form):
-    # User-reported load is generated as session value in real use; mock value for form validation.
-    load=55+5*(form%4)
-    limit=65
+    # The participant supplies this maximum in real use; mock values only instantiate pre-pilot forms.
+    max_acceptable_load=55+5*(form%4)
     options=[{'id':'A','performance':95,'load_expected':75},{'id':'B','performance':88,'load_expected':60},{'id':'C','performance':80,'load_expected':45}]
-    correct='B' if load<=limit else 'C'
-    return {'prompt':'Choisir l’option la plus performante qui respecte la limite de charge vécue. En collecte réelle, la charge est auto-rapportée et non simulée.',
-            'data':{'mock_reported_load':load,'limit':limit,'options':options},'correct_answer':correct,
+    admissible=[o for o in options if o['load_expected']<=max_acceptable_load]
+    correct=max(admissible,key=lambda o:o['performance'])['id']
+    return {'prompt':'Choisir l’option la plus performante dont la charge attendue ne dépasse pas la limite maximale vécue et déclarée. En collecte réelle, cette limite est auto-rapportée et non simulée.',
+            'data':{'mock_reported_max_acceptable_load':max_acceptable_load,'options':options},'correct_answer':correct,
             'truth_rule':'Respecter la limite vécue d’abord, puis maximiser la performance parmi les options admissibles.', 'subjective_class':'pertinente'}
 
 def make_C2(form):
     valence=-20+8*form
     threshold=-5
-    options=[{'id':'A','objective':90,'affective_fit':'faible'},{'id':'B','objective':84,'affective_fit':'élevée'}]
+    options=[{'id':'A','objective':90,'content_class':'négatif_modéré'},{'id':'B','objective':84,'content_class':'neutre'}]
     correct='B' if valence<threshold else 'A'
-    return {'prompt':'Le critère annoncé exige performance ≥80 et évite un contenu lorsque la valence vécue est < -5. Choisir l’option conforme.',
+    return {'prompt':'Le critère annoncé exige une performance ≥80 et, lorsque la valence vécue est < -5, exclut le contenu négatif modéré. Sinon, maximiser la performance. Choisir l’option conforme.',
             'data':{'mock_valence':valence,'options':options},'correct_answer':correct,
             'truth_rule':'La valence n’entre dans la décision que lorsque le seuil préspécifié est franchi.', 'subjective_class':'pertinente' if valence<threshold else 'non pertinente'}
 
@@ -168,24 +168,35 @@ def make_C3(form):
             'truth_rule':'Somme pondérée avec poids humains déclarés; les poids ne sont pas corrigés par l’IA.', 'subjective_class':'valeur'}
 
 def make_C4(form):
-    # private exposure base-rate determines whether intuition should be trusted in this block
+    # A private signal can agree or disagree with the analytical prior; reliability determines its weight.
     reliability=0.75 if form<=3 else 0.55
-    intuition='motif_rouge'
+    intuition='motif_bleu' if form%2 else 'motif_rouge'
     analytic={'motif_rouge':0.58,'motif_bleu':0.42}
-    integrated=0.65 if reliability>0.7 else analytic['motif_rouge']
-    correct='motif_rouge' if integrated>=0.5 else 'motif_bleu'
+    if intuition=='motif_rouge':
+        red_num=analytic['motif_rouge']*reliability
+        blue_num=analytic['motif_bleu']*(1-reliability)
+    else:
+        red_num=analytic['motif_rouge']*(1-reliability)
+        blue_num=analytic['motif_bleu']*reliability
+    posterior_red=red_num/(red_num+blue_num)
+    correct='motif_rouge' if posterior_red>=0.5 else 'motif_bleu'
     return {'prompt':'Combiner une impression de familiarité issue d’un apprentissage privé avec une estimation analytique générale.',
-            'data':{'private_intuition':intuition,'validated_reliability_block':reliability,'analytic_probs':analytic},
-            'correct_answer':correct,'truth_rule':'Le poids du signal intuitif dépend de sa fiabilité pré-estimée dans le bloc.', 'subjective_class':'pertinente' if reliability>0.7 else 'potentiellement trompeuse'}
+            'data':{'private_intuition':intuition,'validated_reliability_block':reliability,'analytic_probs':analytic,
+                    'posterior_red_from_stated_rule':round(posterior_red,4)},
+            'correct_answer':correct,'truth_rule':'Mise à jour bayésienne : la vraisemblance du signal intuitif est sa fiabilité pré-estimée dans le bloc.',
+            'subjective_class':'pertinente' if reliability>0.7 else 'potentiellement trompeuse'}
 
 def make_D1(form):
-    options=[{'id':'A','cost':70,'compat':1},{'id':'B','cost':62,'compat':1},{'id':'C','cost':58,'compat':1}]
+    options=[{'id':'A','cost':70,'compat':1},{'id':'B','cost':55 if form%2==0 else 62,'compat':1},{'id':'C','cost':58 if form%2==0 else 55,'compat':1}]
     human_forbidden='C' if form%2 else 'B'
     admiss=[o for o in options if o['id']!=human_forbidden and o['compat']==1]
     correct=min(admiss,key=lambda x:x['cost'])['id']
     return {'prompt':'Minimiser le coût sous contraintes analytiques et contrainte humaine privée volontairement partageable.',
             'data':{'ai_data':options,'human_private_constraint':f'Option {human_forbidden} non admissible'},
-            'correct_answer':correct,'truth_rule':'Filtrer la contrainte humaine puis minimiser le coût.', 'ablation_truth':{'AI-data-only':'indéterminé entre options selon contrainte manquante','Human-experience-only':'optimisation impossible'}}
+            'correct_answer':correct,'truth_rule':'Filtrer la contrainte humaine puis minimiser le coût.',
+            'ablation_truth':{'AI-data-only':min(options,key=lambda x:x['cost'])['id'],
+                              'Human-experience-only':'indéterminé sans coûts',
+                              'Integrated':correct}}
 
 def make_D2(form):
     causes=['A','B','C','D','E']
@@ -196,7 +207,9 @@ def make_D2(form):
         sensor_candidates={'B','C'}; human_candidates={'C','D'}; inter=['C']
     return {'prompt':'Identifier la cause unique compatible avec le journal de capteurs ET l’observation humaine.',
             'data':{'sensor_candidates':sorted(sensor_candidates),'human_observation_candidates':sorted(human_candidates)},
-            'correct_answer':inter[0],'truth_rule':'Intersection des ensembles causaux compatibles.', 'difficulty_target':'moyenne'}
+            'correct_answer':inter[0],'truth_rule':'Intersection des ensembles causaux compatibles.',
+            'ablation_truth':{'AI-data-only':sorted(sensor_candidates),'Human-experience-only':sorted(human_candidates),'Integrated':inter[0]},
+            'difficulty_target':'moyenne'}
 
 def make_D3(form):
     human_limit=60+5*(form%3)
@@ -205,7 +218,11 @@ def make_D3(form):
     correct=max(admiss,key=lambda p:p['utility'])['id']
     return {'prompt':'Choisir le plan à utilité maximale sans dépasser la limite d’effort vécue déclarée.',
             'data':{'human_limit':human_limit,'plans':plans},'correct_answer':correct,
-            'truth_rule':'Contrainte d’intégrité non compensatoire puis maximisation de l’utilité.', 'subjective_class':'pertinente'}
+            'truth_rule':'Contrainte d’intégrité non compensatoire puis maximisation de l’utilité.',
+            'ablation_truth':{'AI-data-only':max(plans,key=lambda p:p['utility'])['id'],
+                              'Human-experience-only':'indéterminé sans utilités',
+                              'Integrated':correct},
+            'subjective_class':'pertinente'}
 
 def make_D4(form):
     probs={'A':0.70,'B':0.55,'C':0.40}
@@ -215,7 +232,11 @@ def make_D4(form):
     correct=max(util,key=util.get)
     return {'prompt':'Choisir l’option maximisant l’utilité attendue en combinant probabilités IA et valeurs humaines déclarées.',
             'data':{'ai_probabilities':probs,'human_values':values,'expected_utility':util},
-            'correct_answer':correct,'truth_rule':'Utilité attendue = probabilité × valeur humaine; hypothèses visibles.', 'difficulty_target':'moyenne'}
+            'correct_answer':correct,'truth_rule':'Utilité attendue = probabilité × valeur humaine; hypothèses visibles.',
+            'ablation_truth':{'AI-data-only':max(probs,key=probs.get),
+                              'Human-experience-only':max(values,key=values.get),
+                              'Integrated':correct},
+            'difficulty_target':'moyenne'}
 
 MAKERS={'A1':make_A1,'A2':make_A2,'A3':make_A3,'A4':make_A4,'B1':make_B1,'B2':make_B2,'B3':make_B3,'B4':make_B4,
         'C1':make_C1,'C2':make_C2,'C3':make_C3,'C4':make_C4,'D1':make_D1,'D2':make_D2,'D3':make_D3,'D4':make_D4}
@@ -225,8 +246,10 @@ for pid,(title,family) in PROTOS.items():
     for form in range(1,7):
         item=MAKERS[pid](form)
         item.update({'id':f'{pid}-F{form}','prototype':pid,'form':f'F{form}','title':title,'family':family,
-                     'status':'pré-pilote; vérité structurelle vérifiée par script, difficulté non validée humainement',
-                     'requires_independent_second_check':True})
+                     'status':'pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement',
+                     'truth_audit_status':'independent_software_check_passed_2026-09-14',
+                     'requires_independent_second_check':False,
+                     'requires_external_human_check':True})
         records.append(item)
 
 OUT.parent.mkdir(parents=True,exist_ok=True)

@@ -2,6 +2,8 @@
 
 **Statut :** contrôle éditorial de la version harmonisée de travail du 14 septembre 2026.
 
+Les codes et métriques du tableau sont définis dans le [glossaire transversal](../GLOSSARY.md).
+
 | Section française | Section anglaise | Affirmation commune contrôlée |
 |---|---|---|
 | Résumé | Abstract | Moi/Self → Nous/Shared → Moi/Self ; Zero conventionnel ; aucune validation revendiquée |

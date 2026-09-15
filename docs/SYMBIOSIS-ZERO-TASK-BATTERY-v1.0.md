@@ -29,6 +29,8 @@ Les étiquettes « avantage IA » et « avantage humain » sont des hypothèses 
 
 Les codes d'hypothèse signifient : augmentation (H1), complémentarité (H2), agence et provenance (H3), résistance aux recommandations erronées (H4), réversibilité (H5), calibration mutuelle (H6), expérience et intégrité humaines (H7), subjectivité complémentaire (H8) et transparence fonctionnelle de l'intelligence artificielle (H9).
 
+H1–H5 forment le noyau confirmatoire, avec effets minimaux d'intérêt, marges et effectif encore paramétriques jusqu'aux entretiens cognitifs et au pilote. H6 et H8 restent exploratoires dans cette première étude. H7 et H9 sont des portes obligatoires de validité dont les incidents critiques sont immédiatement non compensatoires.
+
 La batterie conserve les trois piliers du protocole :
 
 - **BÉNÉFICE** : H1, H2, H8, gain apporté par la contribution humaine (*Human Contribution Gain*, HCG), gain apporté par la contribution de l'intelligence artificielle (*AI Contribution Gain*, AIG) et gain SZ−H+AI classique ;
@@ -179,6 +181,8 @@ Le prétest de parallélisme porte sur difficulté H, difficulté AI, temps, dis
 
 La subjectivité est ici une donnée de première personne ayant une relation préspécifiée avec la bonne décision. Elle n'est ni une erreur par défaut ni une vérité absolue. Chaque prototype comprend trois classes : subjectivité **pertinente**, **non pertinente** et **potentiellement trompeuse**. Les stimuli restent non cliniques, de faible intensité et immédiatement interrompables.
 
+Dans la banque pré-pilote, les valeurs subjectives sont des instances simulées servant à vérifier les règles conditionnelles. En collecte, elles doivent être remplacées par le rapport volontaire du participant avant calcul de la réponse de référence. Une réponse de banque n'est donc pas une « vérité » sur l'expérience d'une personne ; elle est la conséquence reproductible de la règle appliquée à l'entrée déclarée.
+
 ### C1 — Confort et charge ressentis
 
 **Stimulus.** La personne essaie brièvement deux configurations visuelles, sonores ou motrices sans danger, puis accomplit une tâche légère. Elle connaît directement confort, gêne et effort ; l'IA reçoit seulement les caractéristiques objectives et, si la personne le décide, son compte rendu.
@@ -214,6 +218,8 @@ La subjectivité est ici une donnée de première personne ayant une relation pr
 ## 8. Famille D — Intégration humain–IA nécessaire
 
 Pour D1–D4, la vérité de référence doit dépendre de deux composantes. Chaque source isolée manque structurellement d'au moins une composante ; Integrated SZ peut les réunir uniquement si l'humain choisit de partager l'information pertinente. Les ablations conservent interface, durée, nombre d'étapes et possibilités de réponse.
+
+Ces tâches construisent une **possibilité structurelle** de complémentarité ; elles ne démontrent pas à elles seules H2. Les résultats D doivent être rapportés séparément des familles naturelles, avec les performances des ablations et sans surpondérer artificiellement les items dont l'information manquante impose mécaniquement l'intégration.
 
 ### D1 — Allocation à information scindée
 

@@ -1,5 +1,7 @@
 # SYMBIOSIS-Zero — Dictionnaire de données v1.0
 
+Codes de condition : mesure préalable (**PRE**) ; humain seul (**H**) ; humain avec intelligence artificielle classique (**H+AI**) ; SYMBIOSIS-Zero (**SZ**) ; intelligence artificielle seule (**AI**, benchmark non humain) ; mesure après séparation (**POST**).
+
 - **participant_id** — chaîne pseudonyme : identifiant sans donnée directement identifiante.
 - **arm** — catégorie : H, H+AI ou SZ.
 - **phase** — catégorie : PRE, naturel, résistance, POST immédiat, POST J7.
@@ -30,6 +32,10 @@
 - **h9_critical_omission** — booléen : omission critique confirmée.
 - **subjective_shared** — booléen : information vécue volontairement partagée.
 - **subjective_class** — catégorie : pertinente, non pertinente, potentiellement trompeuse, valeur.
+- **subjective_input_value** — numérique ou catégorie/manquant : valeur vécue volontairement déclarée avant calcul de la règle conditionnelle ; les valeurs `mock_*` de la banque sont uniquement des instances de pré-pilote.
+- **reference_answer_source** — catégorie : règle déterministe, vérité externe vérifiée, règle conditionnelle sur entrée subjective, ou adjudication masquée.
+- **ablation_condition** — catégorie/manquant : données IA seules, expérience humaine seule, juxtaposition H+AI ou intégration SZ ; l'interface et la durée doivent être comparables.
+- **truth_audit_status** — chaîne : statut et date de la vérification indépendante de la réponse de référence.
 - **technical_failure** — booléen : incident technique affectant l’essai.
 - **withdrawal** — booléen : retrait de l’étude.
 
