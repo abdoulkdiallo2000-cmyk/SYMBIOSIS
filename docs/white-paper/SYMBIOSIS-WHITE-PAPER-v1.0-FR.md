@@ -131,7 +131,7 @@ Si une porte échoue de manière critique, alors `SBI = Fail`. Aucune somme pond
 
 L'analyse confirmatoire visera des estimands explicitement liés à H1–H5, des modèles adaptés aux distributions, une gestion préspécifiée de la multiplicité et des intervalles de confiance. H5 nécessitera des marges de non-infériorité ou d'équivalence justifiées. La puissance sera simulée après le pré-pilote à partir d'effets minimaux scientifiquement pertinents, et non choisie pour rendre l'étude commode.
 
-Les scripts de validation, randomisation, test de STOP et simulation de puissance sont versionnés. La banque contient 96 formes pré-pilotes, mais leur vérité de référence et leur qualité nécessitent une seconde vérification humaine indépendante.
+Les scripts de validation, randomisation, test de STOP et simulation de puissance sont versionnés. La banque contient 96 paquets pré-pilotes (384 essais instanciés), mais leurs vérités de référence, leur difficulté et leur qualité nécessitent une vérification humaine externe indépendante.
 
 ## 13. Éthique, confidentialité et sécurité
 

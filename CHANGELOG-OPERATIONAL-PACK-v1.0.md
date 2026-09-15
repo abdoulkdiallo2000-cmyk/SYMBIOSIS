@@ -29,3 +29,11 @@
 
 - Archives ZIP, caches, rendus de contrôle qualité, exports binaires redondants et sources Word brutes non harmonisées.
 - Données de participants, avis éthique, préenregistrement officiel ou résultats expérimentaux : aucun n'existe dans ce pack.
+
+## Correction ciblée du 15 septembre 2026
+
+- Banque reconstruite en 96 paquets et 384 essais : cinq essais naturels par paquet A/B, trois essais exploratoires par paquet C/D.
+- C3 corrigé par arithmétique exacte et contrôle obligatoire d'unicité.
+- H1/H2 naturels séparés des modules C/D exploratoires et des expositions H4.
+- Conseils, transparence H9 et profils d'interaction/ablation séparés dans des banques conformes à des schémas versionnés.
+- Statut maintenu : pré-pilote, non expérimentalement validé, non préenregistré et non autorisé au recrutement.

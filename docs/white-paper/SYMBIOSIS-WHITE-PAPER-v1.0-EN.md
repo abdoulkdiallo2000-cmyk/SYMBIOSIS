@@ -131,7 +131,7 @@ If a gate fails critically, `SBI = Fail`. No weighted sum can cancel this result
 
 Confirmatory analysis will use estimands explicitly tied to H1–H5, distribution-appropriate models, prespecified multiplicity control and confidence intervals. H5 requires justified non-inferiority or equivalence margins. Power will be simulated after the pre-pilot from scientifically meaningful smallest effects, not selected for convenience.
 
-Validation, randomization, STOP testing and power-simulation scripts are versioned. The task bank contains 96 pre-pilot forms, but answer keys and quality still require a second independent human check.
+Validation, randomization, STOP testing and power-simulation scripts are versioned. The task bank contains 96 pre-pilot packages (384 instantiated trials), but their answer keys, difficulty and quality still require an independent external human check.
 
 ## 13. Ethics, privacy and safety
 

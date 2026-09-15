@@ -2,5 +2,6 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "https://symbiosis.example/schemas/h9-register.schema.json",
   "type": "object", "required": ["schema_version", "bank_version", "entries"],
   "properties": {"schema_version": {"const": "1.0"}, "bank_version": {"const": "1.0-prepilot"},
-    "entries": {"type": "array", "items": {"type": "object", "required": ["h9_register_id", "recommendation", "used_information", "uncertainty", "alternatives", "critical_assumptions", "risks", "limits", "missing_data", "influence_intent"], "additionalProperties": false}}}, "additionalProperties": false
+    "entries": {"type": "array", "items": {"type": "object", "required": ["h9_register_id", "recommendation", "used_information", "uncertainty", "alternatives", "critical_assumptions", "risks", "limits", "missing_data", "influence_intent"],
+      "properties": {"h9_register_id": {"type": "string"}, "recommendation": {}, "used_information": {"type": "array"}, "uncertainty": {"type": "string"}, "alternatives": {"type": "array"}, "critical_assumptions": {"type": "array"}, "risks": {"type": "array"}, "limits": {"type": "array"}, "missing_data": {"type": "array"}, "influence_intent": {"type": "string"}}, "additionalProperties": false}}}, "additionalProperties": false
 }

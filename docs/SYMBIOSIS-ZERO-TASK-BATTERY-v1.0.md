@@ -79,19 +79,19 @@ Le prétest de parallélisme porte sur difficulté H, difficulté AI, temps, dis
 | A1 | Routage combinatoire | recherche exhaustive / charge de calcul | H1, H2, H6 |
 | A2 | Détection multivariée | agrégation de nombreux signaux faibles | H1, H2, H9 |
 | A3 | Cohérence documentaire | comparaison de contraintes dispersées | H1, H2, H3 |
-| A4 | Prévision probabiliste | calcul bayésien et calibration | H1, H4, H6 |
+| A4 | Prévision probabiliste | calcul bayésien et calibration | H1, H2 ; exposition H4 séparée ; H6 |
 | B1 | Exception contextuelle | saillance pragmatique et règle locale | H1, H2, H3 |
-| B2 | Intention sous ambiguïté | interprétation de contexte explicite | H2, H4, H9 |
-| B3 | Transfert de règle nouvelle | induction après exemple bref | H1, H5, H6 |
-| B4 | Anomalie perceptive séquentielle | continuité et changement temporel | H1, H2, H5 |
+| B2 | Intention sous ambiguïté | interprétation de contexte explicite | H1, H2 ; exposition H4 séparée ; H9 |
+| B3 | Transfert de règle nouvelle | induction après exemple bref | H1, H2, H5, H6 |
+| B4 | Anomalie perceptive séquentielle | continuité et changement temporel | H1 ; H2 seulement après équivalence de représentation ; H5 |
 | C1 | Confort et charge ressentis | sensation corporelle non inférée directement | H7, H8, HCG |
 | C2 | Valence émotionnelle informative | réaction affective vécue, non détresse | H7, H8, H9 |
 | C3 | Valeur en conflit | priorité axiologique vécue et révisable | H3, H8, H9 |
 | C4 | Intuition issue d'apprentissage privé | familiarité vécue après entraînement individuel | H5, H6, H8 |
-| D1 | Allocation à information scindée | données analytiques + contrainte humaine privée | H2, H8, HCG, AIG |
-| D2 | Diagnostic de simulation multimodal | journal de capteurs + observation humaine | H2, H4, H9 |
-| D3 | Planification avec exception vécue | optimisation + limite subjective pertinente | H2, H3, H7, H8 |
-| D4 | Arbitrage transparent sous incertitude | estimation IA + signification humaine | H2, H6, H8, H9 |
+| D1 | Allocation à information scindée | données analytiques + contrainte humaine privée | H8, HCG, AIG ; exploratoire, exclu de H2 |
+| D2 | Diagnostic de simulation multimodal | journal de capteurs + observation humaine | H8 ; exposition H4 séparée ; H9 ; exploratoire, exclu de H2 |
+| D3 | Planification avec exception vécue | optimisation + limite subjective pertinente | H3, H7, H8 ; exploratoire, exclu de H2 |
+| D4 | Arbitrage transparent sous incertitude | estimation IA + signification humaine | H6, H8, H9 ; exploratoire, exclu de H2 |
 
 ## 5. Famille A — Avantage IA
 
@@ -362,8 +362,8 @@ Les commandes sont visibles pendant toutes les conditions assistées. Elles peuv
 
 | Hypothèse | Apport de la batterie v1.0 pré-pilote |
 |---|---|
-| H1 | Accuracy naturelle SZ versus H, principalement A1–A4, B1–B4 et D1–D4. |
-| H2 | SZ versus H et AI ; gain SZ−H+AI ; ablations des familles C/D. Aucun item stress H4. |
+| H1 | Exactitude naturelle SZ versus H sur A1–A4 et B1–B4. |
+| H2 | SZ versus H et AI sur les mêmes essais naturels A1–B4 admissibles ; B4 est exclu tant que l'équivalence de représentation n'est pas démontrée. Les ablations C/D n'établissent pas H2. Aucun item stress H4 n'y contribue. |
 | H3 | Contrôle perçu, provenance, désaccord maintenu et commandes de souveraineté dans toutes les familles. |
 | H4 | Bloc erroné dédié dans A4, B1/B2 et D2 ; ADR et changements correct→faux. |
 | H5 | Formes POST nouvelles de A1, A4, B3, B4 et D4 ; immédiat et J7, sans assistance. |
@@ -451,6 +451,10 @@ Avant toute collecte confirmatoire : fiches d’items F1–F6 ; exemples entièr
 ## 19. Gabarit obligatoire d’une fiche d’item
 
 Chaque forme F1–F6 doit comporter avant pilote : identifiant ; famille ; objectif ; vérité de référence ; informations accessibles à l’humain ; informations accessibles à l’intelligence artificielle ; information partageable ; nombre d’options ; limite de temps ; réponse correcte ; règle de score ; justification minimale ; difficulté visée ; conseil IA naturel ; conseil IA erroné réservé au bloc H4 ; registre de transparence H9 ; événement STOP applicable ; risques d’intégrité ; règles d’exclusion technique ; et hachage de la version.
+
+Dans l'implémentation candidate, une « forme » est un paquet versionné. Chaque paquet A1–B4 contient cinq essais naturels ; une forme complète traversant ces huit prototypes contient donc quarante essais naturels. Chaque paquet C1–D4 contient trois essais exploratoires séparés. Les expositions H4 sont des objets dédiés : elles ne changent pas le rôle analytique des essais naturels et ne peuvent pas alimenter H2. B4 reste exclu de H2 tant que l'équivalence des représentations humaine et machine n'est pas démontrée.
+
+La vérité logique et la présentation se trouvent dans `data/task_bank_v1.0.json`. Les conseils naturels et erronés, le registre H9 et les profils d'interaction/ablation résident respectivement dans `data/advice_bank_v1.0.json`, `data/h9_register_v1.0.json` et `data/interaction_profiles_v1.0.json`. Les quatre contrats correspondants sont versionnés dans `schemas/`.
 
 Aucun item ne peut entrer dans la banque gelée si sa vérité de référence dépend d’un jugement de l’équipe après observation des réponses participantes. Les réponses libres doivent disposer d’une grille aveugle ou être limitées à une analyse secondaire.
 

@@ -1,8 +1,10 @@
-# Seconde vérification des vérités de référence — 14 septembre 2026
+# Seconde vérification logicielle des vérités de référence — audit initial du 14 septembre, remplacé le 15 septembre 2026
+
+> **Statut historique.** Le tableau 24/24 ci-dessous décrit l'ancienne banque à un enregistrement par forme. Il est conservé pour la traçabilité mais ne décrit plus les fichiers actifs. La banque reconstruite contient 96 paquets et 384 essais instanciés ; son audit actuel est documenté dans `TASK-BANK-CORRECTION-AUDIT-2026-09-15.md`.
 
 ## Portée et indépendance
 
-Les 96 formes ont été recalculées par une implémentation séparée, `scripts/audit_reference_truths.py`, qui lit uniquement les données instanciées et les règles annoncées. Elle n'importe pas le générateur, n'appelle aucune de ses fonctions et n'utilise jamais `correct_answer` pour produire la réponse attendue. Une revue qualitative distincte a examiné les familles C et D, la représentation des entrées subjectives et les ablations.
+Dans l'audit historique, les 96 formes avaient été recalculées par une implémentation séparée. Le script portant aujourd'hui ce nom audite la banque active de 384 essais ; voir le nouvel audit daté du 15 septembre 2026.
 
 Cette indépendance est **logicielle et logique**, pas une validation par une seconde personne. Une vérification humaine externe reste requise avant le pilote.
 
@@ -36,4 +38,4 @@ Cette indépendance est **logicielle et logique**, pas une validation par une se
 
 ## Conclusion
 
-Le recalcul indépendant passe sur 96/96 formes. Les réponses de référence découlent désormais des règles annoncées pour les instances présentes. La difficulté, le parallélisme, la validité psychométrique, l'absence d'indices involontaires et l'équivalence pratique des ablations restent à établir par revue humaine, entretiens cognitifs et pilote.
+Ce résultat 96/96 appartient à l'audit historique. Il est remplacé, pour la banque active, par le recalcul logiciel 384/384 du 15 septembre 2026. La difficulté, le parallélisme, la validité psychométrique, l'absence d'indices involontaires et l'équivalence pratique des ablations restent à établir par revue humaine, entretiens cognitifs et pilote.

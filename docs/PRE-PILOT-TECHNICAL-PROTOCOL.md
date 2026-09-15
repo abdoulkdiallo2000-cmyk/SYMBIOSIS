@@ -12,7 +12,7 @@ Le pré-pilote technique doit réussir intégralement avant recrutement humain. 
 
 ### Banque de tâches
 
-- 16 prototypes × 6 formes = 96 formes uniques.
+- 16 prototypes × 6 formes = 96 paquets uniques : cinq essais naturels par paquet A/B et trois essais exploratoires par paquet C/D.
 - Identifiant unique et vérité de référence présente pour chaque forme.
 - Deux vérifications de la vérité de référence avant gel, dont une indépendante du générateur pour chaque famille.
 - Aucun item réel médical, juridique ou financier.
