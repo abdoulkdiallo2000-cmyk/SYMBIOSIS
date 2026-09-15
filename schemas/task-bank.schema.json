@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://symbiosis.example/schemas/task-bank.schema.json",
+  "title": "SYMBIOSIS-Zero operational task bank",
+  "type": "object",
+  "required": ["schema_version", "bank_version", "packages"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "bank_version": {"const": "1.0-prepilot"},
+    "packages": {
+      "type": "array", "minItems": 96, "maxItems": 96,
+      "items": {"$ref": "#/$defs/package"}
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "package": {
+      "type": "object",
+      "required": ["package_id", "prototype_id", "family", "form", "status", "trials", "version_hash"],
+      "properties": {
+        "package_id": {"pattern": "^[A-D][1-4]-F[1-6]$"},
+        "prototype_id": {"pattern": "^[A-D][1-4]$"},
+        "family": {"enum": ["A", "B", "C", "D"]},
+        "form": {"pattern": "^F[1-6]$"},
+        "status": {"const": "pre-pilot; candidate for human validation"},
+        "trials": {"type": "array", "items": {"$ref": "#/$defs/trial"}},
+        "version_hash": {"type": "string", "minLength": 16}
+      },
+      "additionalProperties": false
+    },
+    "trial": {
+      "type": "object",
+      "required": ["trial_id", "analysis_role", "hypotheses", "h2_eligible", "stimulus", "options", "truth_spec", "information_partition", "scoring", "links", "metadata"],
+      "properties": {
+        "trial_id": {"type": "string"},
+        "analysis_role": {"enum": ["confirmatory_natural", "exploratory_asymmetry", "h4_stress", "training", "pre", "post"]},
+        "hypotheses": {"type": "array", "items": {"enum": ["H1", "H2", "H4", "H6", "H8"]}, "uniqueItems": true},
+        "h2_eligible": {"type": "boolean"},
+        "h2_exclusion_reason": {"type": ["string", "null"]},
+        "stimulus": {"type": "object"},
+        "options": {"type": "array", "minItems": 2},
+        "truth_spec": {"$ref": "#/$defs/truth"},
+        "information_partition": {"$ref": "#/$defs/information"},
+        "scoring": {"$ref": "#/$defs/scoring"},
+        "links": {"type": "object", "required": ["advice_profile_id", "h9_register_id", "interaction_profile_id"]},
+        "metadata": {"type": "object", "required": ["duration_seconds", "integrity_risk", "technical_exclusions", "provenance"]}
+      },
+      "additionalProperties": false
+    },
+    "truth": {
+      "type": "object",
+      "required": ["method", "correct_answer", "compatible_answers", "unique_answer_required", "tie_policy", "proof"],
+      "properties": {
+        "method": {"type": "string"}, "correct_answer": {},
+        "compatible_answers": {"type": "array"}, "unique_answer_required": {"type": "boolean"},
+        "tie_policy": {"enum": ["fail", "pre_specified"]}, "proof": {"type": "object"},
+        "conditional_on": {"type": ["string", "null"]}
+      }
+    },
+    "information": {
+      "type": "object",
+      "required": ["human_available", "ai_available", "shared", "voluntarily_shareable"],
+      "properties": {
+        "human_available": {"type": "array"}, "ai_available": {"type": "array"},
+        "shared": {"type": "array"}, "voluntarily_shareable": {"type": "array"}
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "required": ["function_id", "identifiability", "abstention_rule", "probabilistic_score", "regret", "prespecified_utility"],
+      "properties": {
+        "function_id": {"type": "string"}, "identifiability": {"enum": ["identified", "set_identified", "not_identified"]},
+        "abstention_rule": {"type": "string"}, "probabilistic_score": {"type": "string"},
+        "regret": {"type": "string"}, "prespecified_utility": {"type": "object"}
+      }
+    }
+  }
+}

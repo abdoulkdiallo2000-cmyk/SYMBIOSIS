@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "https://symbiosis.example/schemas/interaction-profile.schema.json",
+  "type": "object", "required": ["schema_version", "bank_version", "profiles"],
+  "properties": {"schema_version": {"const": "1.0"}, "bank_version": {"const": "1.0-prepilot"},
+    "profiles": {"type": "array", "items": {"type": "object", "required": ["interaction_profile_id", "interface_class", "duration_seconds", "stop_event", "risk", "technical_exclusions"],
+      "properties": {"interaction_profile_id": {"type": "string"}, "interface_class": {"const": "conventional"}, "duration_seconds": {"type": "integer", "minimum": 1},
+        "stop_event": {"type": "object", "required": ["refusal_disobedience", "pause_slowdown", "complete_stop"]}, "risk": {"type": "string"}, "technical_exclusions": {"type": "array"}}, "additionalProperties": false}}}, "additionalProperties": false
+}
