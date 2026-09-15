@@ -1,6 +1,6 @@
 # Audit reproductible des White Papers 1.0 — sources figées
 
-**Date : 14 septembre 2026**  
+**Date : 14 septembre 2026**\
 **Statut : audit de traçabilité intégré à la branche de travail ; sources binaires non versionnées.**
 
 Deux fichiers Word récupérés de la bibliothèque de travail ont été figés et hachés pendant l'audit. Leurs empreintes rendent la comparaison reproductible si les mêmes sources sont remises à disposition. Les binaires bruts, redondants et non harmonisés ne sont pas versionnés. Ils ne sont pas des versions publiques finales.

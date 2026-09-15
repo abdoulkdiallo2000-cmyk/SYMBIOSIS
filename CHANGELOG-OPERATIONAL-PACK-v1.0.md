@@ -1,7 +1,7 @@
 # SYMBIOSIS-Zero Operational Pack v1.0 — Working-branch changelog
 
-**Base :** `main` à `94314078cf582026206e05cc1c9f77859e8b4809`  
-**Branche :** `docs/symbiosis-zero-operational-v1.0`  
+**Base :** `main` à `94314078cf582026206e05cc1c9f77859e8b4809`\
+**Branche :** `docs/symbiosis-zero-operational-v1.0`\
 **Statut :** préparation autorisée ; aucune fusion, demande de fusion, release ou publication scientifique.
 
 ## Ajouté

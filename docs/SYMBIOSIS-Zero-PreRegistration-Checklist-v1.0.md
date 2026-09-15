@@ -1,6 +1,6 @@
 # SYMBIOSIS-Zero — Checklist de passage du pré-pilote au préenregistrement
 
-**AKD — Independent Researcher**  
+**AKD — Independent Researcher**\
 **Version 1.0 — 14 septembre 2026 — non publiée**
 
 Cette checklist ne remplace ni un avis éthique ni une revue méthodologique indépendante. Elle sert à empêcher qu’un protocole encore incomplet soit présenté comme confirmatoire.

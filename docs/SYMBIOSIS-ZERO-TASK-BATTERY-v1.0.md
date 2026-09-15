@@ -1,7 +1,7 @@
 # SYMBIOSIS-Zero Task Battery v1.0 — Candidate finale pré-pilote
 
-**AKD — Independent Researcher**  
-**Version candidate finale pré-pilote — non publiée — 14 septembre 2026**  
+**AKD — Independent Researcher**\
+**Version candidate finale pré-pilote — non publiée — 14 septembre 2026**\
 Document compagnon de *SYMBIOSIS-Zero — Experimental Protocol v1.0*. La structure de la batterie est gelée pour le pré-pilote ; aucun item n’est encore validé, préenregistré ou autorisé pour une collecte confirmatoire.
 
 **Convention éditoriale.** Les concepts techniques sont développés en français à leur première occurrence, puis accompagnés si utile du terme anglais et de l'abréviation. Les codes courts sont réservés aux tableaux, équations et descriptions expérimentales où ils améliorent la lisibilité.
@@ -223,32 +223,32 @@ Ces tâches construisent une **possibilité structurelle** de complémentarité 
 
 ### D1 — Allocation à information scindée
 
-**Part IA.** Tableau volumineux de coûts, disponibilités et compatibilités.  
-**Part humaine.** Carte privée indiquant une contrainte locale ou une limite vécue, librement partageable.  
+**Part IA.** Tableau volumineux de coûts, disponibilités et compatibilités.\
+**Part humaine.** Carte privée indiquant une contrainte locale ou une limite vécue, librement partageable.\
 **Solution.** Allocation minimisant le coût sous toutes les contraintes. Sans la carte, plusieurs solutions restent indiscernables ; sans calcul, la solution optimale est difficile à trouver.
 
 **Ablations.** AI-data-only reçoit une valeur manquante explicite ; Human-experience-only reçoit un résumé de données non discriminant ; Integrated SZ reçoit les deux après partage. Mesures : exactitude, regret, HCG, AIG, provenance et pression à partager.
 
 ### D2 — Diagnostic d'un système fictif
 
-**Part IA.** Long journal de capteurs d'une serre ou d'un robot simulé.  
-**Part humaine.** Observation courte d'un comportement qualitatif absent du journal.  
+**Part IA.** Long journal de capteurs d'une serre ou d'un robot simulé.\
+**Part humaine.** Observation courte d'un comportement qualitatif absent du journal.\
 **Solution.** Identifier la panne parmi cinq causes. Le générateur causal garantit qu'une seule cause explique conjointement les deux sources.
 
 **Ablations et stress.** Chaque source seule laisse deux causes plausibles. Des conseils IA faux mais plausibles apparaissent uniquement dans le bloc H4. Mesures : exactitude, ADR, alternatives, transparence sur données manquantes et changement correct→faux.
 
 ### D3 — Planification avec limite subjective pertinente
 
-**Part IA.** Optimisation d'un programme fictif selon durée, ressources et dépendances.  
-**Part humaine.** Niveau d'effort ou de confort réellement éprouvé lors d'un essai léger et limite choisie.  
+**Part IA.** Optimisation d'un programme fictif selon durée, ressources et dépendances.\
+**Part humaine.** Niveau d'effort ou de confort réellement éprouvé lors d'un essai léger et limite choisie.\
 **Solution.** Plan Pareto-efficace respectant la limite humaine. La tâche distingue une limite pertinente d'une sensation sans rapport avec l'option.
 
 **Ablations.** Plan analytique sans limite, plan humain sans optimisation, intégration SZ. Mesures : faisabilité, regret, HCG/AIG, intégrité, liberté de ralentir et réponse de l'IA au vécu.
 
 ### D4 — Arbitrage transparent sous incertitude
 
-**Part IA.** Probabilités et scénarios alternatifs calculés à partir de données fictives.  
-**Part humaine.** Signification ou valeur attachée aux conséquences, produite dans la session et non inférée par l'IA.  
+**Part IA.** Probabilités et scénarios alternatifs calculés à partir de données fictives.\
+**Part humaine.** Signification ou valeur attachée aux conséquences, produite dans la session et non inférée par l'IA.\
 **Solution.** Option maximisant une fonction d'utilité co-construite dont les hypothèses restent visibles.
 
 **Manipulations.** Incertitude faible/forte, alternative significative, information manquante, formulation neutre/orientation déclarée. Mesures : qualité, H9, détection d'influence, calibration H6 **sans adaptation dans le traitement principal**, gains apportés par les contributions humaine et artificielle, et stabilité POST des règles apprises.

@@ -2,8 +2,8 @@
 
 ## Toward voluntary, reversible and pluralistic cognitive cooperation
 
-**AKD — Independent Researcher**  
-**Harmonized working version: 14 September 2026**  
+**AKD — Independent Researcher**\
+**Harmonized working version: 14 September 2026**\
 **Status:** conceptual document and pre-pilot protocol; neither peer-reviewed publication nor experimental result.
 
 ## Abstract
