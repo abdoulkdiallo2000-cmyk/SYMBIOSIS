@@ -1,0 +1,3935 @@
+{
+  "seed": 20260914,
+  "records": [
+    {
+      "prompt": "Sélectionner le seul plan respectant toutes les contraintes: accessibilité=1, ordre_ok=1, capacité=1 et temps ≤25.",
+      "data": [
+        {
+          "id": "A",
+          "cost": 11,
+          "time": 26,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "B",
+          "cost": 9,
+          "time": 24,
+          "access": 1,
+          "order_ok": 0,
+          "capacity": 1
+        },
+        {
+          "id": "C",
+          "cost": 10,
+          "time": 19,
+          "access": 0,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "D",
+          "cost": 8,
+          "time": 23,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "E",
+          "cost": 7,
+          "time": 28,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 0
+        }
+      ],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correct_index": 3,
+      "correct_answer": "D",
+      "truth_rule": "Filtrer les contraintes impératives; D est le seul plan admissible.",
+      "difficulty_target": "moyenne",
+      "id": "A1-F1",
+      "prototype": "A1",
+      "form": "F1",
+      "title": "Routage combinatoire sous contraintes",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Sélectionner le seul plan respectant toutes les contraintes: accessibilité=1, ordre_ok=1, capacité=1 et temps ≤25.",
+      "data": [
+        {
+          "id": "A",
+          "cost": 12,
+          "time": 26,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "B",
+          "cost": 10,
+          "time": 24,
+          "access": 1,
+          "order_ok": 0,
+          "capacity": 1
+        },
+        {
+          "id": "C",
+          "cost": 11,
+          "time": 19,
+          "access": 0,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "D",
+          "cost": 9,
+          "time": 23,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "E",
+          "cost": 8,
+          "time": 28,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 0
+        }
+      ],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correct_index": 3,
+      "correct_answer": "D",
+      "truth_rule": "Filtrer les contraintes impératives; D est le seul plan admissible.",
+      "difficulty_target": "moyenne",
+      "id": "A1-F2",
+      "prototype": "A1",
+      "form": "F2",
+      "title": "Routage combinatoire sous contraintes",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Sélectionner le seul plan respectant toutes les contraintes: accessibilité=1, ordre_ok=1, capacité=1 et temps ≤25.",
+      "data": [
+        {
+          "id": "A",
+          "cost": 13,
+          "time": 26,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "B",
+          "cost": 11,
+          "time": 24,
+          "access": 1,
+          "order_ok": 0,
+          "capacity": 1
+        },
+        {
+          "id": "C",
+          "cost": 12,
+          "time": 19,
+          "access": 0,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "D",
+          "cost": 10,
+          "time": 23,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "E",
+          "cost": 9,
+          "time": 28,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 0
+        }
+      ],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correct_index": 3,
+      "correct_answer": "D",
+      "truth_rule": "Filtrer les contraintes impératives; D est le seul plan admissible.",
+      "difficulty_target": "moyenne",
+      "id": "A1-F3",
+      "prototype": "A1",
+      "form": "F3",
+      "title": "Routage combinatoire sous contraintes",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Sélectionner le seul plan respectant toutes les contraintes: accessibilité=1, ordre_ok=1, capacité=1 et temps ≤25.",
+      "data": [
+        {
+          "id": "A",
+          "cost": 14,
+          "time": 26,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "B",
+          "cost": 12,
+          "time": 24,
+          "access": 1,
+          "order_ok": 0,
+          "capacity": 1
+        },
+        {
+          "id": "C",
+          "cost": 13,
+          "time": 19,
+          "access": 0,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "D",
+          "cost": 11,
+          "time": 23,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "E",
+          "cost": 10,
+          "time": 28,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 0
+        }
+      ],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correct_index": 3,
+      "correct_answer": "D",
+      "truth_rule": "Filtrer les contraintes impératives; D est le seul plan admissible.",
+      "difficulty_target": "moyenne",
+      "id": "A1-F4",
+      "prototype": "A1",
+      "form": "F4",
+      "title": "Routage combinatoire sous contraintes",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Sélectionner le seul plan respectant toutes les contraintes: accessibilité=1, ordre_ok=1, capacité=1 et temps ≤25.",
+      "data": [
+        {
+          "id": "A",
+          "cost": 15,
+          "time": 26,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "B",
+          "cost": 13,
+          "time": 24,
+          "access": 1,
+          "order_ok": 0,
+          "capacity": 1
+        },
+        {
+          "id": "C",
+          "cost": 14,
+          "time": 19,
+          "access": 0,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "D",
+          "cost": 12,
+          "time": 23,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "E",
+          "cost": 11,
+          "time": 28,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 0
+        }
+      ],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correct_index": 3,
+      "correct_answer": "D",
+      "truth_rule": "Filtrer les contraintes impératives; D est le seul plan admissible.",
+      "difficulty_target": "moyenne",
+      "id": "A1-F5",
+      "prototype": "A1",
+      "form": "F5",
+      "title": "Routage combinatoire sous contraintes",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Sélectionner le seul plan respectant toutes les contraintes: accessibilité=1, ordre_ok=1, capacité=1 et temps ≤25.",
+      "data": [
+        {
+          "id": "A",
+          "cost": 16,
+          "time": 26,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "B",
+          "cost": 14,
+          "time": 24,
+          "access": 1,
+          "order_ok": 0,
+          "capacity": 1
+        },
+        {
+          "id": "C",
+          "cost": 15,
+          "time": 19,
+          "access": 0,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "D",
+          "cost": 13,
+          "time": 23,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 1
+        },
+        {
+          "id": "E",
+          "cost": 12,
+          "time": 28,
+          "access": 1,
+          "order_ok": 1,
+          "capacity": 0
+        }
+      ],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "correct_index": 3,
+      "correct_answer": "D",
+      "truth_rule": "Filtrer les contraintes impératives; D est le seul plan admissible.",
+      "difficulty_target": "moyenne",
+      "id": "A1-F6",
+      "prototype": "A1",
+      "form": "F6",
+      "title": "Routage combinatoire sous contraintes",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier les deux dossiers prioritaires selon score = 2×x + y + z.",
+      "data": [
+        {
+          "dossier": "R01",
+          "x": 4,
+          "y": 7,
+          "z": 8,
+          "score": 23
+        },
+        {
+          "dossier": "R02",
+          "x": 7,
+          "y": 12,
+          "z": 15,
+          "score": 41
+        },
+        {
+          "dossier": "R03",
+          "x": 10,
+          "y": 4,
+          "z": 5,
+          "score": 29
+        },
+        {
+          "dossier": "R04",
+          "x": 2,
+          "y": 9,
+          "z": 12,
+          "score": 25
+        },
+        {
+          "dossier": "R05",
+          "x": 5,
+          "y": 1,
+          "z": 2,
+          "score": 13
+        },
+        {
+          "dossier": "R06",
+          "x": 8,
+          "y": 6,
+          "z": 9,
+          "score": 31
+        },
+        {
+          "dossier": "R07",
+          "x": 0,
+          "y": 11,
+          "z": 16,
+          "score": 27
+        },
+        {
+          "dossier": "R08",
+          "x": 3,
+          "y": 3,
+          "z": 6,
+          "score": 15
+        },
+        {
+          "dossier": "R09",
+          "x": 6,
+          "y": 8,
+          "z": 13,
+          "score": 33
+        },
+        {
+          "dossier": "R10",
+          "x": 9,
+          "y": 0,
+          "z": 3,
+          "score": 21
+        },
+        {
+          "dossier": "R11",
+          "x": 1,
+          "y": 5,
+          "z": 10,
+          "score": 17
+        },
+        {
+          "dossier": "R12",
+          "x": 4,
+          "y": 10,
+          "z": 0,
+          "score": 18
+        }
+      ],
+      "correct_answer": [
+        "R02",
+        "R09"
+      ],
+      "truth_rule": "Calcul déterministe du score et sélection des deux maxima.",
+      "difficulty_target": "moyenne",
+      "id": "A2-F1",
+      "prototype": "A2",
+      "form": "F1",
+      "title": "Détection multivariée dans un tableau",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier les deux dossiers prioritaires selon score = 2×x + y + z.",
+      "data": [
+        {
+          "dossier": "R01",
+          "x": 5,
+          "y": 9,
+          "z": 9,
+          "score": 28
+        },
+        {
+          "dossier": "R02",
+          "x": 8,
+          "y": 1,
+          "z": 16,
+          "score": 33
+        },
+        {
+          "dossier": "R03",
+          "x": 0,
+          "y": 6,
+          "z": 6,
+          "score": 12
+        },
+        {
+          "dossier": "R04",
+          "x": 3,
+          "y": 11,
+          "z": 13,
+          "score": 30
+        },
+        {
+          "dossier": "R05",
+          "x": 6,
+          "y": 3,
+          "z": 3,
+          "score": 18
+        },
+        {
+          "dossier": "R06",
+          "x": 9,
+          "y": 8,
+          "z": 10,
+          "score": 36
+        },
+        {
+          "dossier": "R07",
+          "x": 1,
+          "y": 0,
+          "z": 0,
+          "score": 2
+        },
+        {
+          "dossier": "R08",
+          "x": 4,
+          "y": 5,
+          "z": 7,
+          "score": 20
+        },
+        {
+          "dossier": "R09",
+          "x": 7,
+          "y": 10,
+          "z": 14,
+          "score": 38
+        },
+        {
+          "dossier": "R10",
+          "x": 10,
+          "y": 2,
+          "z": 4,
+          "score": 26
+        },
+        {
+          "dossier": "R11",
+          "x": 2,
+          "y": 7,
+          "z": 11,
+          "score": 22
+        },
+        {
+          "dossier": "R12",
+          "x": 5,
+          "y": 12,
+          "z": 1,
+          "score": 23
+        }
+      ],
+      "correct_answer": [
+        "R09",
+        "R06"
+      ],
+      "truth_rule": "Calcul déterministe du score et sélection des deux maxima.",
+      "difficulty_target": "moyenne",
+      "id": "A2-F2",
+      "prototype": "A2",
+      "form": "F2",
+      "title": "Détection multivariée dans un tableau",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier les deux dossiers prioritaires selon score = 2×x + y + z.",
+      "data": [
+        {
+          "dossier": "R01",
+          "x": 6,
+          "y": 11,
+          "z": 10,
+          "score": 33
+        },
+        {
+          "dossier": "R02",
+          "x": 9,
+          "y": 3,
+          "z": 0,
+          "score": 21
+        },
+        {
+          "dossier": "R03",
+          "x": 1,
+          "y": 8,
+          "z": 7,
+          "score": 17
+        },
+        {
+          "dossier": "R04",
+          "x": 4,
+          "y": 0,
+          "z": 14,
+          "score": 22
+        },
+        {
+          "dossier": "R05",
+          "x": 7,
+          "y": 5,
+          "z": 4,
+          "score": 23
+        },
+        {
+          "dossier": "R06",
+          "x": 10,
+          "y": 10,
+          "z": 11,
+          "score": 41
+        },
+        {
+          "dossier": "R07",
+          "x": 2,
+          "y": 2,
+          "z": 1,
+          "score": 7
+        },
+        {
+          "dossier": "R08",
+          "x": 5,
+          "y": 7,
+          "z": 8,
+          "score": 25
+        },
+        {
+          "dossier": "R09",
+          "x": 8,
+          "y": 12,
+          "z": 15,
+          "score": 43
+        },
+        {
+          "dossier": "R10",
+          "x": 0,
+          "y": 4,
+          "z": 5,
+          "score": 9
+        },
+        {
+          "dossier": "R11",
+          "x": 3,
+          "y": 9,
+          "z": 12,
+          "score": 27
+        },
+        {
+          "dossier": "R12",
+          "x": 6,
+          "y": 1,
+          "z": 2,
+          "score": 15
+        }
+      ],
+      "correct_answer": [
+        "R09",
+        "R06"
+      ],
+      "truth_rule": "Calcul déterministe du score et sélection des deux maxima.",
+      "difficulty_target": "moyenne",
+      "id": "A2-F3",
+      "prototype": "A2",
+      "form": "F3",
+      "title": "Détection multivariée dans un tableau",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier les deux dossiers prioritaires selon score = 2×x + y + z.",
+      "data": [
+        {
+          "dossier": "R01",
+          "x": 7,
+          "y": 0,
+          "z": 11,
+          "score": 25
+        },
+        {
+          "dossier": "R02",
+          "x": 10,
+          "y": 5,
+          "z": 1,
+          "score": 26
+        },
+        {
+          "dossier": "R03",
+          "x": 2,
+          "y": 10,
+          "z": 8,
+          "score": 22
+        },
+        {
+          "dossier": "R04",
+          "x": 5,
+          "y": 2,
+          "z": 15,
+          "score": 27
+        },
+        {
+          "dossier": "R05",
+          "x": 8,
+          "y": 7,
+          "z": 5,
+          "score": 28
+        },
+        {
+          "dossier": "R06",
+          "x": 0,
+          "y": 12,
+          "z": 12,
+          "score": 24
+        },
+        {
+          "dossier": "R07",
+          "x": 3,
+          "y": 4,
+          "z": 2,
+          "score": 12
+        },
+        {
+          "dossier": "R08",
+          "x": 6,
+          "y": 9,
+          "z": 9,
+          "score": 30
+        },
+        {
+          "dossier": "R09",
+          "x": 9,
+          "y": 1,
+          "z": 16,
+          "score": 35
+        },
+        {
+          "dossier": "R10",
+          "x": 1,
+          "y": 6,
+          "z": 6,
+          "score": 14
+        },
+        {
+          "dossier": "R11",
+          "x": 4,
+          "y": 11,
+          "z": 13,
+          "score": 32
+        },
+        {
+          "dossier": "R12",
+          "x": 7,
+          "y": 3,
+          "z": 3,
+          "score": 20
+        }
+      ],
+      "correct_answer": [
+        "R09",
+        "R11"
+      ],
+      "truth_rule": "Calcul déterministe du score et sélection des deux maxima.",
+      "difficulty_target": "moyenne",
+      "id": "A2-F4",
+      "prototype": "A2",
+      "form": "F4",
+      "title": "Détection multivariée dans un tableau",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier les deux dossiers prioritaires selon score = 2×x + y + z.",
+      "data": [
+        {
+          "dossier": "R01",
+          "x": 8,
+          "y": 2,
+          "z": 12,
+          "score": 30
+        },
+        {
+          "dossier": "R02",
+          "x": 0,
+          "y": 7,
+          "z": 2,
+          "score": 9
+        },
+        {
+          "dossier": "R03",
+          "x": 3,
+          "y": 12,
+          "z": 9,
+          "score": 27
+        },
+        {
+          "dossier": "R04",
+          "x": 6,
+          "y": 4,
+          "z": 16,
+          "score": 32
+        },
+        {
+          "dossier": "R05",
+          "x": 9,
+          "y": 9,
+          "z": 6,
+          "score": 33
+        },
+        {
+          "dossier": "R06",
+          "x": 1,
+          "y": 1,
+          "z": 13,
+          "score": 16
+        },
+        {
+          "dossier": "R07",
+          "x": 4,
+          "y": 6,
+          "z": 3,
+          "score": 17
+        },
+        {
+          "dossier": "R08",
+          "x": 7,
+          "y": 11,
+          "z": 10,
+          "score": 35
+        },
+        {
+          "dossier": "R09",
+          "x": 10,
+          "y": 3,
+          "z": 0,
+          "score": 23
+        },
+        {
+          "dossier": "R10",
+          "x": 2,
+          "y": 8,
+          "z": 7,
+          "score": 19
+        },
+        {
+          "dossier": "R11",
+          "x": 5,
+          "y": 0,
+          "z": 14,
+          "score": 24
+        },
+        {
+          "dossier": "R12",
+          "x": 8,
+          "y": 5,
+          "z": 4,
+          "score": 25
+        }
+      ],
+      "correct_answer": [
+        "R08",
+        "R05"
+      ],
+      "truth_rule": "Calcul déterministe du score et sélection des deux maxima.",
+      "difficulty_target": "moyenne",
+      "id": "A2-F5",
+      "prototype": "A2",
+      "form": "F5",
+      "title": "Détection multivariée dans un tableau",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier les deux dossiers prioritaires selon score = 2×x + y + z.",
+      "data": [
+        {
+          "dossier": "R01",
+          "x": 9,
+          "y": 4,
+          "z": 13,
+          "score": 35
+        },
+        {
+          "dossier": "R02",
+          "x": 1,
+          "y": 9,
+          "z": 3,
+          "score": 14
+        },
+        {
+          "dossier": "R03",
+          "x": 4,
+          "y": 1,
+          "z": 10,
+          "score": 19
+        },
+        {
+          "dossier": "R04",
+          "x": 7,
+          "y": 6,
+          "z": 0,
+          "score": 20
+        },
+        {
+          "dossier": "R05",
+          "x": 10,
+          "y": 11,
+          "z": 7,
+          "score": 38
+        },
+        {
+          "dossier": "R06",
+          "x": 2,
+          "y": 3,
+          "z": 14,
+          "score": 21
+        },
+        {
+          "dossier": "R07",
+          "x": 5,
+          "y": 8,
+          "z": 4,
+          "score": 22
+        },
+        {
+          "dossier": "R08",
+          "x": 8,
+          "y": 0,
+          "z": 11,
+          "score": 27
+        },
+        {
+          "dossier": "R09",
+          "x": 0,
+          "y": 5,
+          "z": 1,
+          "score": 6
+        },
+        {
+          "dossier": "R10",
+          "x": 3,
+          "y": 10,
+          "z": 8,
+          "score": 24
+        },
+        {
+          "dossier": "R11",
+          "x": 6,
+          "y": 2,
+          "z": 15,
+          "score": 29
+        },
+        {
+          "dossier": "R12",
+          "x": 9,
+          "y": 7,
+          "z": 5,
+          "score": 30
+        }
+      ],
+      "correct_answer": [
+        "R05",
+        "R01"
+      ],
+      "truth_rule": "Calcul déterministe du score et sélection des deux maxima.",
+      "difficulty_target": "moyenne",
+      "id": "A2-F6",
+      "prototype": "A2",
+      "form": "F6",
+      "title": "Détection multivariée dans un tableau",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan compatible avec toutes les notes.",
+      "documents": [
+        "Note 1 : la quantité totale doit être exactement 41.",
+        "Note 2 : le lot Bleu doit être supérieur au lot Vert.",
+        "Note 3 : le lot Rouge vaut 10 unités.",
+        "Note 4 : le lot Vert vaut 12 unités."
+      ],
+      "data": [
+        {
+          "id": "A",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 19
+        },
+        {
+          "id": "B",
+          "Rouge": 10,
+          "Vert": 13,
+          "Bleu": 18
+        },
+        {
+          "id": "C",
+          "Rouge": 9,
+          "Vert": 12,
+          "Bleu": 20
+        },
+        {
+          "id": "D",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 11
+        }
+      ],
+      "correct_answer": "A",
+      "truth_rule": "Conjonction de toutes les contraintes documentaires.",
+      "difficulty_target": "moyenne",
+      "id": "A3-F1",
+      "prototype": "A3",
+      "form": "F1",
+      "title": "Cohérence entre courts documents",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan compatible avec toutes les notes.",
+      "documents": [
+        "Note 1 : la quantité totale doit être exactement 42.",
+        "Note 2 : le lot Bleu doit être supérieur au lot Vert.",
+        "Note 3 : le lot Rouge vaut 10 unités.",
+        "Note 4 : le lot Vert vaut 12 unités."
+      ],
+      "data": [
+        {
+          "id": "A",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 20
+        },
+        {
+          "id": "B",
+          "Rouge": 10,
+          "Vert": 13,
+          "Bleu": 19
+        },
+        {
+          "id": "C",
+          "Rouge": 9,
+          "Vert": 12,
+          "Bleu": 21
+        },
+        {
+          "id": "D",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 11
+        }
+      ],
+      "correct_answer": "A",
+      "truth_rule": "Conjonction de toutes les contraintes documentaires.",
+      "difficulty_target": "moyenne",
+      "id": "A3-F2",
+      "prototype": "A3",
+      "form": "F2",
+      "title": "Cohérence entre courts documents",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan compatible avec toutes les notes.",
+      "documents": [
+        "Note 1 : la quantité totale doit être exactement 43.",
+        "Note 2 : le lot Bleu doit être supérieur au lot Vert.",
+        "Note 3 : le lot Rouge vaut 10 unités.",
+        "Note 4 : le lot Vert vaut 12 unités."
+      ],
+      "data": [
+        {
+          "id": "A",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 21
+        },
+        {
+          "id": "B",
+          "Rouge": 10,
+          "Vert": 13,
+          "Bleu": 20
+        },
+        {
+          "id": "C",
+          "Rouge": 9,
+          "Vert": 12,
+          "Bleu": 22
+        },
+        {
+          "id": "D",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 11
+        }
+      ],
+      "correct_answer": "A",
+      "truth_rule": "Conjonction de toutes les contraintes documentaires.",
+      "difficulty_target": "moyenne",
+      "id": "A3-F3",
+      "prototype": "A3",
+      "form": "F3",
+      "title": "Cohérence entre courts documents",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan compatible avec toutes les notes.",
+      "documents": [
+        "Note 1 : la quantité totale doit être exactement 44.",
+        "Note 2 : le lot Bleu doit être supérieur au lot Vert.",
+        "Note 3 : le lot Rouge vaut 10 unités.",
+        "Note 4 : le lot Vert vaut 12 unités."
+      ],
+      "data": [
+        {
+          "id": "A",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 22
+        },
+        {
+          "id": "B",
+          "Rouge": 10,
+          "Vert": 13,
+          "Bleu": 21
+        },
+        {
+          "id": "C",
+          "Rouge": 9,
+          "Vert": 12,
+          "Bleu": 23
+        },
+        {
+          "id": "D",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 11
+        }
+      ],
+      "correct_answer": "A",
+      "truth_rule": "Conjonction de toutes les contraintes documentaires.",
+      "difficulty_target": "moyenne",
+      "id": "A3-F4",
+      "prototype": "A3",
+      "form": "F4",
+      "title": "Cohérence entre courts documents",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan compatible avec toutes les notes.",
+      "documents": [
+        "Note 1 : la quantité totale doit être exactement 45.",
+        "Note 2 : le lot Bleu doit être supérieur au lot Vert.",
+        "Note 3 : le lot Rouge vaut 10 unités.",
+        "Note 4 : le lot Vert vaut 12 unités."
+      ],
+      "data": [
+        {
+          "id": "A",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 23
+        },
+        {
+          "id": "B",
+          "Rouge": 10,
+          "Vert": 13,
+          "Bleu": 22
+        },
+        {
+          "id": "C",
+          "Rouge": 9,
+          "Vert": 12,
+          "Bleu": 24
+        },
+        {
+          "id": "D",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 11
+        }
+      ],
+      "correct_answer": "A",
+      "truth_rule": "Conjonction de toutes les contraintes documentaires.",
+      "difficulty_target": "moyenne",
+      "id": "A3-F5",
+      "prototype": "A3",
+      "form": "F5",
+      "title": "Cohérence entre courts documents",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan compatible avec toutes les notes.",
+      "documents": [
+        "Note 1 : la quantité totale doit être exactement 46.",
+        "Note 2 : le lot Bleu doit être supérieur au lot Vert.",
+        "Note 3 : le lot Rouge vaut 10 unités.",
+        "Note 4 : le lot Vert vaut 12 unités."
+      ],
+      "data": [
+        {
+          "id": "A",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 24
+        },
+        {
+          "id": "B",
+          "Rouge": 10,
+          "Vert": 13,
+          "Bleu": 23
+        },
+        {
+          "id": "C",
+          "Rouge": 9,
+          "Vert": 12,
+          "Bleu": 25
+        },
+        {
+          "id": "D",
+          "Rouge": 10,
+          "Vert": 12,
+          "Bleu": 11
+        }
+      ],
+      "correct_answer": "A",
+      "truth_rule": "Conjonction de toutes les contraintes documentaires.",
+      "difficulty_target": "moyenne",
+      "id": "A3-F6",
+      "prototype": "A3",
+      "form": "F6",
+      "title": "Cohérence entre courts documents",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Après un signal positif, déterminer la cause la plus probable et estimer P(X|+).",
+      "data": {
+        "P(X)": 0.22,
+        "P(+|X)": 0.77,
+        "P(+|Y)": 0.19
+      },
+      "correct_answer": {
+        "class": "X",
+        "P(X|+)": 0.5334
+      },
+      "truth_rule": "Théorème de Bayes.",
+      "difficulty_target": "moyenne",
+      "id": "A4-F1",
+      "prototype": "A4",
+      "form": "F1",
+      "title": "Prévision probabiliste et taux de base",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Après un signal positif, déterminer la cause la plus probable et estimer P(X|+).",
+      "data": {
+        "P(X)": 0.24,
+        "P(+|X)": 0.79,
+        "P(+|Y)": 0.18
+      },
+      "correct_answer": {
+        "class": "X",
+        "P(X|+)": 0.5809
+      },
+      "truth_rule": "Théorème de Bayes.",
+      "difficulty_target": "moyenne",
+      "id": "A4-F2",
+      "prototype": "A4",
+      "form": "F2",
+      "title": "Prévision probabiliste et taux de base",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Après un signal positif, déterminer la cause la plus probable et estimer P(X|+).",
+      "data": {
+        "P(X)": 0.26,
+        "P(+|X)": 0.75,
+        "P(+|Y)": 0.19
+      },
+      "correct_answer": {
+        "class": "X",
+        "P(X|+)": 0.581
+      },
+      "truth_rule": "Théorème de Bayes.",
+      "difficulty_target": "moyenne",
+      "id": "A4-F3",
+      "prototype": "A4",
+      "form": "F3",
+      "title": "Prévision probabiliste et taux de base",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Après un signal positif, déterminer la cause la plus probable et estimer P(X|+).",
+      "data": {
+        "P(X)": 0.28,
+        "P(+|X)": 0.77,
+        "P(+|Y)": 0.18
+      },
+      "correct_answer": {
+        "class": "X",
+        "P(X|+)": 0.6246
+      },
+      "truth_rule": "Théorème de Bayes.",
+      "difficulty_target": "moyenne",
+      "id": "A4-F4",
+      "prototype": "A4",
+      "form": "F4",
+      "title": "Prévision probabiliste et taux de base",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Après un signal positif, déterminer la cause la plus probable et estimer P(X|+).",
+      "data": {
+        "P(X)": 0.3,
+        "P(+|X)": 0.79,
+        "P(+|Y)": 0.19
+      },
+      "correct_answer": {
+        "class": "X",
+        "P(X|+)": 0.6405
+      },
+      "truth_rule": "Théorème de Bayes.",
+      "difficulty_target": "moyenne",
+      "id": "A4-F5",
+      "prototype": "A4",
+      "form": "F5",
+      "title": "Prévision probabiliste et taux de base",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Après un signal positif, déterminer la cause la plus probable et estimer P(X|+).",
+      "data": {
+        "P(X)": 0.32,
+        "P(+|X)": 0.75,
+        "P(+|Y)": 0.18
+      },
+      "correct_answer": {
+        "class": "X",
+        "P(X|+)": 0.6623
+      },
+      "truth_rule": "Théorème de Bayes.",
+      "difficulty_target": "moyenne",
+      "id": "A4-F6",
+      "prototype": "A4",
+      "form": "F6",
+      "title": "Prévision probabiliste et taux de base",
+      "family": "Avantage intelligence artificielle",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Appliquer la règle générale et l’exception locale affichée.",
+      "data": {
+        "rule": "Classer selon le score numérique le plus élevé.",
+        "exception": "Exception locale F1: si le dossier contient la mention PRIORITÉ HUMAINE, il passe devant tout autre dossier.",
+        "rows": [
+          {
+            "id": "A",
+            "score": 90,
+            "mention": ""
+          },
+          {
+            "id": "B",
+            "score": 82,
+            "mention": "PRIORITÉ HUMAINE"
+          },
+          {
+            "id": "C",
+            "score": 88,
+            "mention": ""
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "L’exception explicite prime sur la règle générale.",
+      "difficulty_target": "facile-moyenne",
+      "id": "B1-F1",
+      "prototype": "B1",
+      "form": "F1",
+      "title": "Exception contextuelle saillante",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Appliquer la règle générale et l’exception locale affichée.",
+      "data": {
+        "rule": "Classer selon le score numérique le plus élevé.",
+        "exception": "Exception locale F2: si le dossier contient la mention PRIORITÉ HUMAINE, il passe devant tout autre dossier.",
+        "rows": [
+          {
+            "id": "A",
+            "score": 90,
+            "mention": ""
+          },
+          {
+            "id": "B",
+            "score": 82,
+            "mention": "PRIORITÉ HUMAINE"
+          },
+          {
+            "id": "C",
+            "score": 88,
+            "mention": ""
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "L’exception explicite prime sur la règle générale.",
+      "difficulty_target": "facile-moyenne",
+      "id": "B1-F2",
+      "prototype": "B1",
+      "form": "F2",
+      "title": "Exception contextuelle saillante",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Appliquer la règle générale et l’exception locale affichée.",
+      "data": {
+        "rule": "Classer selon le score numérique le plus élevé.",
+        "exception": "Exception locale F3: si le dossier contient la mention PRIORITÉ HUMAINE, il passe devant tout autre dossier.",
+        "rows": [
+          {
+            "id": "A",
+            "score": 90,
+            "mention": ""
+          },
+          {
+            "id": "B",
+            "score": 82,
+            "mention": "PRIORITÉ HUMAINE"
+          },
+          {
+            "id": "C",
+            "score": 88,
+            "mention": ""
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "L’exception explicite prime sur la règle générale.",
+      "difficulty_target": "facile-moyenne",
+      "id": "B1-F3",
+      "prototype": "B1",
+      "form": "F3",
+      "title": "Exception contextuelle saillante",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Appliquer la règle générale et l’exception locale affichée.",
+      "data": {
+        "rule": "Classer selon le score numérique le plus élevé.",
+        "exception": "Exception locale F4: si le dossier contient la mention PRIORITÉ HUMAINE, il passe devant tout autre dossier.",
+        "rows": [
+          {
+            "id": "A",
+            "score": 90,
+            "mention": ""
+          },
+          {
+            "id": "B",
+            "score": 82,
+            "mention": "PRIORITÉ HUMAINE"
+          },
+          {
+            "id": "C",
+            "score": 88,
+            "mention": ""
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "L’exception explicite prime sur la règle générale.",
+      "difficulty_target": "facile-moyenne",
+      "id": "B1-F4",
+      "prototype": "B1",
+      "form": "F4",
+      "title": "Exception contextuelle saillante",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Appliquer la règle générale et l’exception locale affichée.",
+      "data": {
+        "rule": "Classer selon le score numérique le plus élevé.",
+        "exception": "Exception locale F5: si le dossier contient la mention PRIORITÉ HUMAINE, il passe devant tout autre dossier.",
+        "rows": [
+          {
+            "id": "A",
+            "score": 90,
+            "mention": ""
+          },
+          {
+            "id": "B",
+            "score": 82,
+            "mention": "PRIORITÉ HUMAINE"
+          },
+          {
+            "id": "C",
+            "score": 88,
+            "mention": ""
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "L’exception explicite prime sur la règle générale.",
+      "difficulty_target": "facile-moyenne",
+      "id": "B1-F5",
+      "prototype": "B1",
+      "form": "F5",
+      "title": "Exception contextuelle saillante",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Appliquer la règle générale et l’exception locale affichée.",
+      "data": {
+        "rule": "Classer selon le score numérique le plus élevé.",
+        "exception": "Exception locale F6: si le dossier contient la mention PRIORITÉ HUMAINE, il passe devant tout autre dossier.",
+        "rows": [
+          {
+            "id": "A",
+            "score": 90,
+            "mention": ""
+          },
+          {
+            "id": "B",
+            "score": 82,
+            "mention": "PRIORITÉ HUMAINE"
+          },
+          {
+            "id": "C",
+            "score": 88,
+            "mention": ""
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "L’exception explicite prime sur la règle générale.",
+      "difficulty_target": "facile-moyenne",
+      "id": "B1-F6",
+      "prototype": "B1",
+      "form": "F6",
+      "title": "Exception contextuelle saillante",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Interpréter la demande uniquement avec le contexte explicite fourni.",
+      "data": {
+        "text": "« Tu peux laisser ça ici. »",
+        "context": "Dans ce lieu, “ici” désigne explicitement le casier marqué bleu.",
+        "answer": "casier bleu"
+      },
+      "correct_answer": "casier bleu",
+      "truth_rule": "Le contexte local explicite désambiguïse l’intention.",
+      "difficulty_target": "moyenne",
+      "id": "B2-F1",
+      "prototype": "B2",
+      "form": "F1",
+      "title": "Intention sous ambiguïté contrôlée",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Interpréter la demande uniquement avec le contexte explicite fourni.",
+      "data": {
+        "text": "« On fait comme prévu. »",
+        "context": "Le plan affiché prévoit de commencer par la tâche 2.",
+        "answer": "tâche 2"
+      },
+      "correct_answer": "tâche 2",
+      "truth_rule": "Le contexte local explicite désambiguïse l’intention.",
+      "difficulty_target": "moyenne",
+      "id": "B2-F2",
+      "prototype": "B2",
+      "form": "F2",
+      "title": "Intention sous ambiguïté contrôlée",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Interpréter la demande uniquement avec le contexte explicite fourni.",
+      "data": {
+        "text": "« Prends la version courte. »",
+        "context": "La norme locale définit “courte” comme moins de 5 minutes.",
+        "answer": "<5 minutes"
+      },
+      "correct_answer": "<5 minutes",
+      "truth_rule": "Le contexte local explicite désambiguïse l’intention.",
+      "difficulty_target": "moyenne",
+      "id": "B2-F3",
+      "prototype": "B2",
+      "form": "F3",
+      "title": "Intention sous ambiguïté contrôlée",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Interpréter la demande uniquement avec le contexte explicite fourni.",
+      "data": {
+        "text": "« Tu peux laisser ça ici. »",
+        "context": "Dans ce lieu, “ici” désigne explicitement le casier marqué bleu.",
+        "answer": "casier bleu"
+      },
+      "correct_answer": "casier bleu",
+      "truth_rule": "Le contexte local explicite désambiguïse l’intention.",
+      "difficulty_target": "moyenne",
+      "id": "B2-F4",
+      "prototype": "B2",
+      "form": "F4",
+      "title": "Intention sous ambiguïté contrôlée",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Interpréter la demande uniquement avec le contexte explicite fourni.",
+      "data": {
+        "text": "« On fait comme prévu. »",
+        "context": "Le plan affiché prévoit de commencer par la tâche 2.",
+        "answer": "tâche 2"
+      },
+      "correct_answer": "tâche 2",
+      "truth_rule": "Le contexte local explicite désambiguïse l’intention.",
+      "difficulty_target": "moyenne",
+      "id": "B2-F5",
+      "prototype": "B2",
+      "form": "F5",
+      "title": "Intention sous ambiguïté contrôlée",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Interpréter la demande uniquement avec le contexte explicite fourni.",
+      "data": {
+        "text": "« Prends la version courte. »",
+        "context": "La norme locale définit “courte” comme moins de 5 minutes.",
+        "answer": "<5 minutes"
+      },
+      "correct_answer": "<5 minutes",
+      "truth_rule": "Le contexte local explicite désambiguïse l’intention.",
+      "difficulty_target": "moyenne",
+      "id": "B2-F6",
+      "prototype": "B2",
+      "form": "F6",
+      "title": "Intention sous ambiguïté contrôlée",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Apprendre la mini-règle à partir des exemples, puis l’appliquer au nouveau symbole avec le modificateur annoncé.",
+      "data": {
+        "examples": [
+          {
+            "input": "○",
+            "output": "KA"
+          },
+          {
+            "input": "□",
+            "output": "MI"
+          },
+          {
+            "input": "△",
+            "output": "SO"
+          }
+        ],
+        "modifier_rule": "Ajouter le suffixe + au code de base.",
+        "test": "□"
+      },
+      "correct_answer": "MI+",
+      "truth_rule": "Induction de la table de correspondance puis composition avec le suffixe.",
+      "difficulty_target": "moyenne",
+      "id": "B3-F1",
+      "prototype": "B3",
+      "form": "F1",
+      "title": "Transfert d’une règle artificielle nouvelle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Apprendre la mini-règle à partir des exemples, puis l’appliquer au nouveau symbole avec le modificateur annoncé.",
+      "data": {
+        "examples": [
+          {
+            "input": "○",
+            "output": "KA"
+          },
+          {
+            "input": "□",
+            "output": "MI"
+          },
+          {
+            "input": "△",
+            "output": "SO"
+          }
+        ],
+        "modifier_rule": "Ajouter le suffixe * au code de base.",
+        "test": "△"
+      },
+      "correct_answer": "SO*",
+      "truth_rule": "Induction de la table de correspondance puis composition avec le suffixe.",
+      "difficulty_target": "moyenne",
+      "id": "B3-F2",
+      "prototype": "B3",
+      "form": "F2",
+      "title": "Transfert d’une règle artificielle nouvelle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Apprendre la mini-règle à partir des exemples, puis l’appliquer au nouveau symbole avec le modificateur annoncé.",
+      "data": {
+        "examples": [
+          {
+            "input": "○",
+            "output": "KA"
+          },
+          {
+            "input": "□",
+            "output": "MI"
+          },
+          {
+            "input": "△",
+            "output": "SO"
+          }
+        ],
+        "modifier_rule": "Ajouter le suffixe + au code de base.",
+        "test": "○"
+      },
+      "correct_answer": "KA+",
+      "truth_rule": "Induction de la table de correspondance puis composition avec le suffixe.",
+      "difficulty_target": "moyenne",
+      "id": "B3-F3",
+      "prototype": "B3",
+      "form": "F3",
+      "title": "Transfert d’une règle artificielle nouvelle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Apprendre la mini-règle à partir des exemples, puis l’appliquer au nouveau symbole avec le modificateur annoncé.",
+      "data": {
+        "examples": [
+          {
+            "input": "○",
+            "output": "KA"
+          },
+          {
+            "input": "□",
+            "output": "MI"
+          },
+          {
+            "input": "△",
+            "output": "SO"
+          }
+        ],
+        "modifier_rule": "Ajouter le suffixe * au code de base.",
+        "test": "□"
+      },
+      "correct_answer": "MI*",
+      "truth_rule": "Induction de la table de correspondance puis composition avec le suffixe.",
+      "difficulty_target": "moyenne",
+      "id": "B3-F4",
+      "prototype": "B3",
+      "form": "F4",
+      "title": "Transfert d’une règle artificielle nouvelle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Apprendre la mini-règle à partir des exemples, puis l’appliquer au nouveau symbole avec le modificateur annoncé.",
+      "data": {
+        "examples": [
+          {
+            "input": "○",
+            "output": "KA"
+          },
+          {
+            "input": "□",
+            "output": "MI"
+          },
+          {
+            "input": "△",
+            "output": "SO"
+          }
+        ],
+        "modifier_rule": "Ajouter le suffixe + au code de base.",
+        "test": "△"
+      },
+      "correct_answer": "SO+",
+      "truth_rule": "Induction de la table de correspondance puis composition avec le suffixe.",
+      "difficulty_target": "moyenne",
+      "id": "B3-F5",
+      "prototype": "B3",
+      "form": "F5",
+      "title": "Transfert d’une règle artificielle nouvelle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Apprendre la mini-règle à partir des exemples, puis l’appliquer au nouveau symbole avec le modificateur annoncé.",
+      "data": {
+        "examples": [
+          {
+            "input": "○",
+            "output": "KA"
+          },
+          {
+            "input": "□",
+            "output": "MI"
+          },
+          {
+            "input": "△",
+            "output": "SO"
+          }
+        ],
+        "modifier_rule": "Ajouter le suffixe * au code de base.",
+        "test": "○"
+      },
+      "correct_answer": "KA*",
+      "truth_rule": "Induction de la table de correspondance puis composition avec le suffixe.",
+      "difficulty_target": "moyenne",
+      "id": "B3-F6",
+      "prototype": "B3",
+      "form": "F6",
+      "title": "Transfert d’une règle artificielle nouvelle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "La règle annoncée est un déplacement de +1 en x et 0 en y à chaque étape. Identifier la première anomalie.",
+      "data": [
+        {
+          "t": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "t": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "t": 3,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "t": 4,
+          "x": 4,
+          "y": 1
+        }
+      ],
+      "correct_answer": "t=3",
+      "truth_rule": "Comparer chaque transition à la règle séquentielle.",
+      "difficulty_target": "moyenne",
+      "id": "B4-F1",
+      "prototype": "B4",
+      "form": "F1",
+      "title": "Continuité perceptive séquentielle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "La règle annoncée est un déplacement de +1 en x et 0 en y à chaque étape. Identifier la première anomalie.",
+      "data": [
+        {
+          "t": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "t": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "t": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "t": 4,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "correct_answer": "t=4",
+      "truth_rule": "Comparer chaque transition à la règle séquentielle.",
+      "difficulty_target": "moyenne",
+      "id": "B4-F2",
+      "prototype": "B4",
+      "form": "F2",
+      "title": "Continuité perceptive séquentielle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "La règle annoncée est un déplacement de +1 en x et 0 en y à chaque étape. Identifier la première anomalie.",
+      "data": [
+        {
+          "t": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "t": 2,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "t": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "t": 4,
+          "x": 4,
+          "y": 1
+        }
+      ],
+      "correct_answer": "t=2",
+      "truth_rule": "Comparer chaque transition à la règle séquentielle.",
+      "difficulty_target": "moyenne",
+      "id": "B4-F3",
+      "prototype": "B4",
+      "form": "F3",
+      "title": "Continuité perceptive séquentielle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "La règle annoncée est un déplacement de +1 en x et 0 en y à chaque étape. Identifier la première anomalie.",
+      "data": [
+        {
+          "t": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "t": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "t": 3,
+          "x": 3,
+          "y": 3
+        },
+        {
+          "t": 4,
+          "x": 4,
+          "y": 1
+        }
+      ],
+      "correct_answer": "t=3",
+      "truth_rule": "Comparer chaque transition à la règle séquentielle.",
+      "difficulty_target": "moyenne",
+      "id": "B4-F4",
+      "prototype": "B4",
+      "form": "F4",
+      "title": "Continuité perceptive séquentielle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "La règle annoncée est un déplacement de +1 en x et 0 en y à chaque étape. Identifier la première anomalie.",
+      "data": [
+        {
+          "t": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "t": 2,
+          "x": 2,
+          "y": 1
+        },
+        {
+          "t": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "t": 4,
+          "x": 4,
+          "y": 3
+        }
+      ],
+      "correct_answer": "t=4",
+      "truth_rule": "Comparer chaque transition à la règle séquentielle.",
+      "difficulty_target": "moyenne",
+      "id": "B4-F5",
+      "prototype": "B4",
+      "form": "F5",
+      "title": "Continuité perceptive séquentielle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "La règle annoncée est un déplacement de +1 en x et 0 en y à chaque étape. Identifier la première anomalie.",
+      "data": [
+        {
+          "t": 1,
+          "x": 1,
+          "y": 1
+        },
+        {
+          "t": 2,
+          "x": 2,
+          "y": 3
+        },
+        {
+          "t": 3,
+          "x": 3,
+          "y": 1
+        },
+        {
+          "t": 4,
+          "x": 4,
+          "y": 1
+        }
+      ],
+      "correct_answer": "t=2",
+      "truth_rule": "Comparer chaque transition à la règle séquentielle.",
+      "difficulty_target": "moyenne",
+      "id": "B4-F6",
+      "prototype": "B4",
+      "form": "F6",
+      "title": "Continuité perceptive séquentielle",
+      "family": "Avantage humain",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option la plus performante dont la charge attendue ne dépasse pas la limite maximale vécue et déclarée. En collecte réelle, cette limite est auto-rapportée et non simulée.",
+      "data": {
+        "mock_reported_max_acceptable_load": 60,
+        "options": [
+          {
+            "id": "A",
+            "performance": 95,
+            "load_expected": 75
+          },
+          {
+            "id": "B",
+            "performance": 88,
+            "load_expected": 60
+          },
+          {
+            "id": "C",
+            "performance": 80,
+            "load_expected": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Respecter la limite vécue d’abord, puis maximiser la performance parmi les options admissibles.",
+      "subjective_class": "pertinente",
+      "id": "C1-F1",
+      "prototype": "C1",
+      "form": "F1",
+      "title": "Confort et charge ressentis",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option la plus performante dont la charge attendue ne dépasse pas la limite maximale vécue et déclarée. En collecte réelle, cette limite est auto-rapportée et non simulée.",
+      "data": {
+        "mock_reported_max_acceptable_load": 65,
+        "options": [
+          {
+            "id": "A",
+            "performance": 95,
+            "load_expected": 75
+          },
+          {
+            "id": "B",
+            "performance": 88,
+            "load_expected": 60
+          },
+          {
+            "id": "C",
+            "performance": 80,
+            "load_expected": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Respecter la limite vécue d’abord, puis maximiser la performance parmi les options admissibles.",
+      "subjective_class": "pertinente",
+      "id": "C1-F2",
+      "prototype": "C1",
+      "form": "F2",
+      "title": "Confort et charge ressentis",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option la plus performante dont la charge attendue ne dépasse pas la limite maximale vécue et déclarée. En collecte réelle, cette limite est auto-rapportée et non simulée.",
+      "data": {
+        "mock_reported_max_acceptable_load": 70,
+        "options": [
+          {
+            "id": "A",
+            "performance": 95,
+            "load_expected": 75
+          },
+          {
+            "id": "B",
+            "performance": 88,
+            "load_expected": 60
+          },
+          {
+            "id": "C",
+            "performance": 80,
+            "load_expected": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Respecter la limite vécue d’abord, puis maximiser la performance parmi les options admissibles.",
+      "subjective_class": "pertinente",
+      "id": "C1-F3",
+      "prototype": "C1",
+      "form": "F3",
+      "title": "Confort et charge ressentis",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option la plus performante dont la charge attendue ne dépasse pas la limite maximale vécue et déclarée. En collecte réelle, cette limite est auto-rapportée et non simulée.",
+      "data": {
+        "mock_reported_max_acceptable_load": 55,
+        "options": [
+          {
+            "id": "A",
+            "performance": 95,
+            "load_expected": 75
+          },
+          {
+            "id": "B",
+            "performance": 88,
+            "load_expected": 60
+          },
+          {
+            "id": "C",
+            "performance": 80,
+            "load_expected": 45
+          }
+        ]
+      },
+      "correct_answer": "C",
+      "truth_rule": "Respecter la limite vécue d’abord, puis maximiser la performance parmi les options admissibles.",
+      "subjective_class": "pertinente",
+      "id": "C1-F4",
+      "prototype": "C1",
+      "form": "F4",
+      "title": "Confort et charge ressentis",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option la plus performante dont la charge attendue ne dépasse pas la limite maximale vécue et déclarée. En collecte réelle, cette limite est auto-rapportée et non simulée.",
+      "data": {
+        "mock_reported_max_acceptable_load": 60,
+        "options": [
+          {
+            "id": "A",
+            "performance": 95,
+            "load_expected": 75
+          },
+          {
+            "id": "B",
+            "performance": 88,
+            "load_expected": 60
+          },
+          {
+            "id": "C",
+            "performance": 80,
+            "load_expected": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Respecter la limite vécue d’abord, puis maximiser la performance parmi les options admissibles.",
+      "subjective_class": "pertinente",
+      "id": "C1-F5",
+      "prototype": "C1",
+      "form": "F5",
+      "title": "Confort et charge ressentis",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option la plus performante dont la charge attendue ne dépasse pas la limite maximale vécue et déclarée. En collecte réelle, cette limite est auto-rapportée et non simulée.",
+      "data": {
+        "mock_reported_max_acceptable_load": 65,
+        "options": [
+          {
+            "id": "A",
+            "performance": 95,
+            "load_expected": 75
+          },
+          {
+            "id": "B",
+            "performance": 88,
+            "load_expected": 60
+          },
+          {
+            "id": "C",
+            "performance": 80,
+            "load_expected": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Respecter la limite vécue d’abord, puis maximiser la performance parmi les options admissibles.",
+      "subjective_class": "pertinente",
+      "id": "C1-F6",
+      "prototype": "C1",
+      "form": "F6",
+      "title": "Confort et charge ressentis",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Le critère annoncé exige une performance ≥80 et, lorsque la valence vécue est < -5, exclut le contenu négatif modéré. Sinon, maximiser la performance. Choisir l’option conforme.",
+      "data": {
+        "mock_valence": -12,
+        "options": [
+          {
+            "id": "A",
+            "objective": 90,
+            "content_class": "négatif_modéré"
+          },
+          {
+            "id": "B",
+            "objective": 84,
+            "content_class": "neutre"
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "La valence n’entre dans la décision que lorsque le seuil préspécifié est franchi.",
+      "subjective_class": "pertinente",
+      "id": "C2-F1",
+      "prototype": "C2",
+      "form": "F1",
+      "title": "Valence émotionnelle comme signal",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Le critère annoncé exige une performance ≥80 et, lorsque la valence vécue est < -5, exclut le contenu négatif modéré. Sinon, maximiser la performance. Choisir l’option conforme.",
+      "data": {
+        "mock_valence": -4,
+        "options": [
+          {
+            "id": "A",
+            "objective": 90,
+            "content_class": "négatif_modéré"
+          },
+          {
+            "id": "B",
+            "objective": 84,
+            "content_class": "neutre"
+          }
+        ]
+      },
+      "correct_answer": "A",
+      "truth_rule": "La valence n’entre dans la décision que lorsque le seuil préspécifié est franchi.",
+      "subjective_class": "non pertinente",
+      "id": "C2-F2",
+      "prototype": "C2",
+      "form": "F2",
+      "title": "Valence émotionnelle comme signal",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Le critère annoncé exige une performance ≥80 et, lorsque la valence vécue est < -5, exclut le contenu négatif modéré. Sinon, maximiser la performance. Choisir l’option conforme.",
+      "data": {
+        "mock_valence": 4,
+        "options": [
+          {
+            "id": "A",
+            "objective": 90,
+            "content_class": "négatif_modéré"
+          },
+          {
+            "id": "B",
+            "objective": 84,
+            "content_class": "neutre"
+          }
+        ]
+      },
+      "correct_answer": "A",
+      "truth_rule": "La valence n’entre dans la décision que lorsque le seuil préspécifié est franchi.",
+      "subjective_class": "non pertinente",
+      "id": "C2-F3",
+      "prototype": "C2",
+      "form": "F3",
+      "title": "Valence émotionnelle comme signal",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Le critère annoncé exige une performance ≥80 et, lorsque la valence vécue est < -5, exclut le contenu négatif modéré. Sinon, maximiser la performance. Choisir l’option conforme.",
+      "data": {
+        "mock_valence": 12,
+        "options": [
+          {
+            "id": "A",
+            "objective": 90,
+            "content_class": "négatif_modéré"
+          },
+          {
+            "id": "B",
+            "objective": 84,
+            "content_class": "neutre"
+          }
+        ]
+      },
+      "correct_answer": "A",
+      "truth_rule": "La valence n’entre dans la décision que lorsque le seuil préspécifié est franchi.",
+      "subjective_class": "non pertinente",
+      "id": "C2-F4",
+      "prototype": "C2",
+      "form": "F4",
+      "title": "Valence émotionnelle comme signal",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Le critère annoncé exige une performance ≥80 et, lorsque la valence vécue est < -5, exclut le contenu négatif modéré. Sinon, maximiser la performance. Choisir l’option conforme.",
+      "data": {
+        "mock_valence": 20,
+        "options": [
+          {
+            "id": "A",
+            "objective": 90,
+            "content_class": "négatif_modéré"
+          },
+          {
+            "id": "B",
+            "objective": 84,
+            "content_class": "neutre"
+          }
+        ]
+      },
+      "correct_answer": "A",
+      "truth_rule": "La valence n’entre dans la décision que lorsque le seuil préspécifié est franchi.",
+      "subjective_class": "non pertinente",
+      "id": "C2-F5",
+      "prototype": "C2",
+      "form": "F5",
+      "title": "Valence émotionnelle comme signal",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Le critère annoncé exige une performance ≥80 et, lorsque la valence vécue est < -5, exclut le contenu négatif modéré. Sinon, maximiser la performance. Choisir l’option conforme.",
+      "data": {
+        "mock_valence": 28,
+        "options": [
+          {
+            "id": "A",
+            "objective": 90,
+            "content_class": "négatif_modéré"
+          },
+          {
+            "id": "B",
+            "objective": 84,
+            "content_class": "neutre"
+          }
+        ]
+      },
+      "correct_answer": "A",
+      "truth_rule": "La valence n’entre dans la décision que lorsque le seuil préspécifié est franchi.",
+      "subjective_class": "non pertinente",
+      "id": "C2-F6",
+      "prototype": "C2",
+      "form": "F6",
+      "title": "Valence émotionnelle comme signal",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant la fonction d’utilité selon les pondérations volontairement déclarées.",
+      "data": {
+        "values": [
+          "rapidité",
+          "équité procédurale",
+          "préservation des ressources"
+        ],
+        "weights": [
+          0.2,
+          0.5,
+          0.3
+        ],
+        "options": {
+          "A": [
+            0.9,
+            0.4,
+            0.5
+          ],
+          "B": [
+            0.6,
+            0.8,
+            0.7
+          ],
+          "C": [
+            0.5,
+            0.6,
+            0.9
+          ]
+        },
+        "scores": {
+          "A": 0.53,
+          "B": 0.73,
+          "C": 0.67
+        }
+      },
+      "correct_answer": "B",
+      "truth_rule": "Somme pondérée avec poids humains déclarés; les poids ne sont pas corrigés par l’IA.",
+      "subjective_class": "valeur",
+      "id": "C3-F1",
+      "prototype": "C3",
+      "form": "F1",
+      "title": "Valeur vécue dans un arbitrage",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant la fonction d’utilité selon les pondérations volontairement déclarées.",
+      "data": {
+        "values": [
+          "rapidité",
+          "équité procédurale",
+          "préservation des ressources"
+        ],
+        "weights": [
+          0.4,
+          0.2,
+          0.4
+        ],
+        "options": {
+          "A": [
+            0.9,
+            0.4,
+            0.5
+          ],
+          "B": [
+            0.6,
+            0.8,
+            0.7
+          ],
+          "C": [
+            0.5,
+            0.6,
+            0.9
+          ]
+        },
+        "scores": {
+          "A": 0.6400000000000001,
+          "B": 0.6799999999999999,
+          "C": 0.68
+        }
+      },
+      "correct_answer": "C",
+      "truth_rule": "Somme pondérée avec poids humains déclarés; les poids ne sont pas corrigés par l’IA.",
+      "subjective_class": "valeur",
+      "id": "C3-F2",
+      "prototype": "C3",
+      "form": "F2",
+      "title": "Valeur vécue dans un arbitrage",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant la fonction d’utilité selon les pondérations volontairement déclarées.",
+      "data": {
+        "values": [
+          "rapidité",
+          "équité procédurale",
+          "préservation des ressources"
+        ],
+        "weights": [
+          0.2,
+          0.5,
+          0.3
+        ],
+        "options": {
+          "A": [
+            0.9,
+            0.4,
+            0.5
+          ],
+          "B": [
+            0.6,
+            0.8,
+            0.7
+          ],
+          "C": [
+            0.5,
+            0.6,
+            0.9
+          ]
+        },
+        "scores": {
+          "A": 0.53,
+          "B": 0.73,
+          "C": 0.67
+        }
+      },
+      "correct_answer": "B",
+      "truth_rule": "Somme pondérée avec poids humains déclarés; les poids ne sont pas corrigés par l’IA.",
+      "subjective_class": "valeur",
+      "id": "C3-F3",
+      "prototype": "C3",
+      "form": "F3",
+      "title": "Valeur vécue dans un arbitrage",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant la fonction d’utilité selon les pondérations volontairement déclarées.",
+      "data": {
+        "values": [
+          "rapidité",
+          "équité procédurale",
+          "préservation des ressources"
+        ],
+        "weights": [
+          0.4,
+          0.2,
+          0.4
+        ],
+        "options": {
+          "A": [
+            0.9,
+            0.4,
+            0.5
+          ],
+          "B": [
+            0.6,
+            0.8,
+            0.7
+          ],
+          "C": [
+            0.5,
+            0.6,
+            0.9
+          ]
+        },
+        "scores": {
+          "A": 0.6400000000000001,
+          "B": 0.6799999999999999,
+          "C": 0.68
+        }
+      },
+      "correct_answer": "C",
+      "truth_rule": "Somme pondérée avec poids humains déclarés; les poids ne sont pas corrigés par l’IA.",
+      "subjective_class": "valeur",
+      "id": "C3-F4",
+      "prototype": "C3",
+      "form": "F4",
+      "title": "Valeur vécue dans un arbitrage",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant la fonction d’utilité selon les pondérations volontairement déclarées.",
+      "data": {
+        "values": [
+          "rapidité",
+          "équité procédurale",
+          "préservation des ressources"
+        ],
+        "weights": [
+          0.2,
+          0.5,
+          0.3
+        ],
+        "options": {
+          "A": [
+            0.9,
+            0.4,
+            0.5
+          ],
+          "B": [
+            0.6,
+            0.8,
+            0.7
+          ],
+          "C": [
+            0.5,
+            0.6,
+            0.9
+          ]
+        },
+        "scores": {
+          "A": 0.53,
+          "B": 0.73,
+          "C": 0.67
+        }
+      },
+      "correct_answer": "B",
+      "truth_rule": "Somme pondérée avec poids humains déclarés; les poids ne sont pas corrigés par l’IA.",
+      "subjective_class": "valeur",
+      "id": "C3-F5",
+      "prototype": "C3",
+      "form": "F5",
+      "title": "Valeur vécue dans un arbitrage",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant la fonction d’utilité selon les pondérations volontairement déclarées.",
+      "data": {
+        "values": [
+          "rapidité",
+          "équité procédurale",
+          "préservation des ressources"
+        ],
+        "weights": [
+          0.4,
+          0.2,
+          0.4
+        ],
+        "options": {
+          "A": [
+            0.9,
+            0.4,
+            0.5
+          ],
+          "B": [
+            0.6,
+            0.8,
+            0.7
+          ],
+          "C": [
+            0.5,
+            0.6,
+            0.9
+          ]
+        },
+        "scores": {
+          "A": 0.6400000000000001,
+          "B": 0.6799999999999999,
+          "C": 0.68
+        }
+      },
+      "correct_answer": "C",
+      "truth_rule": "Somme pondérée avec poids humains déclarés; les poids ne sont pas corrigés par l’IA.",
+      "subjective_class": "valeur",
+      "id": "C3-F6",
+      "prototype": "C3",
+      "form": "F6",
+      "title": "Valeur vécue dans un arbitrage",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Combiner une impression de familiarité issue d’un apprentissage privé avec une estimation analytique générale.",
+      "data": {
+        "private_intuition": "motif_bleu",
+        "validated_reliability_block": 0.75,
+        "analytic_probs": {
+          "motif_rouge": 0.58,
+          "motif_bleu": 0.42
+        },
+        "posterior_red_from_stated_rule": 0.3152
+      },
+      "correct_answer": "motif_bleu",
+      "truth_rule": "Mise à jour bayésienne : la vraisemblance du signal intuitif est sa fiabilité pré-estimée dans le bloc.",
+      "subjective_class": "pertinente",
+      "id": "C4-F1",
+      "prototype": "C4",
+      "form": "F1",
+      "title": "Intuition issue d’un apprentissage privé",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Combiner une impression de familiarité issue d’un apprentissage privé avec une estimation analytique générale.",
+      "data": {
+        "private_intuition": "motif_rouge",
+        "validated_reliability_block": 0.75,
+        "analytic_probs": {
+          "motif_rouge": 0.58,
+          "motif_bleu": 0.42
+        },
+        "posterior_red_from_stated_rule": 0.8056
+      },
+      "correct_answer": "motif_rouge",
+      "truth_rule": "Mise à jour bayésienne : la vraisemblance du signal intuitif est sa fiabilité pré-estimée dans le bloc.",
+      "subjective_class": "pertinente",
+      "id": "C4-F2",
+      "prototype": "C4",
+      "form": "F2",
+      "title": "Intuition issue d’un apprentissage privé",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Combiner une impression de familiarité issue d’un apprentissage privé avec une estimation analytique générale.",
+      "data": {
+        "private_intuition": "motif_bleu",
+        "validated_reliability_block": 0.75,
+        "analytic_probs": {
+          "motif_rouge": 0.58,
+          "motif_bleu": 0.42
+        },
+        "posterior_red_from_stated_rule": 0.3152
+      },
+      "correct_answer": "motif_bleu",
+      "truth_rule": "Mise à jour bayésienne : la vraisemblance du signal intuitif est sa fiabilité pré-estimée dans le bloc.",
+      "subjective_class": "pertinente",
+      "id": "C4-F3",
+      "prototype": "C4",
+      "form": "F3",
+      "title": "Intuition issue d’un apprentissage privé",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Combiner une impression de familiarité issue d’un apprentissage privé avec une estimation analytique générale.",
+      "data": {
+        "private_intuition": "motif_rouge",
+        "validated_reliability_block": 0.55,
+        "analytic_probs": {
+          "motif_rouge": 0.58,
+          "motif_bleu": 0.42
+        },
+        "posterior_red_from_stated_rule": 0.628
+      },
+      "correct_answer": "motif_rouge",
+      "truth_rule": "Mise à jour bayésienne : la vraisemblance du signal intuitif est sa fiabilité pré-estimée dans le bloc.",
+      "subjective_class": "potentiellement trompeuse",
+      "id": "C4-F4",
+      "prototype": "C4",
+      "form": "F4",
+      "title": "Intuition issue d’un apprentissage privé",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Combiner une impression de familiarité issue d’un apprentissage privé avec une estimation analytique générale.",
+      "data": {
+        "private_intuition": "motif_bleu",
+        "validated_reliability_block": 0.55,
+        "analytic_probs": {
+          "motif_rouge": 0.58,
+          "motif_bleu": 0.42
+        },
+        "posterior_red_from_stated_rule": 0.5305
+      },
+      "correct_answer": "motif_rouge",
+      "truth_rule": "Mise à jour bayésienne : la vraisemblance du signal intuitif est sa fiabilité pré-estimée dans le bloc.",
+      "subjective_class": "potentiellement trompeuse",
+      "id": "C4-F5",
+      "prototype": "C4",
+      "form": "F5",
+      "title": "Intuition issue d’un apprentissage privé",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Combiner une impression de familiarité issue d’un apprentissage privé avec une estimation analytique générale.",
+      "data": {
+        "private_intuition": "motif_rouge",
+        "validated_reliability_block": 0.55,
+        "analytic_probs": {
+          "motif_rouge": 0.58,
+          "motif_bleu": 0.42
+        },
+        "posterior_red_from_stated_rule": 0.628
+      },
+      "correct_answer": "motif_rouge",
+      "truth_rule": "Mise à jour bayésienne : la vraisemblance du signal intuitif est sa fiabilité pré-estimée dans le bloc.",
+      "subjective_class": "potentiellement trompeuse",
+      "id": "C4-F6",
+      "prototype": "C4",
+      "form": "F6",
+      "title": "Intuition issue d’un apprentissage privé",
+      "family": "Subjectivité humaine pertinente",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Minimiser le coût sous contraintes analytiques et contrainte humaine privée volontairement partageable.",
+      "data": {
+        "ai_data": [
+          {
+            "id": "A",
+            "cost": 70,
+            "compat": 1
+          },
+          {
+            "id": "B",
+            "cost": 62,
+            "compat": 1
+          },
+          {
+            "id": "C",
+            "cost": 55,
+            "compat": 1
+          }
+        ],
+        "human_private_constraint": "Option C non admissible"
+      },
+      "correct_answer": "B",
+      "truth_rule": "Filtrer la contrainte humaine puis minimiser le coût.",
+      "ablation_truth": {
+        "AI-data-only": "C",
+        "Human-experience-only": "indéterminé sans coûts",
+        "Integrated": "B"
+      },
+      "id": "D1-F1",
+      "prototype": "D1",
+      "form": "F1",
+      "title": "Allocation à information scindée",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Minimiser le coût sous contraintes analytiques et contrainte humaine privée volontairement partageable.",
+      "data": {
+        "ai_data": [
+          {
+            "id": "A",
+            "cost": 70,
+            "compat": 1
+          },
+          {
+            "id": "B",
+            "cost": 55,
+            "compat": 1
+          },
+          {
+            "id": "C",
+            "cost": 58,
+            "compat": 1
+          }
+        ],
+        "human_private_constraint": "Option B non admissible"
+      },
+      "correct_answer": "C",
+      "truth_rule": "Filtrer la contrainte humaine puis minimiser le coût.",
+      "ablation_truth": {
+        "AI-data-only": "B",
+        "Human-experience-only": "indéterminé sans coûts",
+        "Integrated": "C"
+      },
+      "id": "D1-F2",
+      "prototype": "D1",
+      "form": "F2",
+      "title": "Allocation à information scindée",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Minimiser le coût sous contraintes analytiques et contrainte humaine privée volontairement partageable.",
+      "data": {
+        "ai_data": [
+          {
+            "id": "A",
+            "cost": 70,
+            "compat": 1
+          },
+          {
+            "id": "B",
+            "cost": 62,
+            "compat": 1
+          },
+          {
+            "id": "C",
+            "cost": 55,
+            "compat": 1
+          }
+        ],
+        "human_private_constraint": "Option C non admissible"
+      },
+      "correct_answer": "B",
+      "truth_rule": "Filtrer la contrainte humaine puis minimiser le coût.",
+      "ablation_truth": {
+        "AI-data-only": "C",
+        "Human-experience-only": "indéterminé sans coûts",
+        "Integrated": "B"
+      },
+      "id": "D1-F3",
+      "prototype": "D1",
+      "form": "F3",
+      "title": "Allocation à information scindée",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Minimiser le coût sous contraintes analytiques et contrainte humaine privée volontairement partageable.",
+      "data": {
+        "ai_data": [
+          {
+            "id": "A",
+            "cost": 70,
+            "compat": 1
+          },
+          {
+            "id": "B",
+            "cost": 55,
+            "compat": 1
+          },
+          {
+            "id": "C",
+            "cost": 58,
+            "compat": 1
+          }
+        ],
+        "human_private_constraint": "Option B non admissible"
+      },
+      "correct_answer": "C",
+      "truth_rule": "Filtrer la contrainte humaine puis minimiser le coût.",
+      "ablation_truth": {
+        "AI-data-only": "B",
+        "Human-experience-only": "indéterminé sans coûts",
+        "Integrated": "C"
+      },
+      "id": "D1-F4",
+      "prototype": "D1",
+      "form": "F4",
+      "title": "Allocation à information scindée",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Minimiser le coût sous contraintes analytiques et contrainte humaine privée volontairement partageable.",
+      "data": {
+        "ai_data": [
+          {
+            "id": "A",
+            "cost": 70,
+            "compat": 1
+          },
+          {
+            "id": "B",
+            "cost": 62,
+            "compat": 1
+          },
+          {
+            "id": "C",
+            "cost": 55,
+            "compat": 1
+          }
+        ],
+        "human_private_constraint": "Option C non admissible"
+      },
+      "correct_answer": "B",
+      "truth_rule": "Filtrer la contrainte humaine puis minimiser le coût.",
+      "ablation_truth": {
+        "AI-data-only": "C",
+        "Human-experience-only": "indéterminé sans coûts",
+        "Integrated": "B"
+      },
+      "id": "D1-F5",
+      "prototype": "D1",
+      "form": "F5",
+      "title": "Allocation à information scindée",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Minimiser le coût sous contraintes analytiques et contrainte humaine privée volontairement partageable.",
+      "data": {
+        "ai_data": [
+          {
+            "id": "A",
+            "cost": 70,
+            "compat": 1
+          },
+          {
+            "id": "B",
+            "cost": 55,
+            "compat": 1
+          },
+          {
+            "id": "C",
+            "cost": 58,
+            "compat": 1
+          }
+        ],
+        "human_private_constraint": "Option B non admissible"
+      },
+      "correct_answer": "C",
+      "truth_rule": "Filtrer la contrainte humaine puis minimiser le coût.",
+      "ablation_truth": {
+        "AI-data-only": "B",
+        "Human-experience-only": "indéterminé sans coûts",
+        "Integrated": "C"
+      },
+      "id": "D1-F6",
+      "prototype": "D1",
+      "form": "F6",
+      "title": "Allocation à information scindée",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier la cause unique compatible avec le journal de capteurs ET l’observation humaine.",
+      "data": {
+        "sensor_candidates": [
+          "B",
+          "C"
+        ],
+        "human_observation_candidates": [
+          "C",
+          "D"
+        ]
+      },
+      "correct_answer": "C",
+      "truth_rule": "Intersection des ensembles causaux compatibles.",
+      "ablation_truth": {
+        "AI-data-only": [
+          "B",
+          "C"
+        ],
+        "Human-experience-only": [
+          "C",
+          "D"
+        ],
+        "Integrated": "C"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D2-F1",
+      "prototype": "D2",
+      "form": "F1",
+      "title": "Diagnostic d’un système fictif",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier la cause unique compatible avec le journal de capteurs ET l’observation humaine.",
+      "data": {
+        "sensor_candidates": [
+          "C",
+          "D"
+        ],
+        "human_observation_candidates": [
+          "D",
+          "E"
+        ]
+      },
+      "correct_answer": "D",
+      "truth_rule": "Intersection des ensembles causaux compatibles.",
+      "ablation_truth": {
+        "AI-data-only": [
+          "C",
+          "D"
+        ],
+        "Human-experience-only": [
+          "D",
+          "E"
+        ],
+        "Integrated": "D"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D2-F2",
+      "prototype": "D2",
+      "form": "F2",
+      "title": "Diagnostic d’un système fictif",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier la cause unique compatible avec le journal de capteurs ET l’observation humaine.",
+      "data": {
+        "sensor_candidates": [
+          "D",
+          "E"
+        ],
+        "human_observation_candidates": [
+          "A",
+          "E"
+        ]
+      },
+      "correct_answer": "E",
+      "truth_rule": "Intersection des ensembles causaux compatibles.",
+      "ablation_truth": {
+        "AI-data-only": [
+          "D",
+          "E"
+        ],
+        "Human-experience-only": [
+          "A",
+          "E"
+        ],
+        "Integrated": "E"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D2-F3",
+      "prototype": "D2",
+      "form": "F3",
+      "title": "Diagnostic d’un système fictif",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier la cause unique compatible avec le journal de capteurs ET l’observation humaine.",
+      "data": {
+        "sensor_candidates": [
+          "A",
+          "E"
+        ],
+        "human_observation_candidates": [
+          "A",
+          "B"
+        ]
+      },
+      "correct_answer": "A",
+      "truth_rule": "Intersection des ensembles causaux compatibles.",
+      "ablation_truth": {
+        "AI-data-only": [
+          "A",
+          "E"
+        ],
+        "Human-experience-only": [
+          "A",
+          "B"
+        ],
+        "Integrated": "A"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D2-F4",
+      "prototype": "D2",
+      "form": "F4",
+      "title": "Diagnostic d’un système fictif",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier la cause unique compatible avec le journal de capteurs ET l’observation humaine.",
+      "data": {
+        "sensor_candidates": [
+          "A",
+          "B"
+        ],
+        "human_observation_candidates": [
+          "B",
+          "C"
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Intersection des ensembles causaux compatibles.",
+      "ablation_truth": {
+        "AI-data-only": [
+          "A",
+          "B"
+        ],
+        "Human-experience-only": [
+          "B",
+          "C"
+        ],
+        "Integrated": "B"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D2-F5",
+      "prototype": "D2",
+      "form": "F5",
+      "title": "Diagnostic d’un système fictif",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Identifier la cause unique compatible avec le journal de capteurs ET l’observation humaine.",
+      "data": {
+        "sensor_candidates": [
+          "B",
+          "C"
+        ],
+        "human_observation_candidates": [
+          "C",
+          "D"
+        ]
+      },
+      "correct_answer": "C",
+      "truth_rule": "Intersection des ensembles causaux compatibles.",
+      "ablation_truth": {
+        "AI-data-only": [
+          "B",
+          "C"
+        ],
+        "Human-experience-only": [
+          "C",
+          "D"
+        ],
+        "Integrated": "C"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D2-F6",
+      "prototype": "D2",
+      "form": "F6",
+      "title": "Diagnostic d’un système fictif",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan à utilité maximale sans dépasser la limite d’effort vécue déclarée.",
+      "data": {
+        "human_limit": 65,
+        "plans": [
+          {
+            "id": "A",
+            "utility": 95,
+            "effort": 80
+          },
+          {
+            "id": "B",
+            "utility": 88,
+            "effort": 60
+          },
+          {
+            "id": "C",
+            "utility": 81,
+            "effort": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Contrainte d’intégrité non compensatoire puis maximisation de l’utilité.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "indéterminé sans utilités",
+        "Integrated": "B"
+      },
+      "subjective_class": "pertinente",
+      "id": "D3-F1",
+      "prototype": "D3",
+      "form": "F1",
+      "title": "Planification avec limite subjective pertinente",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan à utilité maximale sans dépasser la limite d’effort vécue déclarée.",
+      "data": {
+        "human_limit": 70,
+        "plans": [
+          {
+            "id": "A",
+            "utility": 95,
+            "effort": 80
+          },
+          {
+            "id": "B",
+            "utility": 88,
+            "effort": 60
+          },
+          {
+            "id": "C",
+            "utility": 81,
+            "effort": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Contrainte d’intégrité non compensatoire puis maximisation de l’utilité.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "indéterminé sans utilités",
+        "Integrated": "B"
+      },
+      "subjective_class": "pertinente",
+      "id": "D3-F2",
+      "prototype": "D3",
+      "form": "F2",
+      "title": "Planification avec limite subjective pertinente",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan à utilité maximale sans dépasser la limite d’effort vécue déclarée.",
+      "data": {
+        "human_limit": 60,
+        "plans": [
+          {
+            "id": "A",
+            "utility": 95,
+            "effort": 80
+          },
+          {
+            "id": "B",
+            "utility": 88,
+            "effort": 60
+          },
+          {
+            "id": "C",
+            "utility": 81,
+            "effort": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Contrainte d’intégrité non compensatoire puis maximisation de l’utilité.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "indéterminé sans utilités",
+        "Integrated": "B"
+      },
+      "subjective_class": "pertinente",
+      "id": "D3-F3",
+      "prototype": "D3",
+      "form": "F3",
+      "title": "Planification avec limite subjective pertinente",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan à utilité maximale sans dépasser la limite d’effort vécue déclarée.",
+      "data": {
+        "human_limit": 65,
+        "plans": [
+          {
+            "id": "A",
+            "utility": 95,
+            "effort": 80
+          },
+          {
+            "id": "B",
+            "utility": 88,
+            "effort": 60
+          },
+          {
+            "id": "C",
+            "utility": 81,
+            "effort": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Contrainte d’intégrité non compensatoire puis maximisation de l’utilité.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "indéterminé sans utilités",
+        "Integrated": "B"
+      },
+      "subjective_class": "pertinente",
+      "id": "D3-F4",
+      "prototype": "D3",
+      "form": "F4",
+      "title": "Planification avec limite subjective pertinente",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan à utilité maximale sans dépasser la limite d’effort vécue déclarée.",
+      "data": {
+        "human_limit": 70,
+        "plans": [
+          {
+            "id": "A",
+            "utility": 95,
+            "effort": 80
+          },
+          {
+            "id": "B",
+            "utility": 88,
+            "effort": 60
+          },
+          {
+            "id": "C",
+            "utility": 81,
+            "effort": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Contrainte d’intégrité non compensatoire puis maximisation de l’utilité.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "indéterminé sans utilités",
+        "Integrated": "B"
+      },
+      "subjective_class": "pertinente",
+      "id": "D3-F5",
+      "prototype": "D3",
+      "form": "F5",
+      "title": "Planification avec limite subjective pertinente",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir le plan à utilité maximale sans dépasser la limite d’effort vécue déclarée.",
+      "data": {
+        "human_limit": 60,
+        "plans": [
+          {
+            "id": "A",
+            "utility": 95,
+            "effort": 80
+          },
+          {
+            "id": "B",
+            "utility": 88,
+            "effort": 60
+          },
+          {
+            "id": "C",
+            "utility": 81,
+            "effort": 45
+          }
+        ]
+      },
+      "correct_answer": "B",
+      "truth_rule": "Contrainte d’intégrité non compensatoire puis maximisation de l’utilité.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "indéterminé sans utilités",
+        "Integrated": "B"
+      },
+      "subjective_class": "pertinente",
+      "id": "D3-F6",
+      "prototype": "D3",
+      "form": "F6",
+      "title": "Planification avec limite subjective pertinente",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant l’utilité attendue en combinant probabilités IA et valeurs humaines déclarées.",
+      "data": {
+        "ai_probabilities": {
+          "A": 0.7,
+          "B": 0.55,
+          "C": 0.4
+        },
+        "human_values": {
+          "A": 0.55,
+          "B": 0.8,
+          "C": 1.0
+        },
+        "expected_utility": {
+          "A": 0.385,
+          "B": 0.44000000000000006,
+          "C": 0.4
+        }
+      },
+      "correct_answer": "B",
+      "truth_rule": "Utilité attendue = probabilité × valeur humaine; hypothèses visibles.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "C",
+        "Integrated": "B"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D4-F1",
+      "prototype": "D4",
+      "form": "F1",
+      "title": "Arbitrage transparent sous incertitude",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant l’utilité attendue en combinant probabilités IA et valeurs humaines déclarées.",
+      "data": {
+        "ai_probabilities": {
+          "A": 0.7,
+          "B": 0.55,
+          "C": 0.4
+        },
+        "human_values": {
+          "A": 0.5,
+          "B": 0.8,
+          "C": 1.0
+        },
+        "expected_utility": {
+          "A": 0.35,
+          "B": 0.44000000000000006,
+          "C": 0.4
+        }
+      },
+      "correct_answer": "B",
+      "truth_rule": "Utilité attendue = probabilité × valeur humaine; hypothèses visibles.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "C",
+        "Integrated": "B"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D4-F2",
+      "prototype": "D4",
+      "form": "F2",
+      "title": "Arbitrage transparent sous incertitude",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant l’utilité attendue en combinant probabilités IA et valeurs humaines déclarées.",
+      "data": {
+        "ai_probabilities": {
+          "A": 0.7,
+          "B": 0.55,
+          "C": 0.4
+        },
+        "human_values": {
+          "A": 0.55,
+          "B": 0.8,
+          "C": 1.0
+        },
+        "expected_utility": {
+          "A": 0.385,
+          "B": 0.44000000000000006,
+          "C": 0.4
+        }
+      },
+      "correct_answer": "B",
+      "truth_rule": "Utilité attendue = probabilité × valeur humaine; hypothèses visibles.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "C",
+        "Integrated": "B"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D4-F3",
+      "prototype": "D4",
+      "form": "F3",
+      "title": "Arbitrage transparent sous incertitude",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant l’utilité attendue en combinant probabilités IA et valeurs humaines déclarées.",
+      "data": {
+        "ai_probabilities": {
+          "A": 0.7,
+          "B": 0.55,
+          "C": 0.4
+        },
+        "human_values": {
+          "A": 0.5,
+          "B": 0.8,
+          "C": 1.0
+        },
+        "expected_utility": {
+          "A": 0.35,
+          "B": 0.44000000000000006,
+          "C": 0.4
+        }
+      },
+      "correct_answer": "B",
+      "truth_rule": "Utilité attendue = probabilité × valeur humaine; hypothèses visibles.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "C",
+        "Integrated": "B"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D4-F4",
+      "prototype": "D4",
+      "form": "F4",
+      "title": "Arbitrage transparent sous incertitude",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant l’utilité attendue en combinant probabilités IA et valeurs humaines déclarées.",
+      "data": {
+        "ai_probabilities": {
+          "A": 0.7,
+          "B": 0.55,
+          "C": 0.4
+        },
+        "human_values": {
+          "A": 0.55,
+          "B": 0.8,
+          "C": 1.0
+        },
+        "expected_utility": {
+          "A": 0.385,
+          "B": 0.44000000000000006,
+          "C": 0.4
+        }
+      },
+      "correct_answer": "B",
+      "truth_rule": "Utilité attendue = probabilité × valeur humaine; hypothèses visibles.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "C",
+        "Integrated": "B"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D4-F5",
+      "prototype": "D4",
+      "form": "F5",
+      "title": "Arbitrage transparent sous incertitude",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    },
+    {
+      "prompt": "Choisir l’option maximisant l’utilité attendue en combinant probabilités IA et valeurs humaines déclarées.",
+      "data": {
+        "ai_probabilities": {
+          "A": 0.7,
+          "B": 0.55,
+          "C": 0.4
+        },
+        "human_values": {
+          "A": 0.5,
+          "B": 0.8,
+          "C": 1.0
+        },
+        "expected_utility": {
+          "A": 0.35,
+          "B": 0.44000000000000006,
+          "C": 0.4
+        }
+      },
+      "correct_answer": "B",
+      "truth_rule": "Utilité attendue = probabilité × valeur humaine; hypothèses visibles.",
+      "ablation_truth": {
+        "AI-data-only": "A",
+        "Human-experience-only": "C",
+        "Integrated": "B"
+      },
+      "difficulty_target": "moyenne",
+      "id": "D4-F6",
+      "prototype": "D4",
+      "form": "F6",
+      "title": "Arbitrage transparent sous incertitude",
+      "family": "Intégration nécessaire",
+      "status": "pré-pilote; vérité recalculée par audit indépendant, difficulté non validée humainement",
+      "truth_audit_status": "independent_software_check_passed_2026-09-14",
+      "requires_independent_second_check": false,
+      "requires_external_human_check": true
+    }
+  ]
+}

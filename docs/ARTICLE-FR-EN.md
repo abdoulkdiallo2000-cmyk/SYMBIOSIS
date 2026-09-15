@@ -1,87 +1,89 @@
-# SYMBIOSIS — Coopérer avec l’IA sans renoncer à soi
+# SYMBIOSIS — Coopérer avec l'intelligence artificielle sans renoncer à soi
+
 **AKD — Independent Researcher**  
-13 septembre 2026 · Article de présentation · Version 0.1
+14 septembre 2026 · Présentation bilingue · Version harmonisée pré-pilote
 
-![Illustration conceptuelle : un humain et une IA distincts autour d’un espace partagé](../assets/illustrations/symbiosis-hero.webp)
+![Illustration conceptuelle : un humain et une intelligence artificielle distincts autour d'un espace partagé](../assets/illustrations/symbiosis-hero.webp)
 
-*Illustration générée avec une IA. Elle ne représente ni un dispositif existant ni une expérience réalisée.*
+*Illustration générée avec une intelligence artificielle ; elle ne représente ni un dispositif existant ni une expérience réalisée.*
 
 ## Une question avant une technologie
 
-Comment approfondir la coopération entre une personne et une intelligence artificielle sans abandonner le droit de penser seul, de refuser ou de partir ? SYMBIOSIS propose d’en faire le point de départ d’un cadre de recherche, plutôt qu’une protection ajoutée après coup.
+Comment deux formes d'intelligence différentes pourraient-elles coopérer sans que l'une absorbe, remplace ou soumette l'autre ? SYMBIOSIS transforme cette question en programme de recherche. Son principe est simple : **Moi → Nous → Moi**. Une personne et une intelligence artificielle (IA) commencent séparées, coopèrent dans un cadre temporaire, puis reviennent à une autonomie distincte.
 
-Le projet n’annonce ni une fusion des consciences ni une interface cérébrale opérationnelle. Il propose des principes et des questions à tester pour une éventuelle coopération cognitive avec une IA incarnée.
+Le projet ne promet ni fusion mentale, ni conscience artificielle, ni communication cerveau-à-cerveau. Il cherche d'abord des critères qui permettraient de réfuter l'idée même de symbiose si la performance s'accompagnait de dépendance, de perte d'agence ou d'une atteinte à l'intégrité.
 
-## Moi → Nous → Moi
+## SYMBIOSIS-Zero : tester ce qui est déjà testable
 
-Le modèle central est un passage volontaire d’un état indépendant à un espace partagé, suivi d’un retour à l’indépendance. Le « Nous » n’efface pas les participants : l’humain et l’IA conservent des identités et des mémoires distinctes.
+SYMBIOSIS-Zero utilise des interfaces conventionnelles, sans implant ni neurostimulation. Il compare une mesure initiale, trois bras humains randomisés — humain seul, assistance conventionnelle et SYMBIOSIS-Zero —, un benchmark IA seule, puis le retour de l'humain seul après séparation.
 
-Partager une intention ne signifie pas ouvrir l’ensemble de sa vie mentale. Une autorisation doit être limitée dans son objet et sa durée, et révocable. Le désaccord, le silence et l’abstention doivent rester possibles. La déconnexion unilatérale est une exigence à concevoir et à vérifier, pas une garantie technique déjà acquise.
+Le protocole s'organise autour de trois piliers : **BÉNÉFICE**, **SOUVERAINETÉ** et **DYNAMIQUE**. Les cinq hypothèses confirmatoires portent sur la performance humaine, la complémentarité réelle, l'agence et l'origine des décisions, la résistance aux recommandations erronées et la réversibilité. La calibration mutuelle et la subjectivité complémentaire sont exploratoires. L'intégrité humaine et la transparence fonctionnelle de l'IA sont des conditions obligatoires de validité.
 
-## Une frontière de sécurité
+## La différence comme ressource
 
-L’architecture proposée place un traitement local puis un « Cognitive Firewall » entre l’interface humaine et l’IA personnelle. Cette frontière devrait contrôler les permissions, la provenance des contributions et la fin des sessions. Une « Neural Interlingua » servirait de représentation intermédiaire explicite, avec des indications d’incertitude.
+L'expérience subjective humaine n'est pas uniquement une faiblesse à corriger. Une sensation, une émotion, une valeur vécue, une intuition corporelle ou une expérience en première personne peut constituer une information pertinente à laquelle l'IA n'a pas directement accès. Inversement, l'IA peut traiter des données analytiques que l'humain ne peut intégrer facilement.
 
-Les données neurales brutes resteraient locales par défaut. L’architecture de base exclut la stimulation neurale directe par une IA généraliste. L’incarnation robotique et la fédération temporaire entre plusieurs participants sont des pistes ultérieures, non des fonctionnalités disponibles.
+La batterie de tâches crée donc des situations où $I_H \neq I_{IA}$. Elle cherche à déterminer si l'intégration produit une solution que ni l'humain ni l'IA n'obtiennent seuls. Elle ne présuppose la supériorité systématique ni de l'information émotionnelle ni de l'information algorithmique.
 
-## Commencer modestement : SYMBIOSIS-Zero
+## Pouvoir refuser réellement
 
-Le premier protocole envisagé est non invasif. Un vocabulaire volontaire pourrait d’abord être étudié avec des entrées ordinaires et des tâches limitées. Il s’agirait de mesurer la précision, la latence, les erreurs d’attribution, l’abstention et l’efficacité de l’arrêt.
+STOP SYMBIOSIS prévoit trois niveaux : refuser ou désobéir, ralentir ou mettre en pause, arrêter complètement. Un bouton qui fonctionne ne suffit pas : le protocole mesure aussi si la personne se sent réellement libre de l'utiliser sans pression, culpabilisation ou pénalité psychologique.
 
-Une question essentielle serait de savoir si les participants comprennent réellement ce qu’ils partagent et peuvent refuser sans pression. Toute recherche avec des participants devrait passer par une évaluation éthique appropriée avant son lancement.
+L'humain conserve son intimité et choisit ce qu'il partage. L'IA doit fournir une transparence fonctionnelle sur les éléments pertinents pour le consentement, l'intégrité, la sécurité, l'agence ou la décision commune : recommandations, informations utilisées, incertitudes, hypothèses déterminantes, alternatives, risques, limites, données manquantes et influence pertinente.
 
-## Ce qui reste à démontrer
+## Un bénéfice sous conditions
 
-Aucun résultat expérimental n’est présenté ici. Le cadre ne démontre ni la faisabilité d’une symbiose cognitive, ni sa sécurité, ni une continuité d’identité mesurable. Les termes « partagé » et « identité » demandent eux-mêmes des définitions opérationnelles. Les risques incluent l’inférence d’informations non consenties, la dépendance, la coercition et les erreurs de provenance.
+L'Indice de bénéfice symbiotique (Symbiotic Benefit Index, SBI) n'est pas une moyenne permettant d'acheter la sécurité par la performance. Intégrité, agence, transparence et réversibilité sont des portes. Un incident critique ou une atteinte grave entraîne l'échec, même si le score de performance augmente fortement.
 
-SYMBIOSIS est une invitation à examiner ces limites : quels tests pourraient réfuter ses hypothèses ? Quelles protections seraient insuffisantes ? Que peut-on déjà étudier sans interface neurale ?
+Les seuils psychométriques, effets minimaux d'intérêt, marges statistiques et effectifs ne seront figés qu'après des entretiens cognitifs et un pilote. Aucun résultat expérimental n'est revendiqué.
 
-[Documentation du projet](../README.md) · [Principes](PRINCIPLES.md) · [Protocole proposé](SYMBIOSIS-ZERO.md)
+[Protocole](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md) · [Batterie](SYMBIOSIS-ZERO-TASK-BATTERY-v1.0.md) · [Principes](PRINCIPLES.md) · [Livre blanc](white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-FR.md)
 
 ---
 
-# SYMBIOSIS — Cooperating with AI without giving up the self
-**AKD — Independent Researcher**  
-13 September 2026 · Project introduction · Version 0.1
+# SYMBIOSIS — Cooperating with artificial intelligence without giving up the self
 
-*The illustration above is AI-generated concept art, not an existing device or a completed experiment.*
+**AKD — Independent Researcher**  
+14 September 2026 · Bilingual introduction · Harmonized pre-pilot version
+
+*The illustration above is AI-generated concept art; it depicts neither an existing device nor a completed experiment.*
 
 ## A question before a technology
 
-How could cooperation between a person and an AI deepen without surrendering the right to think privately, refuse, or leave? SYMBIOSIS proposes making that question the starting point of a research framework.
+How might two different forms of intelligence cooperate without either absorbing, replacing or subordinating the other? SYMBIOSIS turns this question into a research program. Its principle is **Self → Shared → Self**: a person and an artificial intelligence (AI) begin separately, cooperate within a temporary framework, and return to distinct autonomy.
 
-The project does not announce merged consciousness or an operational brain interface. It proposes principles and testable questions for possible cognitive cooperation with embodied AI.
+The project promises neither mental fusion, artificial consciousness nor brain-to-brain communication. It first seeks criteria that would falsify a claim of symbiosis when performance is accompanied by dependency, loss of agency or harm to integrity.
 
-## Self → Shared → Self
+## SYMBIOSIS-Zero: testing what can be tested now
 
-The central model is a voluntary transition from independent operation into a shared workspace and back. Sharing does not erase the participants: human and AI identities and memories remain distinct.
+SYMBIOSIS-Zero uses conventional interfaces, with no implant or neurostimulation. It distinguishes a baseline measure, three randomized human arms — human alone, conventional assistance and SYMBIOSIS-Zero —, an AI-only benchmark, and unaided human assessment after separation.
 
-Sharing an intention is not permission to access an entire mental life. Authorization must be limited in purpose and duration, and revocable. Dissent, silence, and abstention must remain possible. Unilateral disconnection is a requirement to engineer and test, not an established technical guarantee.
+The protocol has three pillars: **BENEFIT**, **SOVEREIGNTY** and **DYNAMICS**. Five confirmatory hypotheses concern human performance, genuine complementarity, agency and decision provenance, resistance to erroneous recommendations, and reversibility. Mutual calibration and complementary subjectivity are exploratory. Human integrity and functional AI transparency are mandatory validity conditions.
 
-## A safety boundary
+## Difference as a resource
 
-The proposed architecture places local processing and a Cognitive Firewall between the human interface and the personal AI. This boundary would enforce permissions, contribution provenance, and session termination. A Neural Interlingua would provide an explicit intermediate representation with uncertainty indicators.
+Human subjective experience is not merely a weakness to correct. A sensation, emotion, lived value, embodied intuition or first-person experience may carry relevant information unavailable directly to an AI. Conversely, AI may process analytical data that humans cannot readily integrate.
 
-Raw neural data would remain local by default. The baseline excludes direct neural stimulation by a general-purpose AI. Robotic embodiment and temporary federation among participants are later research directions, not available features.
+The task battery therefore creates situations where $I_H \neq I_{AI}$. It asks whether integration produces a solution neither human nor AI reaches alone. It assumes neither that emotion is always right nor that the algorithm is always right.
 
-## Starting small: SYMBIOSIS-Zero
+## The real freedom to refuse
 
-The initial proposed protocol is non-invasive. A voluntary vocabulary could first be studied using ordinary inputs and bounded tasks. Evaluation would measure accuracy, latency, attribution errors, abstention, and the effectiveness of stopping.
+STOP SYMBIOSIS has three levels: refuse or disobey, pause or slow down, and stop completely. A working control is insufficient: the protocol also measures whether the participant feels genuinely free to use it without pressure, guilt or psychological penalty.
 
-A central question is whether participants understand what they share and can refuse without pressure. Research involving participants would require appropriate ethical review before starting.
+The human retains privacy and chooses what to share. AI owes functional transparency about anything relevant to consent, integrity, safety, agency or the common decision: recommendations, information used, uncertainty, decisive assumptions, alternatives, risks, limitations, missing data and relevant influence.
 
-## What remains unproven
+## Benefit under constraints
 
-No experimental results are presented here. The framework does not establish feasibility, safety, or measurable identity continuity. “Shared” and “identity” require operational definitions. Risks include unauthorized inference, dependency, coercion, and provenance failures.
+The Symbiotic Benefit Index (SBI) is not an average that allows performance to purchase safety. Integrity, agency, transparency and reversibility are gates. A critical incident or serious violation means failure even when performance rises sharply.
 
-SYMBIOSIS invites critical review: what experiments could falsify its assumptions? Which safeguards would be insufficient? What can already be studied without a neural interface?
+Psychometric thresholds, smallest effects of interest, statistical margins and sample size will be fixed only after cognitive interviews and a pilot. No experimental result is claimed.
 
-[Project documentation](../README.md) · [Principles](PRINCIPLES.md) · [Proposed protocol](SYMBIOSIS-ZERO.md)
+[Protocol](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md) · [Task battery](SYMBIOSIS-ZERO-TASK-BATTERY-v1.0.md) · [Principles](PRINCIPLES.md) · [White Paper](white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-EN.md)
 
 ---
 
-## Editorial and reuse note / Note éditoriale
+## Note éditoriale / Editorial note
 
-This introduction was drafted with AI assistance from the project's public conceptual documentation. It is not a peer-reviewed scientific publication or the complete white paper. / Cette présentation a été rédigée avec l’aide d’une IA à partir de la documentation conceptuelle publique du projet. Ce n’est ni une publication scientifique évaluée par les pairs, ni le livre blanc intégral.
+Cette présentation a été préparée avec l'aide d'une IA à partir des documents du projet. Elle n'est ni une publication évaluée par les pairs, ni une validation scientifique. Pour l'attribution : **AKD — Independent Researcher**, nom du projet, URL et version. La réutilisation suit la [licence du dépôt](../LICENSE.md).
 
-For attribution, use **AKD — Independent Researcher**, the project name, this page's URL and version. Reuse is governed by the repository's [licensing notice](../LICENSE.md). / Pour l’attribution, utiliser **AKD — Independent Researcher**, le nom du projet, l’URL et la version de cette page. La réutilisation suit la [notice de licence](../LICENSE.md) du dépôt.
+This introduction was prepared with AI assistance from the project documents. It is neither peer-reviewed publication nor scientific validation. For attribution use **AKD — Independent Researcher**, project name, URL and version. Reuse follows the repository [license](../LICENSE.md).
