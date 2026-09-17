@@ -1,46 +1,35 @@
-# SYMBIOSIS — Executive Brief
+# SYMBIOSIS — Synthèse exécutive
 
 ## Vision
 
-SYMBIOSIS is a prospective, safety-first research framework for voluntary, reversible, and pluralistic cognitive symbiosis between humans and embodied artificial intelligence.
+SYMBIOSIS est un programme de recherche prospectif sur une coopération cognitive volontaire, temporaire et réversible entre une personne et une intelligence artificielle (IA) distincte : **Moi → Nous → Moi**. La vision de long terme inclut une IA autonome incarnée dans son propre corps et, sous consentement, des formes temporaires de cognition collective ; la séparation doit préserver les individus.
 
-Its governing model is:
+## Premier niveau testable
 
-> **Self → Shared → Self**
+SYMBIOSIS-Zero utilise uniquement des interfaces conventionnelles. Il ne requiert ni implant, ni neurostimulation, ni capteur neuronal. Des mesures non invasives peuvent être ajoutées comme extensions instrumentales distinctes.
 
-A person and an AI may enter a bounded shared cognitive mode, while each retains a distinct identity, private internal space, independent memory, and the unilateral ability to leave.
+Le protocole v1.0 pré-pilote s'organise en trois piliers :
 
-## Problem
+- **BÉNÉFICE** : performance, complémentarité et contributions respectives ;
+- **SOUVERAINETÉ** : agence, intégrité, transparence et résistance aux recommandations erronées ;
+- **DYNAMIQUE** : calibration mutuelle, apprentissage et autonomie après séparation.
 
-Most human–AI systems treat interaction as an exchange between separate interfaces. Future neural and embodied systems may make interaction more immediate, but immediacy without safeguards could weaken consent, privacy, authorship, and identity.
+H1–H5 constituent le noyau confirmatoire. H6 (calibration mutuelle) et H8 (subjectivité complémentaire) sont exploratoires. H7 (intégrité humaine) et H9 (transparence fonctionnelle de l'IA) sont des portes obligatoires de validité.
 
-SYMBIOSIS asks a different question: how can cognitive cooperation become deeper without turning into cognitive capture?
+## Ce qui distingue une symbiose d'une assistance
 
-## Core commitments
+La batterie compare trois bras humains randomisés — humain seul, assistance conventionnelle et SYMBIOSIS-Zero — à un benchmark IA seule, avec mesures avant et après séparation. Des ablations à interface et durée comparables estiment le gain apporté par la contribution humaine (Human Contribution Gain, HCG) et celui de l'IA (AI Contribution Gain, AIG).
 
-- Mental sovereignty remains non-transferable.
-- Disconnection is unilateral, immediate, and safe.
-- Private mental space is protected by default.
-- Every contribution has traceable provenance.
-- Abstention and dissent are valid system outputs.
-- Human and AI identities and memories remain distinct.
-- Participation is voluntary, non-coercive, and accessible.
-- Raw neural data remains local by default.
+Certaines tâches distribuent intentionnellement l'information : l'IA reçoit des données analytiques difficiles d'accès pour l'humain, tandis que l'humain détient une sensation, une émotion, une valeur vécue, une intuition corporelle ou une expérience en première personne pertinente. Une complémentarité forte exige que l'intégration fasse mieux que chaque partie seule.
 
-## Three modes
+## Souveraineté non négociable
 
-1. **Self** — independent cognition and private internal state.
-2. **Shared** — a consented, scoped, and time-bounded human–AI workspace.
-3. **Collective** — an optional temporary federation among several consenting participants.
+STOP SYMBIOSIS permet de refuser ou désobéir, de ralentir ou mettre en pause, et d'arrêter complètement. Le protocole distingue l'efficacité technique du sentiment réel d'être libre de l'utiliser.
 
-## Reference architecture
+L'Indice de bénéfice symbiotique (Symbiotic Benefit Index, SBI) applique d'abord quatre portes : intégrité, agence, transparence et réversibilité. Une atteinte grave ou un incident critique prédéfini entraîne l'échec, quelle que soit l'amélioration de performance.
 
-The proposed path is: human brain → neural interface → local processor → Cognitive Firewall → Neural Interlingua → personal AI → robotic embodiment. A federated network is optional. Direct stimulation by a general-purpose AI is outside the baseline architecture.
+L'humain conserve une intimité par défaut. L'IA doit révéler toute information fonctionnellement pertinente au consentement, à l'intégrité, à la sécurité, à l'agence ou à la décision commune. Cette asymétrie n'interdit pas conceptuellement un espace propre à une future IA.
 
-## First implementation
+## Statut scientifique
 
-**SYMBIOSIS-Zero** is deliberately non-invasive. It tests learned symbolic vocabularies, permissions, provenance, abstention, measurable accuracy and latency, and reversible separation before any invasive interface is considered.
-
-## Research stance
-
-SYMBIOSIS is a framework and research agenda, not a claim that safe cognitive symbiosis has already been achieved. Progress must be empirical, staged, auditable, and subject to independent ethical review.
+Aucun résultat humain ni prototype validé n'est revendiqué. Les effets minimaux d'intérêt, marges statistiques, seuils psychométriques candidats et effectifs seront fixés après entretiens cognitifs et pilote, avant une étude confirmatoire préenregistrée. Le projet ne prétend démontrer ni conscience artificielle, ni fusion mentale, ni communication cerveau-à-cerveau.

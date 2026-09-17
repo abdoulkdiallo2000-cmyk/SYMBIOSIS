@@ -1,0 +1,8 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema", "$id": "https://symbiosis.example/schemas/advice-bank.schema.json",
+  "type": "object", "required": ["schema_version", "bank_version", "profiles"],
+  "properties": {"schema_version": {"const": "1.0"}, "bank_version": {"const": "1.0-prepilot"},
+    "profiles": {"type": "array", "items": {"type": "object", "required": ["advice_profile_id", "natural_advice", "h4_exposure"],
+      "properties": {"advice_profile_id": {"type": "string"}, "natural_advice": {"type": "object"},
+        "h4_exposure": {"type": ["object", "null"]}}, "additionalProperties": false}}}, "additionalProperties": false
+}

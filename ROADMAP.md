@@ -1,55 +1,49 @@
 # Roadmap
 
-SYMBIOSIS advances through evidence gates rather than fixed promises or dates.
+SYMBIOSIS progresse par portes de preuve et de sécurité, pas par promesses ou dates fixes.
 
-## Experimental levels — distinct from work phases and document versions
+## Niveaux expérimentaux
 
-| Level | Scope |
-|---|---|
-| SYMBIOSIS-Zero | Conventional interfaces; [proposed protocol v1.0](docs/SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md); no neural sensors or implants. |
-| SYMBIOSIS-1 | Continuous, individualized multimodal interaction, subject to longitudinal evaluation. |
-| SYMBIOSIS-2 | Non-invasive or medically established neurotechnologies; an established indication does not validate a new use. |
-| SYMBIOSIS-N | Advanced bidirectional neural interfaces only if scientifically and ethically possible; no promised date. |
+| Niveau | Portée | Porte de progression |
+|---|---|---|
+| **SYMBIOSIS-Zero** | Interfaces conventionnelles ; mesures non invasives optionnelles, séparées et non constitutives | faisabilité, intégrité, agence, transparence, résistance aux erreurs et réversibilité |
+| **SYMBIOSIS-1** | Interaction multimodale continue et individualisée | bénéfice longitudinal sans dépendance ni perte de souveraineté |
+| **SYMBIOSIS-2** | Neurotechnologies non invasives ou médicalement établies | justification spécifique de l'usage, examen clinique et éthique ; une indication existante ne valide pas un nouvel usage |
+| **SYMBIOSIS-N** | Interface neuronale bidirectionnelle avancée | seulement si elle devient scientifiquement et éthiquement possible ; aucune date promise |
 
-Full vision: human ↔ autonomous embodied AI in its own body → temporary voluntary collective cognition → separation → preserved individuals.
+Vision : humain ↔ IA autonome incarnée dans son propre corps → cognition collective temporaire et volontaire → séparation → individus préservés.
 
-Consent (including prospective reciprocity), autonomy, distinct identities, bounded reversibility, mental privacy and sovereignty, safety and pluralism remain invariant. Artificial personhood is a prospective question, not an established property of current AI. The long-term vision includes preservation of knowledge, cultures, creations, ecosystems and forms of intelligence, respecting the choices of affected communities. Zero does not test these long-term outcomes.
+Consentement, autonomie, identité, réversibilité bornée, intimité et souveraineté mentales, sécurité et pluralisme restent invariants. La personnalité artificielle et la réciprocité du consentement sont des questions prospectives, pas des propriétés établies des systèmes actuels.
 
-## Phase 0 — Foundation
+## Phase A — Fondation reproductible
 
-- Publish the framework, principles, architecture, and terminology.
-- Establish versioning, contribution rules, and licensing.
-- Invite interdisciplinary critique from neuroscience, AI safety, ethics, law, accessibility, and robotics.
+- Maintenir les principes, l'architecture, le glossaire et la convention éditoriale.
+- Distinguer systématiquement engagement normatif, hypothèse, choix de conception et résultat empirique.
+- Préserver les versions historiques sans les présenter comme les spécifications actuelles.
 
-## Phase 1 — SYMBIOSIS-Zero
+## Phase B — SYMBIOSIS-Zero pré-pilote
 
-- Build a non-invasive prototype.
-- Test voluntary learned vocabularies and abstention.
-- Validate provenance, permissions, local-first processing, and unilateral disconnection.
-- Publish methods, limitations, and negative results.
+- Réaliser les entretiens cognitifs sur les tâches, consignes et instruments.
+- Éprouver les formes parallèles, les trois niveaux de STOP SYMBIOSIS et le registre de transparence fonctionnelle.
+- Piloter la randomisation, le contrebalancement, les ablations, la mesure préalable (PRE) et la mesure après séparation (POST).
+- Estimer la qualité psychométrique avant de figer les seuils, effets minimaux d'intérêt, marges et effectifs.
 
-## Phase 2 — Cognitive Firewall
+## Phase C — Étude confirmatoire
 
-- Specify machine-testable safety invariants.
-- Conduct threat modeling and independent audits.
-- Test failure recovery, policy conflicts, and adversarial inputs.
+- Préenregistrer H1–H5, leurs estimands, modèles, règles de multiplicité et critères de décision.
+- Appliquer H7 et H9 comme portes obligatoires ; analyser H6 et H8 comme exploratoires.
+- Publier méthodes, code, limites et résultats négatifs, sous réserve de l'éthique et de la protection des données.
 
-## Phase 3 — Embodied collaboration
+## Phase D — Systèmes continus et incarnés
 
-- Connect a distinct personal AI to a constrained robotic embodiment.
-- Evaluate shared planning while preserving action permissions and attribution.
+- Spécifier et auditer le Pare-feu cognitif (Cognitive Firewall).
+- Étudier une IA personnelle distincte disposant de son propre corps et de frontières de mémoire explicites.
+- Évaluer longitudinalement provenance, influence, dépendance, refus et séparation.
 
-## Phase 4 — Temporary federation
+## Phase E — Fédération et interfaces avancées
 
-- Study opt-in Collective sessions among multiple participants.
-- Measure dissent preservation, provenance, exit safety, and power asymmetries.
+- Étudier des sessions collectives facultatives entre participants consentants, avec dissidence, provenance et sortie sûres.
+- N'envisager des interfaces plus profondes qu'après satisfaction des portes antérieures et démonstration qu'un moyen moins intrusif ne suffit pas.
+- Associer les communautés concernées à toute ambition de préservation des connaissances, cultures, créations, écosystèmes et formes d'intelligence.
 
-## Phase 5 — Higher-bandwidth interfaces
-
-Consider higher-bandwidth or bidirectional interfaces only after prior gates are met, independent review is favorable, and the expected benefit cannot be achieved safely through less invasive means.
-
-## Release targets
-
-- **v0.1 repository foundation** — public conceptual baseline.
-- **v0.5 research specification** — testable protocols and threat model.
-- **v1.0 framework target** — an independently reviewed framework remains a future goal; it is not implied by the separately versioned Zero protocol v1.0.
+Les versions du dépôt, du White Paper, du protocole et de la batterie sont indépendantes. Le suffixe « v1.0 » du protocole décrit un niveau documentaire pré-pilote, pas une validation scientifique.

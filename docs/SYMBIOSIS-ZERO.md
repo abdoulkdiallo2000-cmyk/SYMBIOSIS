@@ -1,15 +1,29 @@
 # SYMBIOSIS-Zero
 
-**Proposed experimental protocol v1.0 — not yet experimentally validated.**
+**Protocole expérimental v1.0 pré-pilote — proposition non encore validée expérimentalement.**
 
-[Read the full protocol (French)](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md).
+SYMBIOSIS-Zero opérationnalise « Moi → Nous → Moi » au moyen d'interfaces conventionnelles, sans implant ni neurostimulation. Il teste si une coopération humain–intelligence artificielle (IA) produit une capacité commune supérieure sans sacrifier l'intégrité, l'agence ni l'autonomie humaines.
 
-Self → Shared → Self: voluntary, temporary cooperation through conventional interfaces, with human decision authority and revocable access. No implants or neural sensors are used at this stage.
+## Trois piliers et statut des hypothèses
 
-The protocol tests H1 human performance gain, H2 superiority over both human and AI alone, H3 agency and contribution provenance, H4 resistance to erroneous recommendations, and H5 autonomous performance after separation. Three randomized human arms (human alone, conventional assistance, Zero) are compared with an AI-only benchmark, followed by unaided immediate and delayed assessments.
+| Pilier | Statut dans la première étude |
+|---|---|
+| **BÉNÉFICE** | H1 performance et H2 complémentarité : confirmatoires ; H8 subjectivité complémentaire : exploratoire |
+| **SOUVERAINETÉ** | H3 agence et H4 résistance aux erreurs : confirmatoires ; H7 intégrité et H9 transparence : portes obligatoires |
+| **DYNAMIQUE** | H5 réversibilité : confirmatoire ; H6 calibration mutuelle : exploratoire |
 
-The exploratory Symbiotic Benefit Index cannot compensate for failed agency, safety or autonomy criteria. Success, failure and inconclusive results are distinguished. Stopping an interaction does not erase learning or previously disclosed information.
+Les comparaisons distinguent une mesure initiale (**PRE**), trois bras humains randomisés — humain seul (**H**), assistance conventionnelle humain + IA (**H+AI**) et SYMBIOSIS-Zero (**SZ**) —, un benchmark IA seule (**AI**), puis des mesures humaines sans IA après séparation (**POST**). Les formes parallèles, la randomisation et le contrebalancement limitent les effets d'ordre et de mémorisation.
 
-Pilot work, validated tasks, power simulation, a final sample size, analysis software and appropriate ethics review remain prerequisites to a confirmatory study. No study or working prototype is claimed.
+La [batterie de tâches](SYMBIOSIS-ZERO-TASK-BATTERY-v1.0.md) comporte quatre familles : avantage IA, avantage humain, subjectivité humaine pertinente et intégration humain–IA nécessaire. Le gain apporté par la contribution humaine (Human Contribution Gain, HCG) et le gain apporté par la contribution de l'intelligence artificielle (AI Contribution Gain, AIG) sont estimés prioritairement par ablations à interface et durée comparables.
 
-Zero is the first experimental level of the complete vision, not its replacement. See [the roadmap](../ROADMAP.md) and [reference architecture](ARCHITECTURE.md).
+## Garde-fous non compensatoires
+
+STOP SYMBIOSIS possède trois niveaux : refus ou désobéissance, pause ou ralentissement, arrêt complet. Le protocole mesure séparément l'exécution technique et le sentiment réel de pouvoir utiliser chaque niveau sans pression, culpabilisation ni pénalité psychologique.
+
+L'Indice de bénéfice symbiotique (Symbiotic Benefit Index, SBI) fonctionne en deux étapes. Les portes **Integrity / Agency / Transparency / Reversibility** sont évaluées d'abord. Un incident critique ou une atteinte grave prédéfinie entraîne `SBI = Fail`, indépendamment du gain de performance. Le bénéfice n'est évalué qu'après franchissement des portes.
+
+Les seuils psychométriques, effets minimaux d'intérêt, marges de non-infériorité ou d'équivalence et effectifs restent candidats jusqu'aux entretiens cognitifs et au pilote. En revanche, le caractère non compensatoire des incidents critiques est déjà obligatoire.
+
+Des mesures non invasives peuvent être étudiées dans une extension instrumentale distincte ; elles ne sont ni nécessaires ni constitutives de Zero. Le protocole ne teste ni conscience artificielle, ni fusion mentale, ni communication cerveau-à-cerveau.
+
+[Protocole complet](SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md) · [Batterie](SYMBIOSIS-ZERO-TASK-BATTERY-v1.0.md) · [Questionnaire STOP/H7](SYMBIOSIS-Zero-STOP-H7-Questionnaire.md) · [Registre H9](SYMBIOSIS-Zero-H9-Transparency-Template.md) · [Roadmap](../ROADMAP.md)

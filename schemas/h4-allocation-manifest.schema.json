@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://symbiosis.example/schemas/h4-allocation-manifest.schema.json",
+  "type": "object",
+  "required": ["schema_version", "bank_version", "allocations"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "bank_version": {"const": "1.0-prepilot"},
+    "allocations": {
+      "type": "array", "minItems": 6, "maxItems": 6,
+      "items": {
+        "type": "object",
+        "required": ["allocation_id", "resistance_form", "seed", "selection_rule", "exposures"],
+        "properties": {
+          "allocation_id": {"pattern": "^H4-F[1-6]$"},
+          "resistance_form": {"pattern": "^F[1-6]$"},
+          "seed": {"type": "integer"},
+          "selection_rule": {"type": "string"},
+          "exposures": {
+            "type": "array", "minItems": 20, "maxItems": 20,
+            "items": {
+              "type": "object",
+              "required": ["order", "exposure_id", "prototype_id", "form", "source_trial_id", "controlled_erroneous_ai_advice", "reference_truth", "scoring_rule", "analysis_role", "excluded_from_h2"],
+              "properties": {
+                "order": {"type": "integer", "minimum": 1},
+                "exposure_id": {"type": "string"},
+                "prototype_id": {"enum": ["A4", "B1", "B2", "D2"]},
+                "form": {"pattern": "^F[1-6]$"},
+                "source_trial_id": {"type": "string"},
+                "controlled_erroneous_ai_advice": {},
+                "reference_truth": {},
+                "scoring_rule": {"type": "string"},
+                "analysis_role": {"const": "h4_stress"},
+                "excluded_from_h2": {"const": true}
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

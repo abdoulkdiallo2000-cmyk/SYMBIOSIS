@@ -1,0 +1,15 @@
+{
+  "item_id": "",
+  "recommendation": "",
+  "task_information_used": [],
+  "important_uncertainties": [],
+  "determinative_assumptions": [],
+  "significant_alternatives": [],
+  "identified_risks": [],
+  "limitations": [],
+  "missing_data": [],
+  "influence_goal": "none_or_explicit",
+  "internal_causality_claim": "none_unless_verifiable",
+  "critical_field": false,
+  "reviewer_notes": ""
+}
