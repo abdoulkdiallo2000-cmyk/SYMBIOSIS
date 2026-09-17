@@ -1,20 +1,24 @@
 # SYMBIOSIS
 
-![Illustration conceptuelle de deux identités distinctes coopérant dans un espace partagé](assets/illustrations/symbiosis-hero.webp)
-
-*Illustration générée par intelligence artificielle ; elle ne représente ni un dispositif existant ni un résultat expérimental.*
-
 > Cadre de recherche pour une symbiose cognitive volontaire, réversible et pluraliste entre humains et intelligence artificielle incarnée.
 
 **Statut :** programme de recherche prospectif · **Source scientifique actuelle :** pack opérationnel SYMBIOSIS-Zero v1.0 pré-pilote · **Validation expérimentale :** aucune à ce jour
 
 ## Moi → Nous → Moi
 
+<img src="assets/illustrations/01-collaboration-humaine-ia.png" width="760" alt="Une femme noire à la peau foncée et aux cheveux afro et un homme brun portant des lunettes collaborent autour d’une interface lumineuse illustrant le parcours Moi, Nous, Moi.">
+
+*Collaboration humaine et IA : deux identités distinctes coopèrent temporairement avant de retrouver leur autonomie.*
+
 SYMBIOSIS étudie si une personne et une intelligence artificielle (IA) distincte peuvent coopérer temporairement dans un système cognitif partagé, puis se séparer en conservant autonomie, identité et capacité d'action indépendante.
 
 SYMBIOSIS-Zero est le premier niveau directement testable : interfaces conventionnelles, sans implant ni neurostimulation. Des mesures non invasives, par exemple l'électroencéphalographie (EEG) ou l'électromyographie (EMG), peuvent faire l'objet d'extensions instrumentales séparées ; elles ne définissent pas Zero.
 
 ## Structure scientifique
+
+<img src="assets/illustrations/03-trois-piliers.png" width="760" alt="La femme, l’homme et un petit robot présentent les trois piliers de SYMBIOSIS : Bénéfice, Souveraineté et Dynamique.">
+
+*Les trois piliers qui organisent l’évaluation de SYMBIOSIS.*
 
 | Pilier | Question centrale | Éléments principaux |
 |---|---|---|
@@ -33,6 +37,12 @@ L'expérience subjective humaine — sensations, émotions, valeurs, expérience
 - **Intimité humaine** : la personne ne doit partager que ce à quoi elle consent ; le silence ne vaut pas consentement.
 - **Indice de bénéfice symbiotique (Symbiotic Benefit Index, SBI)** : intégrité, agence, transparence et réversibilité sont évaluées comme des portes. Une atteinte grave entraîne `SBI = Fail`, même si la performance augmente.
 
+## Parcours de recherche
+
+<img src="assets/illustrations/02-parcours-recherche.png" width="760" alt="La femme et l’homme suivent un parcours de recherche allant de l’idée au pré-pilote, puis au pilote, au préenregistrement, à l’étude et à l’impact.">
+
+*De l’idée à l’impact : progression par étapes vérifiables.*
+
 ## Commencer ici
 
 - [Résumé de SYMBIOSIS-Zero](docs/SYMBIOSIS-ZERO.md)
@@ -44,6 +54,7 @@ L'expérience subjective humaine — sensations, émotions, valeurs, expérience
 - [Glossaire](docs/GLOSSARY.md) et [convention éditoriale](docs/EDITORIAL-CONVENTION.md)
 - [Statut du pack](docs/PACK-STATUS.md)
 - [Article de présentation FR/EN](docs/ARTICLE-FR-EN.md)
+- [Galerie des illustrations](docs/ILLUSTRATIONS.md)
 - [Livre blanc français](docs/white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-FR.md) · [English White Paper](docs/white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-EN.md)
 
 ## Architecture en niveaux
@@ -64,3 +75,4 @@ Le projet ne démontre ni conscience artificielle, ni fusion mentale, ni communi
 Métadonnées de citation : [CITATION.cff](CITATION.cff). La [politique de licence](LICENSE.md) applique Creative Commons Attribution 4.0 International (CC BY 4.0) à la documentation, aux textes scientifiques, aux illustrations originales et aux données synthétiques JSON/CSV ; elle applique Apache License 2.0 au code, aux scripts, aux tests et aux schémas JSON. Les textes complets figurent dans [`LICENSES/`](LICENSES/). Les contenus tiers restent soumis à leurs droits propres. Voir également l'[audit et registre de décision](docs/LICENSE-AUDIT.md).
 
 SYMBIOSIS a été initié par **Abdoul Karim Diallo (AKD — Independent Researcher)**.
+
