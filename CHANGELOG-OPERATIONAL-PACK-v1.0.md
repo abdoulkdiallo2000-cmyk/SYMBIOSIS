@@ -3,7 +3,7 @@
 **Base :** `main` à `94314078cf582026206e05cc1c9f77859e8b4809`\
 **Branche :** `docs/symbiosis-zero-operational-v1.0`\
 **Intégration :** demande de fusion n°1 fusionnée dans `main` par le commit `ec5c01aa03d82a3529dc6990fb1b9a44e97e8cd8` le 17 septembre 2026.\
-**Statut scientifique :** pré-pilote, non expérimentalement validé, non préenregistré et non autorisé au recrutement ; aucune release v1.0 publiée à la date de cette mise à jour.
+**Statut scientifique :** pré-pilote, non expérimentalement validé, non préenregistré et non autorisé au recrutement ; ce changelog accompagne la release SYMBIOSIS v1.0 et son composant SYMBIOSIS-Zero v1.0 pré-pilote.
 
 ## Ajouté
 
