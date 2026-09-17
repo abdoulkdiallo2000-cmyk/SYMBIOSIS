@@ -1,17 +1,24 @@
 cff-version: 1.2.0
-message: "If you use or discuss this framework, please cite it using these metadata. The citable research materials are licensed under CC-BY-4.0; code, scripts, tests, and schemas are licensed under Apache-2.0. See LICENSE.md for the category-based allocation."
-title: "SYMBIOSIS: A Framework for Voluntary Cognitive Symbiosis"
-type: generic
+message: "If you use or discuss this framework, please cite it using these metadata. The citable research framework, documentation, original illustrations, and synthetic JSON/CSV research data are licensed under CC-BY-4.0. Associated code, scripts, tests, and JSON schemas are licensed under Apache-2.0. See LICENSE.md for the category-based allocation."
+title: "SYMBIOSIS v1.0 — Research Framework"
+type: software
 authors:
   - family-names: "Diallo"
     given-names: "Abdoul Karim"
-version: 0.1.0
-date-released: 2026-09-13
+    alias: "AKD"
+    affiliation: "Independent Researcher"
+version: 1.0.0
+date-released: 2026-09-17
 repository-code: "https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS"
 license: CC-BY-4.0
+abstract: "Research framework including SYMBIOSIS-Zero v1.0, an operational pre-pilot framework that is not experimentally validated, not preregistered, and not authorized for participant recruitment. Thresholds, smallest effect sizes of interest, equivalence and non-inferiority margins, and final sample size remain to be fixed after cognitive interviews and pilot work and before preregistration."
 keywords:
   - cognitive symbiosis
+  - human-AI collaboration
   - embodied AI
+  - human agency
   - mental sovereignty
-  - neurotechnology
+  - reversibility
+  - functional transparency
+  - automation bias
   - AI safety
