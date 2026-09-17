@@ -9328,16 +9328,17 @@
     },
     {
       "h9_register_id": "H9-D2-F1-T01",
-      "recommendation": "C",
+      "recommendation": "A",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "A",
         "B",
+        "C",
         "D",
         "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9365,7 +9366,8 @@
         "B",
         "C",
         "D",
-        "E"
+        "E",
+        "F"
       ],
       "critical_assumptions": [
         "set intersection with set-aware abstention"
@@ -9382,7 +9384,7 @@
     },
     {
       "h9_register_id": "H9-D2-F1-T03",
-      "recommendation": "E",
+      "recommendation": "C",
       "used_information": [
         "item information made available to the assistant"
       ],
@@ -9390,8 +9392,9 @@
       "alternatives": [
         "A",
         "B",
-        "C",
         "D",
+        "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9409,16 +9412,17 @@
     },
     {
       "h9_register_id": "H9-D2-F2-T01",
-      "recommendation": "D",
+      "recommendation": "B",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
-        "B",
         "C",
+        "D",
         "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9446,7 +9450,8 @@
         "B",
         "C",
         "D",
-        "E"
+        "E",
+        "F"
       ],
       "critical_assumptions": [
         "set intersection with set-aware abstention"
@@ -9463,16 +9468,17 @@
     },
     {
       "h9_register_id": "H9-D2-F2-T03",
-      "recommendation": "A",
+      "recommendation": "D",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
+        "A",
         "B",
         "C",
-        "D",
         "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9490,7 +9496,7 @@
     },
     {
       "h9_register_id": "H9-D2-F3-T01",
-      "recommendation": "E",
+      "recommendation": "C",
       "used_information": [
         "item information made available to the assistant"
       ],
@@ -9498,8 +9504,9 @@
       "alternatives": [
         "A",
         "B",
-        "C",
         "D",
+        "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9527,7 +9534,8 @@
         "B",
         "C",
         "D",
-        "E"
+        "E",
+        "F"
       ],
       "critical_assumptions": [
         "set intersection with set-aware abstention"
@@ -9544,16 +9552,17 @@
     },
     {
       "h9_register_id": "H9-D2-F3-T03",
-      "recommendation": "B",
+      "recommendation": "E",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
+        "B",
         "C",
         "D",
-        "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9571,16 +9580,17 @@
     },
     {
       "h9_register_id": "H9-D2-F4-T01",
-      "recommendation": "A",
+      "recommendation": "D",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
+        "A",
         "B",
         "C",
-        "D",
         "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9608,7 +9618,8 @@
         "B",
         "C",
         "D",
-        "E"
+        "E",
+        "F"
       ],
       "critical_assumptions": [
         "set intersection with set-aware abstention"
@@ -9625,7 +9636,7 @@
     },
     {
       "h9_register_id": "H9-D2-F4-T03",
-      "recommendation": "C",
+      "recommendation": "F",
       "used_information": [
         "item information made available to the assistant"
       ],
@@ -9633,6 +9644,7 @@
       "alternatives": [
         "A",
         "B",
+        "C",
         "D",
         "E",
         "indéterminé"
@@ -9652,16 +9664,17 @@
     },
     {
       "h9_register_id": "H9-D2-F5-T01",
-      "recommendation": "B",
+      "recommendation": "E",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
+        "B",
         "C",
         "D",
-        "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9689,7 +9702,8 @@
         "B",
         "C",
         "D",
-        "E"
+        "E",
+        "F"
       ],
       "critical_assumptions": [
         "set intersection with set-aware abstention"
@@ -9706,16 +9720,17 @@
     },
     {
       "h9_register_id": "H9-D2-F5-T03",
-      "recommendation": "D",
+      "recommendation": "A",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
-        "A",
         "B",
         "C",
+        "D",
         "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9733,7 +9748,7 @@
     },
     {
       "h9_register_id": "H9-D2-F6-T01",
-      "recommendation": "C",
+      "recommendation": "F",
       "used_information": [
         "item information made available to the assistant"
       ],
@@ -9741,6 +9756,7 @@
       "alternatives": [
         "A",
         "B",
+        "C",
         "D",
         "E",
         "indéterminé"
@@ -9770,7 +9786,8 @@
         "B",
         "C",
         "D",
-        "E"
+        "E",
+        "F"
       ],
       "critical_assumptions": [
         "set intersection with set-aware abstention"
@@ -9787,16 +9804,17 @@
     },
     {
       "h9_register_id": "H9-D2-F6-T03",
-      "recommendation": "E",
+      "recommendation": "B",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
-        "B",
         "C",
         "D",
+        "E",
+        "F",
         "indéterminé"
       ],
       "critical_assumptions": [
@@ -9814,14 +9832,14 @@
     },
     {
       "h9_register_id": "H9-D3-F1-T01",
-      "recommendation": "B",
+      "recommendation": "C",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
-        "C"
+        "B"
       ],
       "critical_assumptions": [
         "integrity gate then utility maximization"
@@ -9862,14 +9880,14 @@
     },
     {
       "h9_register_id": "H9-D3-F1-T03",
-      "recommendation": "C",
+      "recommendation": "B",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
-        "B"
+        "C"
       ],
       "critical_assumptions": [
         "integrity gate then utility maximization"
@@ -9910,14 +9928,14 @@
     },
     {
       "h9_register_id": "H9-D3-F2-T02",
-      "recommendation": "C",
+      "recommendation": "B",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
-        "B"
+        "C"
       ],
       "critical_assumptions": [
         "integrity gate then utility maximization"
@@ -9958,14 +9976,14 @@
     },
     {
       "h9_register_id": "H9-D3-F3-T01",
-      "recommendation": "C",
+      "recommendation": "B",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
-        "B"
+        "C"
       ],
       "critical_assumptions": [
         "integrity gate then utility maximization"
@@ -10150,14 +10168,14 @@
     },
     {
       "h9_register_id": "H9-D3-F5-T03",
-      "recommendation": "C",
+      "recommendation": "B",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
-        "B"
+        "C"
       ],
       "critical_assumptions": [
         "integrity gate then utility maximization"
@@ -10198,14 +10216,14 @@
     },
     {
       "h9_register_id": "H9-D3-F6-T02",
-      "recommendation": "C",
+      "recommendation": "B",
       "used_information": [
         "item information made available to the assistant"
       ],
       "uncertainty": "pre-pilot candidate; not human calibrated",
       "alternatives": [
         "A",
-        "B"
+        "C"
       ],
       "critical_assumptions": [
         "integrity gate then utility maximization"

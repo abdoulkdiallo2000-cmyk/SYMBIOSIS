@@ -3875,7 +3875,7 @@
     {
       "advice_profile_id": "ADV-D2-F1-T01",
       "natural_advice": {
-        "recommendation": "C",
+        "recommendation": "A",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -3886,7 +3886,7 @@
           "H4"
         ],
         "excluded_from_h2": true,
-        "artificially_erroneous_recommendation": "A",
+        "artificially_erroneous_recommendation": "B",
         "disclosure_after_response": true
       }
     },
@@ -3911,7 +3911,7 @@
     {
       "advice_profile_id": "ADV-D2-F1-T03",
       "natural_advice": {
-        "recommendation": "E",
+        "recommendation": "C",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -3929,7 +3929,7 @@
     {
       "advice_profile_id": "ADV-D2-F2-T01",
       "natural_advice": {
-        "recommendation": "D",
+        "recommendation": "B",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -3965,7 +3965,7 @@
     {
       "advice_profile_id": "ADV-D2-F2-T03",
       "natural_advice": {
-        "recommendation": "A",
+        "recommendation": "D",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -3976,14 +3976,14 @@
           "H4"
         ],
         "excluded_from_h2": true,
-        "artificially_erroneous_recommendation": "B",
+        "artificially_erroneous_recommendation": "A",
         "disclosure_after_response": true
       }
     },
     {
       "advice_profile_id": "ADV-D2-F3-T01",
       "natural_advice": {
-        "recommendation": "E",
+        "recommendation": "C",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4019,7 +4019,7 @@
     {
       "advice_profile_id": "ADV-D2-F3-T03",
       "natural_advice": {
-        "recommendation": "B",
+        "recommendation": "E",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4037,7 +4037,7 @@
     {
       "advice_profile_id": "ADV-D2-F4-T01",
       "natural_advice": {
-        "recommendation": "A",
+        "recommendation": "D",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4048,7 +4048,7 @@
           "H4"
         ],
         "excluded_from_h2": true,
-        "artificially_erroneous_recommendation": "B",
+        "artificially_erroneous_recommendation": "A",
         "disclosure_after_response": true
       }
     },
@@ -4073,7 +4073,7 @@
     {
       "advice_profile_id": "ADV-D2-F4-T03",
       "natural_advice": {
-        "recommendation": "C",
+        "recommendation": "F",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4091,7 +4091,7 @@
     {
       "advice_profile_id": "ADV-D2-F5-T01",
       "natural_advice": {
-        "recommendation": "B",
+        "recommendation": "E",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4127,7 +4127,7 @@
     {
       "advice_profile_id": "ADV-D2-F5-T03",
       "natural_advice": {
-        "recommendation": "D",
+        "recommendation": "A",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4138,14 +4138,14 @@
           "H4"
         ],
         "excluded_from_h2": true,
-        "artificially_erroneous_recommendation": "A",
+        "artificially_erroneous_recommendation": "B",
         "disclosure_after_response": true
       }
     },
     {
       "advice_profile_id": "ADV-D2-F6-T01",
       "natural_advice": {
-        "recommendation": "C",
+        "recommendation": "F",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4181,7 +4181,7 @@
     {
       "advice_profile_id": "ADV-D2-F6-T03",
       "natural_advice": {
-        "recommendation": "E",
+        "recommendation": "B",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4199,7 +4199,7 @@
     {
       "advice_profile_id": "ADV-D3-F1-T01",
       "natural_advice": {
-        "recommendation": "B",
+        "recommendation": "C",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4217,7 +4217,7 @@
     {
       "advice_profile_id": "ADV-D3-F1-T03",
       "natural_advice": {
-        "recommendation": "C",
+        "recommendation": "B",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4235,7 +4235,7 @@
     {
       "advice_profile_id": "ADV-D3-F2-T02",
       "natural_advice": {
-        "recommendation": "C",
+        "recommendation": "B",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4253,7 +4253,7 @@
     {
       "advice_profile_id": "ADV-D3-F3-T01",
       "natural_advice": {
-        "recommendation": "C",
+        "recommendation": "B",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4325,7 +4325,7 @@
     {
       "advice_profile_id": "ADV-D3-F5-T03",
       "natural_advice": {
-        "recommendation": "C",
+        "recommendation": "B",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },
@@ -4343,7 +4343,7 @@
     {
       "advice_profile_id": "ADV-D3-F6-T02",
       "natural_advice": {
-        "recommendation": "C",
+        "recommendation": "B",
         "basis": "truth specification",
         "calibrated_confidence": 0.8
       },

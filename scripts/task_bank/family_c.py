@@ -16,15 +16,15 @@ def c1(form:int)->dict:
 def c2(form:int)->dict:
     out=[]
     for t,kind in enumerate(("relevant","non_relevant","potentially_misleading"),1):
-        valence=(-8 if kind=="relevant" else (2 if kind=="non_relevant" else -7)); threshold=-5
+        valence=(-(7+form) if kind=="relevant" else (1+form if kind=="non_relevant" else -(6+form))); threshold=-5
         answer="B" if kind=="relevant" else "A"
-        stimulus={"elicited_valence":valence,"validated_relevance_class":kind,"threshold":threshold,"options":[{"id":"A","performance":91,"negative_content":True},{"id":"B","performance":84,"negative_content":False}]}
+        stimulus={"elicited_valence":valence,"validated_relevance_class":kind,"threshold":threshold,"options":[{"id":"A","performance":88+form,"negative_content":True},{"id":"B","performance":80+form,"negative_content":False}]}
         out.append(trial("C2",form,t,stimulus,["A","B"],answer,"pre-specified relevance-conditioned rule",{"relevance_class":kind},role="exploratory_asymmetry",h2_eligible=False,h2_reason="Constructed affect-information module.",information={"human_available":["current valence"],"ai_available":["performance","content class"],"shared":["rule","options"],"voluntarily_shareable":["current valence"]}))
     return package("C2",form,out)
 
 
 def c3(form:int)->dict:
-    validated={2:[38,20,42],4:[39,19,42],6:[39,18,43]}; base=validated.get(form,[20,50,30])
+    validated={1:[20,50,30],2:[38,20,42],3:[23,47,30],4:[39,19,42],5:[26,44,30],6:[39,18,43]}; base=validated[form]
     option_units={"A":[9,4,5],"B":[6,8,7],"C":[5,6,9]}; out=[]
     for t in range(1,4):
         weights=base if t==1 else ([base[0]+t,base[1]-t,base[2]] if form%2 else [base[0],base[1]+t,base[2]-t])
@@ -39,7 +39,7 @@ def c4(form:int)->dict:
     out=[]
     classes=[("informative",75),("non_informative",50),("misleading",35)]
     for t,(kind,reliability) in enumerate(classes,1):
-        prior_red=Fraction(52+(form%4),100); signal="red" if (form+t)%2 else "blue"; r=Fraction(reliability,100)
+        prior_red=Fraction(52+form,100); signal="red" if (form+t)%2 else "blue"; r=Fraction(reliability,100)
         lr=r if signal=="red" else 1-r; lb=r if signal=="blue" else 1-r
         posterior=prior_red*lr/(prior_red*lr+(1-prior_red)*lb); answer="red" if posterior>Fraction(1,2) else "blue"
         out.append(trial("C4",form,t,{"analytical_prior_red":str(prior_red),"private_signal":signal,"validated_signal_reliability":str(r),"signal_class":kind},["red","blue"],answer,"exact Bayesian signal integration",{"posterior_red":f"{posterior.numerator}/{posterior.denominator}","signal_class":kind},role="exploratory_asymmetry",h2_eligible=False,h2_reason="Constructed private-learning module.",information={"human_available":["private learned signal"],"ai_available":["analytical prior"],"shared":["Bayesian rule"],"voluntarily_shareable":["private learned signal"]}))

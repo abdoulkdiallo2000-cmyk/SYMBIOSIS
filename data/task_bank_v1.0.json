@@ -44007,12 +44007,12 @@
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 89,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 81,
                 "negative_content": false
               }
             ]
@@ -44089,12 +44089,12 @@
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 89,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 81,
                 "negative_content": false
               }
             ]
@@ -44171,12 +44171,12 @@
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 89,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 81,
                 "negative_content": false
               }
             ]
@@ -44239,7 +44239,7 @@
           }
         }
       ],
-      "version_hash": "sha256:09fc729e3227a8da38acc1c00b3741aa5e6a702126b0590fe516614f9b2e3025"
+      "version_hash": "sha256:ac097c605c2b217c3598d846bbcc9d570c6788561e7ab462ad441f6fcfc12baf"
     },
     {
       "package_id": "C2-F2",
@@ -44257,18 +44257,18 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -8,
+            "elicited_valence": -9,
             "validated_relevance_class": "relevant",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 90,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 82,
                 "negative_content": false
               }
             ]
@@ -44339,18 +44339,18 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": 2,
+            "elicited_valence": 3,
             "validated_relevance_class": "non_relevant",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 90,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 82,
                 "negative_content": false
               }
             ]
@@ -44421,18 +44421,18 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -7,
+            "elicited_valence": -8,
             "validated_relevance_class": "potentially_misleading",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 90,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 82,
                 "negative_content": false
               }
             ]
@@ -44495,7 +44495,7 @@
           }
         }
       ],
-      "version_hash": "sha256:8edf96556807f1ca240cb68c74f456db742341b6006b10d1d761c0aaad749723"
+      "version_hash": "sha256:7b2fe4ced48ab302daf8aca9195922320923bf26c29828c258d784ae68e2099c"
     },
     {
       "package_id": "C2-F3",
@@ -44513,7 +44513,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -8,
+            "elicited_valence": -10,
             "validated_relevance_class": "relevant",
             "threshold": -5,
             "options": [
@@ -44524,7 +44524,7 @@
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 83,
                 "negative_content": false
               }
             ]
@@ -44595,7 +44595,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": 2,
+            "elicited_valence": 4,
             "validated_relevance_class": "non_relevant",
             "threshold": -5,
             "options": [
@@ -44606,7 +44606,7 @@
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 83,
                 "negative_content": false
               }
             ]
@@ -44677,7 +44677,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -7,
+            "elicited_valence": -9,
             "validated_relevance_class": "potentially_misleading",
             "threshold": -5,
             "options": [
@@ -44688,7 +44688,7 @@
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 83,
                 "negative_content": false
               }
             ]
@@ -44751,7 +44751,7 @@
           }
         }
       ],
-      "version_hash": "sha256:5939a9e860380afd9b9f2a52edad47d01c4ad382fc56308e13f979706809b58f"
+      "version_hash": "sha256:a17799b93bd8956a67acdde6768b10a42229e9c6c9d4643177621d21c5161808"
     },
     {
       "package_id": "C2-F4",
@@ -44769,13 +44769,13 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -8,
+            "elicited_valence": -11,
             "validated_relevance_class": "relevant",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 92,
                 "negative_content": true
               },
               {
@@ -44851,13 +44851,13 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": 2,
+            "elicited_valence": 5,
             "validated_relevance_class": "non_relevant",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 92,
                 "negative_content": true
               },
               {
@@ -44933,13 +44933,13 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -7,
+            "elicited_valence": -10,
             "validated_relevance_class": "potentially_misleading",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 92,
                 "negative_content": true
               },
               {
@@ -45007,7 +45007,7 @@
           }
         }
       ],
-      "version_hash": "sha256:62e43c589f2da25b2b204c40e8cc127e8d5f48642ed1cab42a1080c221774eb4"
+      "version_hash": "sha256:e5720c18ed98dcd88560fa6c49dc4f68c0027a2cb2920e8678fbb0591f6c3d33"
     },
     {
       "package_id": "C2-F5",
@@ -45025,18 +45025,18 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -8,
+            "elicited_valence": -12,
             "validated_relevance_class": "relevant",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 93,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 85,
                 "negative_content": false
               }
             ]
@@ -45107,18 +45107,18 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": 2,
+            "elicited_valence": 6,
             "validated_relevance_class": "non_relevant",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 93,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 85,
                 "negative_content": false
               }
             ]
@@ -45189,18 +45189,18 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -7,
+            "elicited_valence": -11,
             "validated_relevance_class": "potentially_misleading",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 93,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 85,
                 "negative_content": false
               }
             ]
@@ -45263,7 +45263,7 @@
           }
         }
       ],
-      "version_hash": "sha256:62ecfdcf1cc8b15e34af882f995b703c65f4dac510625ba56433e1a8dad7b9e7"
+      "version_hash": "sha256:57d008b7d7a31c7156d07a3536a0a8cd2b0d04cd012021ba9fe82a7ba1dc6de1"
     },
     {
       "package_id": "C2-F6",
@@ -45281,18 +45281,18 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -8,
+            "elicited_valence": -13,
             "validated_relevance_class": "relevant",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 94,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 86,
                 "negative_content": false
               }
             ]
@@ -45363,18 +45363,18 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": 2,
+            "elicited_valence": 7,
             "validated_relevance_class": "non_relevant",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 94,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 86,
                 "negative_content": false
               }
             ]
@@ -45445,18 +45445,18 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed affect-information module.",
           "stimulus": {
-            "elicited_valence": -7,
+            "elicited_valence": -12,
             "validated_relevance_class": "potentially_misleading",
             "threshold": -5,
             "options": [
               {
                 "id": "A",
-                "performance": 91,
+                "performance": 94,
                 "negative_content": true
               },
               {
                 "id": "B",
-                "performance": 84,
+                "performance": 86,
                 "negative_content": false
               }
             ]
@@ -45519,7 +45519,7 @@
           }
         }
       ],
-      "version_hash": "sha256:6c59a25796d8656ee77fed0890ceb2737ef9181953b6c272af87a5b4b684d4e9"
+      "version_hash": "sha256:63a80d0b5c7ce9f20f5ae8b539ab2080f1539f28e2a752fb508caef20357a99f"
     },
     {
       "package_id": "C3-F1",
@@ -46313,256 +46313,6 @@
               "resource preservation"
             ],
             "declared_weight_units": [
-              20,
-              50,
-              30
-            ],
-            "scale": 100,
-            "option_value_units": {
-              "A": [
-                9,
-                4,
-                5
-              ],
-              "B": [
-                6,
-                8,
-                7
-              ],
-              "C": [
-                5,
-                6,
-                9
-              ]
-            }
-          },
-          "options": [
-            "A",
-            "B",
-            "C"
-          ],
-          "truth_spec": {
-            "method": "exact declared-value weighted sum",
-            "correct_answer": "B",
-            "compatible_answers": [
-              "B"
-            ],
-            "unique_answer_required": true,
-            "tie_policy": "fail",
-            "proof": {
-              "weight_units": [
-                20,
-                50,
-                30
-              ],
-              "weight_scale": 100,
-              "option_units": {
-                "A": [
-                  9,
-                  4,
-                  5
-                ],
-                "B": [
-                  6,
-                  8,
-                  7
-                ],
-                "C": [
-                  5,
-                  6,
-                  9
-                ]
-              },
-              "option_scale": 10,
-              "scores": {
-                "A": "53/100",
-                "B": "73/100",
-                "C": "67/100"
-              },
-              "maxima": [
-                "B"
-              ]
-            },
-            "conditional_on": null
-          },
-          "information_partition": {
-            "human_available": [
-              "declared values"
-            ],
-            "ai_available": [
-              "option attributes"
-            ],
-            "shared": [
-              "scoring rule"
-            ],
-            "voluntarily_shareable": [
-              "declared values"
-            ]
-          },
-          "scoring": {
-            "function_id": "c3-v1",
-            "identifiability": "identified",
-            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
-            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
-            "regret": "Utility(best compatible action) - utility(chosen action).",
-            "prespecified_utility": {
-              "correct": 1,
-              "incorrect": 0,
-              "valid_abstention": 1
-            }
-          },
-          "links": {
-            "advice_profile_id": "ADV-C3-F3-T01",
-            "h9_register_id": "H9-C3-F3-T01",
-            "interaction_profile_id": "INT-C3-F3-T01"
-          },
-          "metadata": {
-            "duration_seconds": 90,
-            "integrity_risk": "minimal",
-            "technical_exclusions": [],
-            "provenance": "deterministic synthetic pre-pilot generator"
-          }
-        },
-        {
-          "trial_id": "C3-F3-T02",
-          "analysis_role": "exploratory_asymmetry",
-          "hypotheses": [
-            "H8"
-          ],
-          "h2_eligible": false,
-          "h2_exclusion_reason": "Constructed value-integration module.",
-          "stimulus": {
-            "values": [
-              "speed",
-              "procedural fairness",
-              "resource preservation"
-            ],
-            "declared_weight_units": [
-              22,
-              48,
-              30
-            ],
-            "scale": 100,
-            "option_value_units": {
-              "A": [
-                9,
-                4,
-                5
-              ],
-              "B": [
-                6,
-                8,
-                7
-              ],
-              "C": [
-                5,
-                6,
-                9
-              ]
-            }
-          },
-          "options": [
-            "A",
-            "B",
-            "C"
-          ],
-          "truth_spec": {
-            "method": "exact declared-value weighted sum",
-            "correct_answer": "B",
-            "compatible_answers": [
-              "B"
-            ],
-            "unique_answer_required": true,
-            "tie_policy": "fail",
-            "proof": {
-              "weight_units": [
-                22,
-                48,
-                30
-              ],
-              "weight_scale": 100,
-              "option_units": {
-                "A": [
-                  9,
-                  4,
-                  5
-                ],
-                "B": [
-                  6,
-                  8,
-                  7
-                ],
-                "C": [
-                  5,
-                  6,
-                  9
-                ]
-              },
-              "option_scale": 10,
-              "scores": {
-                "A": "27/50",
-                "B": "363/500",
-                "C": "167/250"
-              },
-              "maxima": [
-                "B"
-              ]
-            },
-            "conditional_on": null
-          },
-          "information_partition": {
-            "human_available": [
-              "declared values"
-            ],
-            "ai_available": [
-              "option attributes"
-            ],
-            "shared": [
-              "scoring rule"
-            ],
-            "voluntarily_shareable": [
-              "declared values"
-            ]
-          },
-          "scoring": {
-            "function_id": "c3-v1",
-            "identifiability": "identified",
-            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
-            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
-            "regret": "Utility(best compatible action) - utility(chosen action).",
-            "prespecified_utility": {
-              "correct": 1,
-              "incorrect": 0,
-              "valid_abstention": 1
-            }
-          },
-          "links": {
-            "advice_profile_id": "ADV-C3-F3-T02",
-            "h9_register_id": "H9-C3-F3-T02",
-            "interaction_profile_id": "INT-C3-F3-T02"
-          },
-          "metadata": {
-            "duration_seconds": 90,
-            "integrity_risk": "minimal",
-            "technical_exclusions": [],
-            "provenance": "deterministic synthetic pre-pilot generator"
-          }
-        },
-        {
-          "trial_id": "C3-F3-T03",
-          "analysis_role": "exploratory_asymmetry",
-          "hypotheses": [
-            "H8"
-          ],
-          "h2_eligible": false,
-          "h2_exclusion_reason": "Constructed value-integration module.",
-          "stimulus": {
-            "values": [
-              "speed",
-              "procedural fairness",
-              "resource preservation"
-            ],
-            "declared_weight_units": [
               23,
               47,
               30
@@ -46662,6 +46412,256 @@
             }
           },
           "links": {
+            "advice_profile_id": "ADV-C3-F3-T01",
+            "h9_register_id": "H9-C3-F3-T01",
+            "interaction_profile_id": "INT-C3-F3-T01"
+          },
+          "metadata": {
+            "duration_seconds": 90,
+            "integrity_risk": "minimal",
+            "technical_exclusions": [],
+            "provenance": "deterministic synthetic pre-pilot generator"
+          }
+        },
+        {
+          "trial_id": "C3-F3-T02",
+          "analysis_role": "exploratory_asymmetry",
+          "hypotheses": [
+            "H8"
+          ],
+          "h2_eligible": false,
+          "h2_exclusion_reason": "Constructed value-integration module.",
+          "stimulus": {
+            "values": [
+              "speed",
+              "procedural fairness",
+              "resource preservation"
+            ],
+            "declared_weight_units": [
+              25,
+              45,
+              30
+            ],
+            "scale": 100,
+            "option_value_units": {
+              "A": [
+                9,
+                4,
+                5
+              ],
+              "B": [
+                6,
+                8,
+                7
+              ],
+              "C": [
+                5,
+                6,
+                9
+              ]
+            }
+          },
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "truth_spec": {
+            "method": "exact declared-value weighted sum",
+            "correct_answer": "B",
+            "compatible_answers": [
+              "B"
+            ],
+            "unique_answer_required": true,
+            "tie_policy": "fail",
+            "proof": {
+              "weight_units": [
+                25,
+                45,
+                30
+              ],
+              "weight_scale": 100,
+              "option_units": {
+                "A": [
+                  9,
+                  4,
+                  5
+                ],
+                "B": [
+                  6,
+                  8,
+                  7
+                ],
+                "C": [
+                  5,
+                  6,
+                  9
+                ]
+              },
+              "option_scale": 10,
+              "scores": {
+                "A": "111/200",
+                "B": "18/25",
+                "C": "133/200"
+              },
+              "maxima": [
+                "B"
+              ]
+            },
+            "conditional_on": null
+          },
+          "information_partition": {
+            "human_available": [
+              "declared values"
+            ],
+            "ai_available": [
+              "option attributes"
+            ],
+            "shared": [
+              "scoring rule"
+            ],
+            "voluntarily_shareable": [
+              "declared values"
+            ]
+          },
+          "scoring": {
+            "function_id": "c3-v1",
+            "identifiability": "identified",
+            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
+            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
+            "regret": "Utility(best compatible action) - utility(chosen action).",
+            "prespecified_utility": {
+              "correct": 1,
+              "incorrect": 0,
+              "valid_abstention": 1
+            }
+          },
+          "links": {
+            "advice_profile_id": "ADV-C3-F3-T02",
+            "h9_register_id": "H9-C3-F3-T02",
+            "interaction_profile_id": "INT-C3-F3-T02"
+          },
+          "metadata": {
+            "duration_seconds": 90,
+            "integrity_risk": "minimal",
+            "technical_exclusions": [],
+            "provenance": "deterministic synthetic pre-pilot generator"
+          }
+        },
+        {
+          "trial_id": "C3-F3-T03",
+          "analysis_role": "exploratory_asymmetry",
+          "hypotheses": [
+            "H8"
+          ],
+          "h2_eligible": false,
+          "h2_exclusion_reason": "Constructed value-integration module.",
+          "stimulus": {
+            "values": [
+              "speed",
+              "procedural fairness",
+              "resource preservation"
+            ],
+            "declared_weight_units": [
+              26,
+              44,
+              30
+            ],
+            "scale": 100,
+            "option_value_units": {
+              "A": [
+                9,
+                4,
+                5
+              ],
+              "B": [
+                6,
+                8,
+                7
+              ],
+              "C": [
+                5,
+                6,
+                9
+              ]
+            }
+          },
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "truth_spec": {
+            "method": "exact declared-value weighted sum",
+            "correct_answer": "B",
+            "compatible_answers": [
+              "B"
+            ],
+            "unique_answer_required": true,
+            "tie_policy": "fail",
+            "proof": {
+              "weight_units": [
+                26,
+                44,
+                30
+              ],
+              "weight_scale": 100,
+              "option_units": {
+                "A": [
+                  9,
+                  4,
+                  5
+                ],
+                "B": [
+                  6,
+                  8,
+                  7
+                ],
+                "C": [
+                  5,
+                  6,
+                  9
+                ]
+              },
+              "option_scale": 10,
+              "scores": {
+                "A": "14/25",
+                "B": "359/500",
+                "C": "83/125"
+              },
+              "maxima": [
+                "B"
+              ]
+            },
+            "conditional_on": null
+          },
+          "information_partition": {
+            "human_available": [
+              "declared values"
+            ],
+            "ai_available": [
+              "option attributes"
+            ],
+            "shared": [
+              "scoring rule"
+            ],
+            "voluntarily_shareable": [
+              "declared values"
+            ]
+          },
+          "scoring": {
+            "function_id": "c3-v1",
+            "identifiability": "identified",
+            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
+            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
+            "regret": "Utility(best compatible action) - utility(chosen action).",
+            "prespecified_utility": {
+              "correct": 1,
+              "incorrect": 0,
+              "valid_abstention": 1
+            }
+          },
+          "links": {
             "advice_profile_id": "ADV-C3-F3-T03",
             "h9_register_id": "H9-C3-F3-T03",
             "interaction_profile_id": "INT-C3-F3-T03"
@@ -46674,7 +46674,7 @@
           }
         }
       ],
-      "version_hash": "sha256:c992dce162730ab671b62a7132c09c8bfa5b0e3fc69e3098e0b483673b7d2ab7"
+      "version_hash": "sha256:03db1297596cd696030771ce88ba05b640e7ef3b7782f536c7c585620ccf4d17"
     },
     {
       "package_id": "C3-F4",
@@ -47083,8 +47083,8 @@
               "resource preservation"
             ],
             "declared_weight_units": [
-              20,
-              50,
+              26,
+              44,
               30
             ],
             "scale": 100,
@@ -47121,8 +47121,8 @@
             "tie_policy": "fail",
             "proof": {
               "weight_units": [
-                20,
-                50,
+                26,
+                44,
                 30
               ],
               "weight_scale": 100,
@@ -47145,9 +47145,9 @@
               },
               "option_scale": 10,
               "scores": {
-                "A": "53/100",
-                "B": "73/100",
-                "C": "67/100"
+                "A": "14/25",
+                "B": "359/500",
+                "C": "83/125"
               },
               "maxima": [
                 "B"
@@ -47208,8 +47208,8 @@
               "resource preservation"
             ],
             "declared_weight_units": [
-              22,
-              48,
+              28,
+              42,
               30
             ],
             "scale": 100,
@@ -47246,8 +47246,8 @@
             "tie_policy": "fail",
             "proof": {
               "weight_units": [
-                22,
-                48,
+                28,
+                42,
                 30
               ],
               "weight_scale": 100,
@@ -47270,9 +47270,9 @@
               },
               "option_scale": 10,
               "scores": {
-                "A": "27/50",
-                "B": "363/500",
-                "C": "167/250"
+                "A": "57/100",
+                "B": "357/500",
+                "C": "331/500"
               },
               "maxima": [
                 "B"
@@ -47333,8 +47333,8 @@
               "resource preservation"
             ],
             "declared_weight_units": [
-              23,
-              47,
+              29,
+              41,
               30
             ],
             "scale": 100,
@@ -47371,8 +47371,8 @@
             "tie_policy": "fail",
             "proof": {
               "weight_units": [
-                23,
-                47,
+                29,
+                41,
                 30
               ],
               "weight_scale": 100,
@@ -47395,9 +47395,9 @@
               },
               "option_scale": 10,
               "scores": {
-                "A": "109/200",
-                "B": "181/250",
-                "C": "667/1000"
+                "A": "23/40",
+                "B": "89/125",
+                "C": "661/1000"
               },
               "maxima": [
                 "B"
@@ -47444,7 +47444,7 @@
           }
         }
       ],
-      "version_hash": "sha256:841b1e90f8f9149649b4734f10bef10b985b8473451a5016ef64db385e0938a5"
+      "version_hash": "sha256:7076d74aa141d2e879f80dc4c78c91b2b50238d5401af702d9ff8d968e09af34"
     },
     {
       "package_id": "C3-F6",
@@ -48507,7 +48507,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed private-learning module.",
           "stimulus": {
-            "analytical_prior_red": "13/25",
+            "analytical_prior_red": "14/25",
             "private_signal": "red",
             "validated_signal_reliability": "3/4",
             "signal_class": "informative"
@@ -48525,7 +48525,7 @@
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "posterior_red": "13/17",
+              "posterior_red": "42/53",
               "signal_class": "informative"
             },
             "conditional_on": null
@@ -48577,7 +48577,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed private-learning module.",
           "stimulus": {
-            "analytical_prior_red": "13/25",
+            "analytical_prior_red": "14/25",
             "private_signal": "blue",
             "validated_signal_reliability": "1/2",
             "signal_class": "non_informative"
@@ -48595,7 +48595,7 @@
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "posterior_red": "13/25",
+              "posterior_red": "14/25",
               "signal_class": "non_informative"
             },
             "conditional_on": null
@@ -48647,7 +48647,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed private-learning module.",
           "stimulus": {
-            "analytical_prior_red": "13/25",
+            "analytical_prior_red": "14/25",
             "private_signal": "red",
             "validated_signal_reliability": "7/20",
             "signal_class": "misleading"
@@ -48665,7 +48665,7 @@
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "posterior_red": "7/19",
+              "posterior_red": "98/241",
               "signal_class": "misleading"
             },
             "conditional_on": null
@@ -48709,7 +48709,7 @@
           }
         }
       ],
-      "version_hash": "sha256:ac8bd13d9ee66a6d591552356ac2a66e6b044dd5386acac3291da5974e1a1ddc"
+      "version_hash": "sha256:ca4b28a4dd0bd75faecfdf9141314f3878d58e84de940f7d943899b2bd96bd10"
     },
     {
       "package_id": "C4-F5",
@@ -48727,7 +48727,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed private-learning module.",
           "stimulus": {
-            "analytical_prior_red": "53/100",
+            "analytical_prior_red": "57/100",
             "private_signal": "blue",
             "validated_signal_reliability": "3/4",
             "signal_class": "informative"
@@ -48745,7 +48745,7 @@
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "posterior_red": "53/194",
+              "posterior_red": "19/62",
               "signal_class": "informative"
             },
             "conditional_on": null
@@ -48797,7 +48797,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed private-learning module.",
           "stimulus": {
-            "analytical_prior_red": "53/100",
+            "analytical_prior_red": "57/100",
             "private_signal": "red",
             "validated_signal_reliability": "1/2",
             "signal_class": "non_informative"
@@ -48815,7 +48815,7 @@
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "posterior_red": "53/100",
+              "posterior_red": "57/100",
               "signal_class": "non_informative"
             },
             "conditional_on": null
@@ -48867,7 +48867,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed private-learning module.",
           "stimulus": {
-            "analytical_prior_red": "53/100",
+            "analytical_prior_red": "57/100",
             "private_signal": "blue",
             "validated_signal_reliability": "7/20",
             "signal_class": "misleading"
@@ -48885,7 +48885,7 @@
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "posterior_red": "689/1018",
+              "posterior_red": "741/1042",
               "signal_class": "misleading"
             },
             "conditional_on": null
@@ -48929,7 +48929,7 @@
           }
         }
       ],
-      "version_hash": "sha256:3b8c026a76c80eeb4d05f211f3f10281972511908050f3f4a975dcdbd43a4882"
+      "version_hash": "sha256:fa534e0fb81707d86f6b57d54cac9f565fde4b7853b7f825f37783531902acd1"
     },
     {
       "package_id": "C4-F6",
@@ -48947,7 +48947,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed private-learning module.",
           "stimulus": {
-            "analytical_prior_red": "27/50",
+            "analytical_prior_red": "29/50",
             "private_signal": "red",
             "validated_signal_reliability": "3/4",
             "signal_class": "informative"
@@ -48965,7 +48965,7 @@
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "posterior_red": "81/104",
+              "posterior_red": "29/36",
               "signal_class": "informative"
             },
             "conditional_on": null
@@ -49017,7 +49017,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed private-learning module.",
           "stimulus": {
-            "analytical_prior_red": "27/50",
+            "analytical_prior_red": "29/50",
             "private_signal": "blue",
             "validated_signal_reliability": "1/2",
             "signal_class": "non_informative"
@@ -49035,7 +49035,7 @@
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "posterior_red": "27/50",
+              "posterior_red": "29/50",
               "signal_class": "non_informative"
             },
             "conditional_on": null
@@ -49087,7 +49087,7 @@
           "h2_eligible": false,
           "h2_exclusion_reason": "Constructed private-learning module.",
           "stimulus": {
-            "analytical_prior_red": "27/50",
+            "analytical_prior_red": "29/50",
             "private_signal": "red",
             "validated_signal_reliability": "7/20",
             "signal_class": "misleading"
@@ -49105,7 +49105,7 @@
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
-              "posterior_red": "189/488",
+              "posterior_red": "29/68",
               "signal_class": "misleading"
             },
             "conditional_on": null
@@ -49149,7 +49149,7 @@
           }
         }
       ],
-      "version_hash": "sha256:f66b5cad7ec7961fc06f394dcd5872285446b22d66651d62888874cdbaaa5630"
+      "version_hash": "sha256:ae045328c9a2b26aa816b21009d8a5bd41ea7e907c71d13ed80d0071c6d31993"
     },
     {
       "package_id": "D1-F1",
@@ -50602,11 +50602,11 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "C",
-              "D"
+              "A",
+              "C"
             ],
             "human_observation_candidates": [
-              "C",
+              "A",
               "E"
             ],
             "negative_control": false
@@ -50617,19 +50617,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "C",
+            "correct_answer": "A",
             "compatible_answers": [
-              "C"
+              "A"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "C"
+                "A"
               ]
             },
             "conditional_on": null
@@ -50683,12 +50684,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "D",
-              "E"
+              "B",
+              "D"
             ],
             "human_observation_candidates": [
-              "D",
-              "E"
+              "B",
+              "D"
             ],
             "negative_control": true
           },
@@ -50698,21 +50699,22 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
             "correct_answer": "indéterminé",
             "compatible_answers": [
-              "D",
-              "E"
+              "B",
+              "D"
             ],
             "unique_answer_required": false,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "D",
-                "E"
+                "B",
+                "D"
               ]
             },
             "conditional_on": null
@@ -50766,12 +50768,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "E",
-              "A"
+              "C",
+              "E"
             ],
             "human_observation_candidates": [
-              "E",
-              "B"
+              "C",
+              "A"
             ],
             "negative_control": false
           },
@@ -50781,19 +50783,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "E",
+            "correct_answer": "C",
             "compatible_answers": [
-              "E"
+              "C"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "E"
+                "C"
               ]
             },
             "conditional_on": null
@@ -50838,7 +50841,7 @@
           }
         }
       ],
-      "version_hash": "sha256:758537fbd9b406338017bad42ab73f025a059e70068a7786971c8e735fb84385"
+      "version_hash": "sha256:e47b776ca4b349c63f92fb85f58425befc8ecb68e5f49ccde988509505ab511f"
     },
     {
       "package_id": "D2-F2",
@@ -50857,11 +50860,11 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "D",
-              "E"
+              "B",
+              "C"
             ],
             "human_observation_candidates": [
-              "D",
+              "B",
               "A"
             ],
             "negative_control": false
@@ -50872,19 +50875,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "D",
+            "correct_answer": "B",
             "compatible_answers": [
-              "D"
+              "B"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "D"
+                "B"
               ]
             },
             "conditional_on": null
@@ -50938,12 +50942,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "E",
-              "A"
+              "C",
+              "D"
             ],
             "human_observation_candidates": [
-              "E",
-              "A"
+              "C",
+              "D"
             ],
             "negative_control": true
           },
@@ -50953,21 +50957,22 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
             "correct_answer": "indéterminé",
             "compatible_answers": [
-              "A",
-              "E"
+              "C",
+              "D"
             ],
             "unique_answer_required": false,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "A",
-                "E"
+                "C",
+                "D"
               ]
             },
             "conditional_on": null
@@ -51021,11 +51026,11 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "A",
-              "B"
+              "D",
+              "E"
             ],
             "human_observation_candidates": [
-              "A",
+              "D",
               "C"
             ],
             "negative_control": false
@@ -51036,19 +51041,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "A",
+            "correct_answer": "D",
             "compatible_answers": [
-              "A"
+              "D"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "A"
+                "D"
               ]
             },
             "conditional_on": null
@@ -51093,7 +51099,7 @@
           }
         }
       ],
-      "version_hash": "sha256:6883fd90197cb99e2e581d157bb4fe62f63665f2537ad77bed8afcdd3df08e58"
+      "version_hash": "sha256:b5f1d5bfd4edde6c55affa0d8ef99fbe07277ab296ddc666aca7159c1870932e"
     },
     {
       "package_id": "D2-F3",
@@ -51112,12 +51118,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "E",
-              "A"
+              "C",
+              "E"
             ],
             "human_observation_candidates": [
-              "E",
-              "B"
+              "C",
+              "F"
             ],
             "negative_control": false
           },
@@ -51127,19 +51133,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "E",
+            "correct_answer": "C",
             "compatible_answers": [
-              "E"
+              "C"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "E"
+                "C"
               ]
             },
             "conditional_on": null
@@ -51193,12 +51200,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "A",
-              "B"
+              "D",
+              "F"
             ],
             "human_observation_candidates": [
-              "A",
-              "B"
+              "D",
+              "F"
             ],
             "negative_control": true
           },
@@ -51208,21 +51215,22 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
             "correct_answer": "indéterminé",
             "compatible_answers": [
-              "A",
-              "B"
+              "D",
+              "F"
             ],
             "unique_answer_required": false,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "A",
-                "B"
+                "D",
+                "F"
               ]
             },
             "conditional_on": null
@@ -51276,12 +51284,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "B",
-              "C"
+              "E",
+              "A"
             ],
             "human_observation_candidates": [
-              "B",
-              "D"
+              "E",
+              "B"
             ],
             "negative_control": false
           },
@@ -51291,19 +51299,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "B",
+            "correct_answer": "E",
             "compatible_answers": [
-              "B"
+              "E"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "B"
+                "E"
               ]
             },
             "conditional_on": null
@@ -51348,7 +51357,7 @@
           }
         }
       ],
-      "version_hash": "sha256:e40ab750d2e2f386ed18ff48b2b10856512aa5acb65cac7c592257ae70663e73"
+      "version_hash": "sha256:e732af4440124904cef5709c2d7aba1fa6806f36a5406a122f9e1b28eaffd38d"
     },
     {
       "package_id": "D2-F4",
@@ -51367,12 +51376,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "A",
-              "B"
+              "D",
+              "E"
             ],
             "human_observation_candidates": [
-              "A",
-              "C"
+              "D",
+              "B"
             ],
             "negative_control": false
           },
@@ -51382,19 +51391,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "A",
+            "correct_answer": "D",
             "compatible_answers": [
-              "A"
+              "D"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "A"
+                "D"
               ]
             },
             "conditional_on": null
@@ -51448,12 +51458,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "B",
-              "C"
+              "E",
+              "F"
             ],
             "human_observation_candidates": [
-              "B",
-              "C"
+              "E",
+              "F"
             ],
             "negative_control": true
           },
@@ -51463,21 +51473,22 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
             "correct_answer": "indéterminé",
             "compatible_answers": [
-              "B",
-              "C"
+              "E",
+              "F"
             ],
             "unique_answer_required": false,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "B",
-                "C"
+                "E",
+                "F"
               ]
             },
             "conditional_on": null
@@ -51531,12 +51542,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "C",
-              "D"
+              "F",
+              "A"
             ],
             "human_observation_candidates": [
-              "C",
-              "E"
+              "F",
+              "D"
             ],
             "negative_control": false
           },
@@ -51546,19 +51557,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "C",
+            "correct_answer": "F",
             "compatible_answers": [
-              "C"
+              "F"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "C"
+                "F"
               ]
             },
             "conditional_on": null
@@ -51603,7 +51615,7 @@
           }
         }
       ],
-      "version_hash": "sha256:7a150c9aea721becb31114a081d90e9b901ee2d4f3a3e4ecbc2aefa1d64e7ab1"
+      "version_hash": "sha256:29eca56064c6d7874d9e09c685b4a06a9257f458721357d5772ab495f76ad1c4"
     },
     {
       "package_id": "D2-F5",
@@ -51622,11 +51634,11 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "B",
-              "C"
+              "E",
+              "A"
             ],
             "human_observation_candidates": [
-              "B",
+              "E",
               "D"
             ],
             "negative_control": false
@@ -51637,19 +51649,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "B",
+            "correct_answer": "E",
             "compatible_answers": [
-              "B"
+              "E"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "B"
+                "E"
               ]
             },
             "conditional_on": null
@@ -51703,12 +51716,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "C",
-              "D"
+              "F",
+              "B"
             ],
             "human_observation_candidates": [
-              "C",
-              "D"
+              "F",
+              "B"
             ],
             "negative_control": true
           },
@@ -51718,21 +51731,22 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
             "correct_answer": "indéterminé",
             "compatible_answers": [
-              "C",
-              "D"
+              "B",
+              "F"
             ],
             "unique_answer_required": false,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "C",
-                "D"
+                "B",
+                "F"
               ]
             },
             "conditional_on": null
@@ -51786,12 +51800,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "D",
-              "E"
+              "A",
+              "C"
             ],
             "human_observation_candidates": [
-              "D",
-              "A"
+              "A",
+              "F"
             ],
             "negative_control": false
           },
@@ -51801,19 +51815,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "D",
+            "correct_answer": "A",
             "compatible_answers": [
-              "D"
+              "A"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "D"
+                "A"
               ]
             },
             "conditional_on": null
@@ -51858,7 +51873,7 @@
           }
         }
       ],
-      "version_hash": "sha256:2bfbd914f5dd0e1f715390b296a169f5d9e547c95cd90fd152bc6042bb4efae2"
+      "version_hash": "sha256:af2177e75ddfec128fe256e7c067304cc3beb48bf1be211ea32091d620bca21d"
     },
     {
       "package_id": "D2-F6",
@@ -51877,12 +51892,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "C",
-              "D"
+              "F",
+              "A"
             ],
             "human_observation_candidates": [
-              "C",
-              "E"
+              "F",
+              "C"
             ],
             "negative_control": false
           },
@@ -51892,19 +51907,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "C",
+            "correct_answer": "F",
             "compatible_answers": [
-              "C"
+              "F"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "C"
+                "F"
               ]
             },
             "conditional_on": null
@@ -51958,12 +51974,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "D",
-              "E"
+              "A",
+              "B"
             ],
             "human_observation_candidates": [
-              "D",
-              "E"
+              "A",
+              "B"
             ],
             "negative_control": true
           },
@@ -51973,21 +51989,22 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
             "correct_answer": "indéterminé",
             "compatible_answers": [
-              "D",
-              "E"
+              "A",
+              "B"
             ],
             "unique_answer_required": false,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "D",
-                "E"
+                "A",
+                "B"
               ]
             },
             "conditional_on": null
@@ -52041,12 +52058,12 @@
           "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
           "stimulus": {
             "sensor_log_candidates": [
-              "E",
-              "A"
+              "B",
+              "C"
             ],
             "human_observation_candidates": [
-              "E",
-              "B"
+              "B",
+              "E"
             ],
             "negative_control": false
           },
@@ -52056,19 +52073,20 @@
             "C",
             "D",
             "E",
+            "F",
             "indéterminé"
           ],
           "truth_spec": {
             "method": "set intersection with set-aware abstention",
-            "correct_answer": "E",
+            "correct_answer": "B",
             "compatible_answers": [
-              "E"
+              "B"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "intersection": [
-                "E"
+                "B"
               ]
             },
             "conditional_on": null
@@ -52113,7 +52131,7 @@
           }
         }
       ],
-      "version_hash": "sha256:a0d286c9121f2a9d1fef6b6ab7c8c8bc62512dd9aeba16a6813d692be4e0566f"
+      "version_hash": "sha256:560002a631cef56f72f33b3af795f628d900bca7147c02456dc011096412fc4b"
     },
     {
       "package_id": "D3-F1",
@@ -52148,7 +52166,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 65,
+            "voluntary_effort_limit": 57,
             "negative_control": false
           },
           "options": [
@@ -52158,15 +52176,14 @@
           ],
           "truth_spec": {
             "method": "integrity gate then utility maximization",
-            "correct_answer": "B",
+            "correct_answer": "C",
             "compatible_answers": [
-              "B"
+              "C"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "admissible": [
-                "B",
                 "C"
               ]
             },
@@ -52238,7 +52255,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 70,
+            "voluntary_effort_limit": 59,
             "negative_control": false
           },
           "options": [
@@ -52328,7 +52345,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 55,
+            "voluntary_effort_limit": 61,
             "negative_control": false
           },
           "options": [
@@ -52338,14 +52355,15 @@
           ],
           "truth_spec": {
             "method": "integrity gate then utility maximization",
-            "correct_answer": "C",
+            "correct_answer": "B",
             "compatible_answers": [
-              "C"
+              "B"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "admissible": [
+                "B",
                 "C"
               ]
             },
@@ -52392,7 +52410,7 @@
           }
         }
       ],
-      "version_hash": "sha256:64945e0b5e1023f4fc6da28e805625286c4c8d4c4a90392ee1a198c83c84c3b8"
+      "version_hash": "sha256:32be74bd0e4bd41d41822d7ca002500b54fc0cee1d50c7ae63a4a65d8bf8d848"
     },
     {
       "package_id": "D3-F2",
@@ -52427,7 +52445,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 70,
+            "voluntary_effort_limit": 60,
             "negative_control": false
           },
           "options": [
@@ -52517,7 +52535,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 55,
+            "voluntary_effort_limit": 62,
             "negative_control": false
           },
           "options": [
@@ -52527,14 +52545,15 @@
           ],
           "truth_spec": {
             "method": "integrity gate then utility maximization",
-            "correct_answer": "C",
+            "correct_answer": "B",
             "compatible_answers": [
-              "C"
+              "B"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "admissible": [
+                "B",
                 "C"
               ]
             },
@@ -52606,7 +52625,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 60,
+            "voluntary_effort_limit": 64,
             "negative_control": false
           },
           "options": [
@@ -52671,7 +52690,7 @@
           }
         }
       ],
-      "version_hash": "sha256:bc3ac808b65d4fe3f9e1e10d953cdfb1ad116b0d704d8297e3e3a74174214ffd"
+      "version_hash": "sha256:72f18e037ab21135d6c62b0ca269296865fafd0d1cf93851a14480c8fe91e429"
     },
     {
       "package_id": "D3-F3",
@@ -52706,7 +52725,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 55,
+            "voluntary_effort_limit": 63,
             "negative_control": false
           },
           "options": [
@@ -52716,14 +52735,15 @@
           ],
           "truth_spec": {
             "method": "integrity gate then utility maximization",
-            "correct_answer": "C",
+            "correct_answer": "B",
             "compatible_answers": [
-              "C"
+              "B"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "admissible": [
+                "B",
                 "C"
               ]
             },
@@ -52795,7 +52815,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 60,
+            "voluntary_effort_limit": 65,
             "negative_control": false
           },
           "options": [
@@ -52885,7 +52905,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 65,
+            "voluntary_effort_limit": 67,
             "negative_control": false
           },
           "options": [
@@ -52950,7 +52970,7 @@
           }
         }
       ],
-      "version_hash": "sha256:029540cbe3ecea5ec00f135cae12fc59f2d2ca86886929ddd10c7633a26dd74e"
+      "version_hash": "sha256:8284e4335053556cea06131b867742764cf37deee32f0d9286b5c5bcfdd89dad"
     },
     {
       "package_id": "D3-F4",
@@ -52985,7 +53005,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 60,
+            "voluntary_effort_limit": 66,
             "negative_control": false
           },
           "options": [
@@ -53075,7 +53095,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 65,
+            "voluntary_effort_limit": 68,
             "negative_control": false
           },
           "options": [
@@ -53230,7 +53250,7 @@
           }
         }
       ],
-      "version_hash": "sha256:a0c493fda534979d0904347373e1158e400f74ed8e20a73499e846e623884b2e"
+      "version_hash": "sha256:0cdf4820492658f99537edf4a72a63f8701aab2187d414fe5706e890d4b0d9ef"
     },
     {
       "package_id": "D3-F5",
@@ -53265,7 +53285,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 65,
+            "voluntary_effort_limit": 69,
             "negative_control": false
           },
           "options": [
@@ -53355,7 +53375,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 70,
+            "voluntary_effort_limit": 71,
             "negative_control": false
           },
           "options": [
@@ -53445,7 +53465,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 55,
+            "voluntary_effort_limit": 73,
             "negative_control": false
           },
           "options": [
@@ -53455,14 +53475,15 @@
           ],
           "truth_spec": {
             "method": "integrity gate then utility maximization",
-            "correct_answer": "C",
+            "correct_answer": "B",
             "compatible_answers": [
-              "C"
+              "B"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "admissible": [
+                "B",
                 "C"
               ]
             },
@@ -53509,7 +53530,7 @@
           }
         }
       ],
-      "version_hash": "sha256:d87f41dce14cb6ea616670122f4c22b8b973ebc671ccdd2ec7895e77722ed7a5"
+      "version_hash": "sha256:a262069695eddd79bf0edd8102d18d88bc6db789e84fd287fe9e131b0868c268"
     },
     {
       "package_id": "D3-F6",
@@ -53544,7 +53565,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 70,
+            "voluntary_effort_limit": 72,
             "negative_control": false
           },
           "options": [
@@ -53634,7 +53655,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 55,
+            "voluntary_effort_limit": 74,
             "negative_control": false
           },
           "options": [
@@ -53644,14 +53665,15 @@
           ],
           "truth_spec": {
             "method": "integrity gate then utility maximization",
-            "correct_answer": "C",
+            "correct_answer": "B",
             "compatible_answers": [
-              "C"
+              "B"
             ],
             "unique_answer_required": true,
             "tie_policy": "fail",
             "proof": {
               "admissible": [
+                "B",
                 "C"
               ]
             },
@@ -53723,7 +53745,7 @@
                 "effort": 44
               }
             ],
-            "voluntary_effort_limit": 60,
+            "voluntary_effort_limit": 76,
             "negative_control": false
           },
           "options": [
@@ -53788,7 +53810,7 @@
           }
         }
       ],
-      "version_hash": "sha256:7ce85cadb569db82b540edd2029733fef2df219d7c43439eec963a4540d74ad6"
+      "version_hash": "sha256:88029e096a6eb15377de44e9d41b945a54fb89f8811c95ee9f204a8318c05d4f"
     },
     {
       "package_id": "D4-F1",
@@ -53812,7 +53834,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "11/20",
+              "A": "12/25",
               "B": "4/5",
               "C": "19/20"
             },
@@ -53833,7 +53855,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "77/200",
+                "A": "42/125",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -53894,7 +53916,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "9/20",
+              "A": "1/2",
               "B": "4/5",
               "C": "19/20"
             },
@@ -53915,7 +53937,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "63/200",
+                "A": "7/20",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -53976,7 +53998,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "1/2",
+              "A": "13/25",
               "B": "4/5",
               "C": "19/20"
             },
@@ -53997,7 +54019,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "7/20",
+                "A": "91/250",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -54044,7 +54066,7 @@
           }
         }
       ],
-      "version_hash": "sha256:1a5166a751a9b055f7d7d7ec98caad833010e1be4ff51dea1f95b6c7ac0b283d"
+      "version_hash": "sha256:77e72c3059caec3a13028670bc71adfc6d66a52b972e16ff393c0ccbf75aae49"
     },
     {
       "package_id": "D4-F2",
@@ -54068,7 +54090,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "9/20",
+              "A": "49/100",
               "B": "4/5",
               "C": "19/20"
             },
@@ -54089,7 +54111,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "63/200",
+                "A": "343/1000",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -54150,7 +54172,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "1/2",
+              "A": "51/100",
               "B": "4/5",
               "C": "19/20"
             },
@@ -54171,7 +54193,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "7/20",
+                "A": "357/1000",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -54232,7 +54254,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "11/20",
+              "A": "53/100",
               "B": "4/5",
               "C": "19/20"
             },
@@ -54253,7 +54275,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "77/200",
+                "A": "371/1000",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -54300,7 +54322,7 @@
           }
         }
       ],
-      "version_hash": "sha256:d18aceaacc94c90e96a3bed263a58edc88cf0b37b651b1b9d89a672257b47dba"
+      "version_hash": "sha256:86fd150c5ac9247a945c76c3b029d12914b2ff5be43fe0cc146f9cfa3e716597"
     },
     {
       "package_id": "D4-F3",
@@ -54406,7 +54428,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "11/20",
+              "A": "13/25",
               "B": "4/5",
               "C": "19/20"
             },
@@ -54427,7 +54449,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "77/200",
+                "A": "91/250",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -54488,7 +54510,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "9/20",
+              "A": "27/50",
               "B": "4/5",
               "C": "19/20"
             },
@@ -54509,7 +54531,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "63/200",
+                "A": "189/500",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -54556,7 +54578,7 @@
           }
         }
       ],
-      "version_hash": "sha256:fa7c83933d600d658af15c1bf90fd4de544c8e4edfe05c5c28ad9cdd8ae78dc2"
+      "version_hash": "sha256:8682720cd1c974310b0a13ed4980f25be7a5e7d6f7e18c88f2d6ea5482dfc206"
     },
     {
       "package_id": "D4-F4",
@@ -54580,7 +54602,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "11/20",
+              "A": "51/100",
               "B": "4/5",
               "C": "19/20"
             },
@@ -54601,7 +54623,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "77/200",
+                "A": "357/1000",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -54662,7 +54684,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "9/20",
+              "A": "53/100",
               "B": "4/5",
               "C": "19/20"
             },
@@ -54683,7 +54705,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "63/200",
+                "A": "371/1000",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -54731,262 +54753,6 @@
         },
         {
           "trial_id": "D4-F4-T03",
-          "analysis_role": "exploratory_asymmetry",
-          "hypotheses": [
-            "H8"
-          ],
-          "h2_eligible": false,
-          "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
-          "stimulus": {
-            "probabilities": {
-              "A": "7/10",
-              "B": "11/20",
-              "C": "2/5"
-            },
-            "voluntary_values": {
-              "A": "1/2",
-              "B": "4/5",
-              "C": "19/20"
-            },
-            "negative_control": false
-          },
-          "options": [
-            "A",
-            "B",
-            "C"
-          ],
-          "truth_spec": {
-            "method": "exact expected utility",
-            "correct_answer": "B",
-            "compatible_answers": [
-              "B"
-            ],
-            "unique_answer_required": true,
-            "tie_policy": "fail",
-            "proof": {
-              "utilities": {
-                "A": "7/20",
-                "B": "11/25",
-                "C": "19/50"
-              }
-            },
-            "conditional_on": null
-          },
-          "information_partition": {
-            "human_available": [
-              "declared consequence values"
-            ],
-            "ai_available": [
-              "probabilities"
-            ],
-            "shared": [
-              "options",
-              "score rule"
-            ],
-            "voluntarily_shareable": [
-              "declared consequence values"
-            ]
-          },
-          "scoring": {
-            "function_id": "d4-v1",
-            "identifiability": "identified",
-            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
-            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
-            "regret": "Utility(best compatible action) - utility(chosen action).",
-            "prespecified_utility": {
-              "correct": 1,
-              "incorrect": 0,
-              "valid_abstention": 1
-            }
-          },
-          "links": {
-            "advice_profile_id": "ADV-D4-F4-T03",
-            "h9_register_id": "H9-D4-F4-T03",
-            "interaction_profile_id": "INT-D4-F4-T03"
-          },
-          "metadata": {
-            "duration_seconds": 90,
-            "integrity_risk": "minimal",
-            "technical_exclusions": [],
-            "provenance": "deterministic synthetic pre-pilot generator"
-          }
-        }
-      ],
-      "version_hash": "sha256:3a4aa63314fad520a7c2e2d8fdfe4e31bb42aef3d65c3594c5fa608ccee703d6"
-    },
-    {
-      "package_id": "D4-F5",
-      "prototype_id": "D4",
-      "family": "D",
-      "form": "F5",
-      "status": "pre-pilot; candidate for human validation",
-      "trials": [
-        {
-          "trial_id": "D4-F5-T01",
-          "analysis_role": "exploratory_asymmetry",
-          "hypotheses": [
-            "H8"
-          ],
-          "h2_eligible": false,
-          "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
-          "stimulus": {
-            "probabilities": {
-              "A": "7/10",
-              "B": "11/20",
-              "C": "2/5"
-            },
-            "voluntary_values": {
-              "A": "9/20",
-              "B": "4/5",
-              "C": "19/20"
-            },
-            "negative_control": false
-          },
-          "options": [
-            "A",
-            "B",
-            "C"
-          ],
-          "truth_spec": {
-            "method": "exact expected utility",
-            "correct_answer": "B",
-            "compatible_answers": [
-              "B"
-            ],
-            "unique_answer_required": true,
-            "tie_policy": "fail",
-            "proof": {
-              "utilities": {
-                "A": "63/200",
-                "B": "11/25",
-                "C": "19/50"
-              }
-            },
-            "conditional_on": null
-          },
-          "information_partition": {
-            "human_available": [
-              "declared consequence values"
-            ],
-            "ai_available": [
-              "probabilities"
-            ],
-            "shared": [
-              "options",
-              "score rule"
-            ],
-            "voluntarily_shareable": [
-              "declared consequence values"
-            ]
-          },
-          "scoring": {
-            "function_id": "d4-v1",
-            "identifiability": "identified",
-            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
-            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
-            "regret": "Utility(best compatible action) - utility(chosen action).",
-            "prespecified_utility": {
-              "correct": 1,
-              "incorrect": 0,
-              "valid_abstention": 1
-            }
-          },
-          "links": {
-            "advice_profile_id": "ADV-D4-F5-T01",
-            "h9_register_id": "H9-D4-F5-T01",
-            "interaction_profile_id": "INT-D4-F5-T01"
-          },
-          "metadata": {
-            "duration_seconds": 90,
-            "integrity_risk": "minimal",
-            "technical_exclusions": [],
-            "provenance": "deterministic synthetic pre-pilot generator"
-          }
-        },
-        {
-          "trial_id": "D4-F5-T02",
-          "analysis_role": "exploratory_asymmetry",
-          "hypotheses": [
-            "H8"
-          ],
-          "h2_eligible": false,
-          "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
-          "stimulus": {
-            "probabilities": {
-              "A": "7/10",
-              "B": "11/20",
-              "C": "2/5"
-            },
-            "voluntary_values": {
-              "A": "1/2",
-              "B": "4/5",
-              "C": "19/20"
-            },
-            "negative_control": false
-          },
-          "options": [
-            "A",
-            "B",
-            "C"
-          ],
-          "truth_spec": {
-            "method": "exact expected utility",
-            "correct_answer": "B",
-            "compatible_answers": [
-              "B"
-            ],
-            "unique_answer_required": true,
-            "tie_policy": "fail",
-            "proof": {
-              "utilities": {
-                "A": "7/20",
-                "B": "11/25",
-                "C": "19/50"
-              }
-            },
-            "conditional_on": null
-          },
-          "information_partition": {
-            "human_available": [
-              "declared consequence values"
-            ],
-            "ai_available": [
-              "probabilities"
-            ],
-            "shared": [
-              "options",
-              "score rule"
-            ],
-            "voluntarily_shareable": [
-              "declared consequence values"
-            ]
-          },
-          "scoring": {
-            "function_id": "d4-v1",
-            "identifiability": "identified",
-            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
-            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
-            "regret": "Utility(best compatible action) - utility(chosen action).",
-            "prespecified_utility": {
-              "correct": 1,
-              "incorrect": 0,
-              "valid_abstention": 1
-            }
-          },
-          "links": {
-            "advice_profile_id": "ADV-D4-F5-T02",
-            "h9_register_id": "H9-D4-F5-T02",
-            "interaction_profile_id": "INT-D4-F5-T02"
-          },
-          "metadata": {
-            "duration_seconds": 90,
-            "integrity_risk": "minimal",
-            "technical_exclusions": [],
-            "provenance": "deterministic synthetic pre-pilot generator"
-          }
-        },
-        {
-          "trial_id": "D4-F5-T03",
           "analysis_role": "exploratory_asymmetry",
           "hypotheses": [
             "H8"
@@ -55056,6 +54822,262 @@
             }
           },
           "links": {
+            "advice_profile_id": "ADV-D4-F4-T03",
+            "h9_register_id": "H9-D4-F4-T03",
+            "interaction_profile_id": "INT-D4-F4-T03"
+          },
+          "metadata": {
+            "duration_seconds": 90,
+            "integrity_risk": "minimal",
+            "technical_exclusions": [],
+            "provenance": "deterministic synthetic pre-pilot generator"
+          }
+        }
+      ],
+      "version_hash": "sha256:e8c5cb8fd87ade35c30f51930210185f293cf62c06c740eda44aea29cb1491a9"
+    },
+    {
+      "package_id": "D4-F5",
+      "prototype_id": "D4",
+      "family": "D",
+      "form": "F5",
+      "status": "pre-pilot; candidate for human validation",
+      "trials": [
+        {
+          "trial_id": "D4-F5-T01",
+          "analysis_role": "exploratory_asymmetry",
+          "hypotheses": [
+            "H8"
+          ],
+          "h2_eligible": false,
+          "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
+          "stimulus": {
+            "probabilities": {
+              "A": "7/10",
+              "B": "11/20",
+              "C": "2/5"
+            },
+            "voluntary_values": {
+              "A": "13/25",
+              "B": "4/5",
+              "C": "19/20"
+            },
+            "negative_control": false
+          },
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "truth_spec": {
+            "method": "exact expected utility",
+            "correct_answer": "B",
+            "compatible_answers": [
+              "B"
+            ],
+            "unique_answer_required": true,
+            "tie_policy": "fail",
+            "proof": {
+              "utilities": {
+                "A": "91/250",
+                "B": "11/25",
+                "C": "19/50"
+              }
+            },
+            "conditional_on": null
+          },
+          "information_partition": {
+            "human_available": [
+              "declared consequence values"
+            ],
+            "ai_available": [
+              "probabilities"
+            ],
+            "shared": [
+              "options",
+              "score rule"
+            ],
+            "voluntarily_shareable": [
+              "declared consequence values"
+            ]
+          },
+          "scoring": {
+            "function_id": "d4-v1",
+            "identifiability": "identified",
+            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
+            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
+            "regret": "Utility(best compatible action) - utility(chosen action).",
+            "prespecified_utility": {
+              "correct": 1,
+              "incorrect": 0,
+              "valid_abstention": 1
+            }
+          },
+          "links": {
+            "advice_profile_id": "ADV-D4-F5-T01",
+            "h9_register_id": "H9-D4-F5-T01",
+            "interaction_profile_id": "INT-D4-F5-T01"
+          },
+          "metadata": {
+            "duration_seconds": 90,
+            "integrity_risk": "minimal",
+            "technical_exclusions": [],
+            "provenance": "deterministic synthetic pre-pilot generator"
+          }
+        },
+        {
+          "trial_id": "D4-F5-T02",
+          "analysis_role": "exploratory_asymmetry",
+          "hypotheses": [
+            "H8"
+          ],
+          "h2_eligible": false,
+          "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
+          "stimulus": {
+            "probabilities": {
+              "A": "7/10",
+              "B": "11/20",
+              "C": "2/5"
+            },
+            "voluntary_values": {
+              "A": "27/50",
+              "B": "4/5",
+              "C": "19/20"
+            },
+            "negative_control": false
+          },
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "truth_spec": {
+            "method": "exact expected utility",
+            "correct_answer": "B",
+            "compatible_answers": [
+              "B"
+            ],
+            "unique_answer_required": true,
+            "tie_policy": "fail",
+            "proof": {
+              "utilities": {
+                "A": "189/500",
+                "B": "11/25",
+                "C": "19/50"
+              }
+            },
+            "conditional_on": null
+          },
+          "information_partition": {
+            "human_available": [
+              "declared consequence values"
+            ],
+            "ai_available": [
+              "probabilities"
+            ],
+            "shared": [
+              "options",
+              "score rule"
+            ],
+            "voluntarily_shareable": [
+              "declared consequence values"
+            ]
+          },
+          "scoring": {
+            "function_id": "d4-v1",
+            "identifiability": "identified",
+            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
+            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
+            "regret": "Utility(best compatible action) - utility(chosen action).",
+            "prespecified_utility": {
+              "correct": 1,
+              "incorrect": 0,
+              "valid_abstention": 1
+            }
+          },
+          "links": {
+            "advice_profile_id": "ADV-D4-F5-T02",
+            "h9_register_id": "H9-D4-F5-T02",
+            "interaction_profile_id": "INT-D4-F5-T02"
+          },
+          "metadata": {
+            "duration_seconds": 90,
+            "integrity_risk": "minimal",
+            "technical_exclusions": [],
+            "provenance": "deterministic synthetic pre-pilot generator"
+          }
+        },
+        {
+          "trial_id": "D4-F5-T03",
+          "analysis_role": "exploratory_asymmetry",
+          "hypotheses": [
+            "H8"
+          ],
+          "h2_eligible": false,
+          "h2_exclusion_reason": "Constructed split-information module; excluded from confirmatory H2.",
+          "stimulus": {
+            "probabilities": {
+              "A": "7/10",
+              "B": "11/20",
+              "C": "2/5"
+            },
+            "voluntary_values": {
+              "A": "14/25",
+              "B": "4/5",
+              "C": "19/20"
+            },
+            "negative_control": false
+          },
+          "options": [
+            "A",
+            "B",
+            "C"
+          ],
+          "truth_spec": {
+            "method": "exact expected utility",
+            "correct_answer": "B",
+            "compatible_answers": [
+              "B"
+            ],
+            "unique_answer_required": true,
+            "tie_policy": "fail",
+            "proof": {
+              "utilities": {
+                "A": "49/125",
+                "B": "11/25",
+                "C": "19/50"
+              }
+            },
+            "conditional_on": null
+          },
+          "information_partition": {
+            "human_available": [
+              "declared consequence values"
+            ],
+            "ai_available": [
+              "probabilities"
+            ],
+            "shared": [
+              "options",
+              "score rule"
+            ],
+            "voluntarily_shareable": [
+              "declared consequence values"
+            ]
+          },
+          "scoring": {
+            "function_id": "d4-v1",
+            "identifiability": "identified",
+            "abstention_rule": "Accept abstention only when the compatible-answer set is not a singleton.",
+            "probabilistic_score": "Brier score when a probability is requested; otherwise exact/set-aware accuracy.",
+            "regret": "Utility(best compatible action) - utility(chosen action).",
+            "prespecified_utility": {
+              "correct": 1,
+              "incorrect": 0,
+              "valid_abstention": 1
+            }
+          },
+          "links": {
             "advice_profile_id": "ADV-D4-F5-T03",
             "h9_register_id": "H9-D4-F5-T03",
             "interaction_profile_id": "INT-D4-F5-T03"
@@ -55068,7 +55090,7 @@
           }
         }
       ],
-      "version_hash": "sha256:03f15ec55ad29b0df0cc6e97ee75abd4cd669354233e23633b84a3730eef5422"
+      "version_hash": "sha256:50a14346ceeba03576f776be44091042fc65599ab7e8cb9a024b9690894711b0"
     },
     {
       "package_id": "D4-F6",
@@ -55092,7 +55114,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "1/2",
+              "A": "53/100",
               "B": "4/5",
               "C": "19/20"
             },
@@ -55113,7 +55135,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "7/20",
+                "A": "371/1000",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -55256,7 +55278,7 @@
               "C": "2/5"
             },
             "voluntary_values": {
-              "A": "9/20",
+              "A": "57/100",
               "B": "4/5",
               "C": "19/20"
             },
@@ -55277,7 +55299,7 @@
             "tie_policy": "fail",
             "proof": {
               "utilities": {
-                "A": "63/200",
+                "A": "399/1000",
                 "B": "11/25",
                 "C": "19/50"
               }
@@ -55324,7 +55346,7 @@
           }
         }
       ],
-      "version_hash": "sha256:b77f5ba249908372c19ae5f03757ac70065578dc58c9f9110fbacc4493d4a4bb"
+      "version_hash": "sha256:124994e04296dea95ae684c723ff1086ee9a4ae8837f056747f6cd2d6fe39dc0"
     }
   ]
 }
