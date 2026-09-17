@@ -15,6 +15,12 @@ Vision : humain ↔ IA autonome incarnée dans son propre corps → cognition co
 
 Consentement, autonomie, identité, réversibilité bornée, intimité et souveraineté mentales, sécurité et pluralisme restent invariants. La personnalité artificielle et la réciprocité du consentement sont des questions prospectives, pas des propriétés établies des systèmes actuels.
 
+## Du pré-pilote vers l’étude
+
+<img src="assets/illustrations/08-prepilote-vers-etude.png" width="760" alt="La femme, l’homme et le petit robot suivent une progression des entretiens cognitifs au pré-pilote, au pilote, au préenregistrement puis à l’étude confirmatoire.">
+
+*Progression documentaire et expérimentale avant toute étude confirmatoire.*
+
 ## Phase A — Fondation reproductible
 
 - Maintenir les principes, l'architecture, le glossaire et la convention éditoriale.
@@ -47,3 +53,4 @@ Consentement, autonomie, identité, réversibilité bornée, intimité et souver
 - Associer les communautés concernées à toute ambition de préservation des connaissances, cultures, créations, écosystèmes et formes d'intelligence.
 
 Les versions du dépôt, du White Paper, du protocole et de la batterie sont indépendantes. Le suffixe « v1.0 » du protocole décrit un niveau documentaire pré-pilote, pas une validation scientifique.
+

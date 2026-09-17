@@ -8,6 +8,10 @@ Document compagnon de *SYMBIOSIS-Zero — Experimental Protocol v1.0*. La struct
 
 ## 1. Objet et principes de conception
 
+<img src="../assets/illustrations/06-batterie-operationnelle.png" width="760" alt="La femme, l’homme et le petit robot examinent la batterie opérationnelle composée de 16 prototypes, 96 paquets, 384 essais, dont 240 naturels et 144 exploratoires, avec un bloc H4 séparé.">
+
+*Vue d’ensemble de la batterie opérationnelle et de son bloc H4 séparé.*
+
 Cette batterie transforme « Moi → Nous → Moi » en tâches concrètes. Elle doit déterminer si SYMBIOSIS-Zero (SZ), associant une personne humaine et une intelligence artificielle (artificial intelligence, AI ; IA en français), produit une capacité commune supérieure sans confondre :
 
 - l'augmentation de l'humain par un outil ;
@@ -499,3 +503,4 @@ La batterie est prête au pré-pilote seulement si : (1) chaque prototype princi
 ## 22. Règle de gel de la batterie confirmatoire
 
 Après le pilote, une tâche ne peut être retenue ou retirée en fonction du signe de l’effet SYMBIOSIS-Zero. Les décisions portent uniquement sur validité de la vérité de référence, parallélisme, plage de difficulté, discrimination, fréquence suffisante des désaccords, charge, sécurité, fonctionnement des ablations et qualité des mesures. La liste finale d’items, les formes, la randomisation et les scores sont hachés et archivés avant le préenregistrement.
+
