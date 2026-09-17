@@ -34,7 +34,7 @@ def validate(value,schema,root,path='$'):
     if isinstance(value,int) and 'minimum' in schema: assert value>=schema['minimum'],(path,'minimum')
 
 def main():
-    pairs={'task_bank_v1.0.json':'task-bank.schema.json','advice_bank_v1.0.json':'advice-bank.schema.json','h9_register_v1.0.json':'h9-register.schema.json','interaction_profiles_v1.0.json':'interaction-profile.schema.json'}
+    pairs={'task_bank_v1.0.json':'task-bank.schema.json','advice_bank_v1.0.json':'advice-bank.schema.json','h9_register_v1.0.json':'h9-register.schema.json','interaction_profiles_v1.0.json':'interaction-profile.schema.json','h4_allocation_manifest_v1.0.json':'h4-allocation-manifest.schema.json'}
     for data_name,schema_name in pairs.items():
         data=json.loads((ROOT/'data'/data_name).read_text(encoding='utf-8')); schema=json.loads((ROOT/'schemas'/schema_name).read_text(encoding='utf-8')); validate(data,schema,schema); print('PASS JSON Schema contract:',data_name)
 

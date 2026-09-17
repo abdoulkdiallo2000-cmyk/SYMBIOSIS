@@ -4,8 +4,8 @@ base=Path(__file__).resolve().parents[1]
 required=[
 'docs/SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md',
 'docs/SYMBIOSIS-ZERO-TASK-BATTERY-v1.0.md',
-'data/task_bank_v1.0.json','data/advice_bank_v1.0.json','data/h9_register_v1.0.json','data/interaction_profiles_v1.0.json','data/pilot_randomization_example.csv',
-'schemas/task-bank.schema.json','schemas/advice-bank.schema.json','schemas/h9-register.schema.json','schemas/interaction-profile.schema.json',
+'data/task_bank_v1.0.json','data/advice_bank_v1.0.json','data/h9_register_v1.0.json','data/interaction_profiles_v1.0.json','data/h4_allocation_manifest_v1.0.json','data/pilot_randomization_example.csv',
+'schemas/task-bank.schema.json','schemas/advice-bank.schema.json','schemas/h9-register.schema.json','schemas/interaction-profile.schema.json','schemas/h4-allocation-manifest.schema.json',
 'docs/COGNITIVE-INTERVIEW-GUIDE.md','docs/PRE-PILOT-TECHNICAL-PROTOCOL.md','docs/PILOT-PROTOCOL.md',
 'docs/DATA-DICTIONARY.md','docs/ETHICS-SUBMISSION-OUTLINE.md','docs/PREREGISTRATION-DRAFT.md','docs/DECISION-REGISTER.md',
 'docs/CORRECTIONS-APPLIED-2026-09-14.md','docs/WHITE-PAPER-CANONICAL-AUDIT.md','docs/GLOSSARY.md','docs/EDITORIAL-CONVENTION.md',
