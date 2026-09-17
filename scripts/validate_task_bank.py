@@ -52,7 +52,8 @@ def main()->None:
         if a is None: continue
         assert len(a['conditions'])==4
         statuses=a['comparability_status']
-        prerequisites_satisfied=all(value==a['required_status_for_computation'] for value in statuses.values())
+        required=a['required_comparability_status']
+        prerequisites_satisfied=all(statuses[key]==required[key] for key in required)
         assert a['gain_computation_allowed']==prerequisites_satisfied
         assert statuses['interface']=='pending_pre_pilot_validation' and statuses['duration']=='pending_pre_pilot_validation'
     negative=[x for x in profiles if x['ablation_comparison'] and x['ablation_comparison']['negative_control']]
