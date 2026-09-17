@@ -73,7 +73,8 @@ def ablation_comparison(item: dict) -> dict | None:
             "required_status_for_computation":"validated_pre_pilot",
             "gain_computation_allowed":False,
             "blocked_reason":"Interface, duration and controlled-information delivery remain pending pre-pilot validation.",
-            "negative_control":bool(item["stimulus"].get("negative_control",False))}
+            "negative_control":bool(item["stimulus"].get("negative_control",False)),
+            "negative_control_expectation":"No integration gain under the prespecified set-aware score." if item["stimulus"].get("negative_control",False) else None}
 
 
 def companion_banks(packages: list[dict]) -> tuple[dict,dict,dict]:
