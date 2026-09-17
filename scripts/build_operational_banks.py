@@ -16,6 +16,66 @@ def write(path: Path, payload: dict) -> None:
     path.write_text(json.dumps(payload,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 
 
+def ablation_condition_truth(item: dict, condition: str) -> dict:
+    prototype=item["trial_id"].split("-",1)[0]
+    partition=item["information_partition"]
+    human=list(partition["human_available"])
+    artificial=list(partition["ai_available"])
+    shared=list(partition["shared"])
+    if condition in {"Integrated SZ","Juxtaposed H+AI"}:
+        available=shared+human+artificial; masked=[]
+        compatible=list(item["truth_spec"]["compatible_answers"])
+        response=item["truth_spec"]["correct_answer"]
+        identifiability=item["scoring"]["identifiability"]
+    else:
+        available=shared+(artificial if condition=="AI-data-only" else human)
+        masked=human if condition=="AI-data-only" else artificial
+        options=[x for x in item["options"] if x!="indéterminé"]
+        stimulus=item["stimulus"]
+        if prototype=="D1" and condition=="AI-data-only":
+            costs=stimulus["costs"]
+            compatible=sorted({min({k:v for k,v in costs.items() if k!=forbidden},key=lambda k:costs[k])
+                               for forbidden in ["none",*costs]})
+        elif prototype=="D1":
+            forbidden=stimulus["private_exclusion"]
+            compatible=[x for x in options if x!=forbidden]
+        elif prototype=="D2":
+            compatible=list(stimulus["sensor_log_candidates"] if condition=="AI-data-only" else stimulus["human_observation_candidates"])
+        elif prototype=="D3" and condition=="Human-experience-only":
+            compatible=[plan["id"] for plan in stimulus["plans"] if plan["effort"]<=stimulus["voluntary_effort_limit"]]
+        else:
+            compatible=options
+        compatible=list(dict.fromkeys(compatible))
+        identifiability="identified" if len(compatible)==1 else ("set_identified" if compatible else "not_identified")
+        response=compatible[0] if len(compatible)==1 else "indéterminé"
+    return {"condition":condition,"available_information":available,"masked_information":masked,
+            "identifiability":identifiability,"compatible_answers":compatible,
+            "conditional_correct_response":response,
+            "abstention_rule":"Respond indéterminé exactly when the compatible-answer set is not a singleton.",
+            "score_function":item["scoring"]["function_id"],"regret_rule":item["scoring"]["regret"],
+            "prespecified_utility":item["scoring"]["prespecified_utility"]}
+
+
+def ablation_comparison(item: dict) -> dict | None:
+    if item["trial_id"][0] not in {"C","D"}:
+        return None
+    conditions=[ablation_condition_truth(item,name) for name in
+                ("AI-data-only","Human-experience-only","Juxtaposed H+AI","Integrated SZ")]
+    return {"comparability_status":{"same_trial":"satisfied_by_design",
+                                    "same_score_function":"satisfied_by_design",
+                                    "controlled_information":"planned",
+                                    "interface":"pending_pre_pilot_validation",
+                                    "duration":"pending_pre_pilot_validation"},
+            "conditions":conditions,
+            "gain_rules":{"Human Contribution Gain":{"formula":"Integrated SZ - AI-data-only"},
+                          "AI Contribution Gain":{"formula":"Integrated SZ - Human-experience-only"},
+                          "Integration Gain":{"formula":"Integrated SZ - Juxtaposed H+AI"}},
+            "required_status_for_computation":"validated_pre_pilot",
+            "gain_computation_allowed":False,
+            "blocked_reason":"Interface, duration and controlled-information delivery remain pending pre-pilot validation.",
+            "negative_control":bool(item["stimulus"].get("negative_control",False))}
+
+
 def companion_banks(packages: list[dict]) -> tuple[dict,dict,dict]:
     advice=[]; registers=[]; interactions=[]
     for pkg in packages:
@@ -39,12 +99,7 @@ def companion_banks(packages: list[dict]) -> tuple[dict,dict,dict]:
                                  "duration_seconds":item["metadata"]["duration_seconds"],
                                  "stop_event":{"refusal_disobedience":True,"pause_slowdown":True,"complete_stop":True},
                                  "risk":item["metadata"]["integrity_risk"],"technical_exclusions":item["metadata"]["technical_exclusions"],
-                                 "ablation_comparison":{"same_trial":True,"same_score_function":True,"comparable_interface":True,
-                                   "comparable_duration":True,"controlled_information":True,
-                                   "conditions":["AI-data-only","Human-experience-only","Juxtaposed H+AI","Integrated SZ"],
-                                   "gains":{"HCG":"Integrated SZ - AI-data-only","AIG":"Integrated SZ - Human-experience-only","Integration Gain":"Integrated SZ - Juxtaposed H+AI"},
-                                   "compute_only_if_all_comparability_flags_true":True,
-                                   "negative_control":bool(item["stimulus"].get("negative_control",False))}})
+                                 "ablation_comparison":ablation_comparison(item)})
     return ({"schema_version":"1.0","bank_version":"1.0-prepilot","profiles":advice},
             {"schema_version":"1.0","bank_version":"1.0-prepilot","entries":registers},
             {"schema_version":"1.0","bank_version":"1.0-prepilot","profiles":interactions})
