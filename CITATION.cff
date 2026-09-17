@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use or discuss this framework, please cite it using these metadata."
+message: "If you use or discuss this framework, please cite it using these metadata. The citable research materials are licensed under CC-BY-4.0; code, scripts, tests, and schemas are licensed under Apache-2.0. See LICENSE.md for the category-based allocation."
 title: "SYMBIOSIS: A Framework for Voluntary Cognitive Symbiosis"
 type: generic
 authors:

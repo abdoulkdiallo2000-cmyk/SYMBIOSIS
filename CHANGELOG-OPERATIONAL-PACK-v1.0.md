@@ -1,8 +1,9 @@
-# SYMBIOSIS-Zero Operational Pack v1.0 — Working-branch changelog
+# SYMBIOSIS-Zero Operational Pack v1.0 — Changelog
 
 **Base :** `main` à `94314078cf582026206e05cc1c9f77859e8b4809`\
 **Branche :** `docs/symbiosis-zero-operational-v1.0`\
-**Statut :** demande de fusion n°1 ouverte et non fusionnée ; aucune release ni publication scientifique.
+**Intégration :** demande de fusion n°1 fusionnée dans `main` par le commit `ec5c01aa03d82a3529dc6990fb1b9a44e97e8cd8` le 17 septembre 2026.\
+**Statut scientifique :** pré-pilote, non expérimentalement validé, non préenregistré et non autorisé au recrutement ; aucune release v1.0 publiée à la date de cette mise à jour.
 
 ## Ajouté
 
@@ -23,7 +24,7 @@
 ## Préservé
 
 - `CHANGELOG-ZERO-v1.0.md` et les extraits historiques de `docs/EXTERNAL-AI-REVIEW.md`.
-- Métadonnées de citation et licences existantes, en attente d'une éventuelle décision de release.
+- Historique Git et métadonnées scientifiques du pack fusionné.
 
 ## Non inclus
 
@@ -45,3 +46,10 @@
 - Un manifeste reproductible définit exactement vingt expositions H4 par allocation et les exclut de H2.
 - Les quatre vérités conditionnelles d'ablation sont explicites pour chacun des 144 essais C/D ; leur recalcul indépendant couvre 576 conditions.
 - Le calcul des gains reste bloqué tant que la comparabilité d'interface, de durée et de livraison de l'information n'est pas validée au pré-pilote.
+
+## Clarification post-fusion de la licence — 17 septembre 2026
+
+- Documentation, textes scientifiques, illustrations originales et données synthétiques JSON/CSV : Creative Commons Attribution 4.0 International (CC BY 4.0).
+- Code, scripts, tests et schémas JSON : Apache License 2.0.
+- Contenus tiers : licences ou droits propres.
+- Textes complets ajoutés dans `LICENSES/` ; `CITATION.cff`, `README.md` et l'audit de licence harmonisés sans modification du contenu scientifique.

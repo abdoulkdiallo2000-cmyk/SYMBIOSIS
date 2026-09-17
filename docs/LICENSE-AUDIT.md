@@ -1,11 +1,12 @@
-# Audit de licence — branche opérationnelle SYMBIOSIS-Zero
+# Audit et décision de licence — SYMBIOSIS v1.0
 
-**Date :** 14 septembre 2026
-**Portée :** constat documentaire, pas avis juridique et pas nouveau choix de licence.
+**Audit initial :** 14 septembre 2026\
+**Décision de l'auteur :** 17 septembre 2026\
+**Portée :** registre documentaire de la décision de licence ; ce document ne constitue pas un avis juridique.
 
-## État hérité de `main`
+## État constaté avant décision
 
-Les fichiers `LICENSE.md` et `CITATION.cff` de la branche de travail sont byte-à-byte identiques à ceux de `main` au commit `94314078cf582026206e05cc1c9f77859e8b4809`.
+Avant la décision, les fichiers `LICENSE.md` et `CITATION.cff` de la branche opérationnelle étaient identiques à ceux de `main` au commit `94314078cf582026206e05cc1c9f77859e8b4809`.
 
 | Fichier | État actuel |
 |---|---|
@@ -18,25 +19,30 @@ Empreintes calculées avec l'algorithme de hachage sécurisé à 256 bits (*Secu
 - `LICENSE.md` : `d629642a44343d08332f11c30676a890f3ed751af94101bb983584ecd113417c`
 - `CITATION.cff` : `25855378543cd41bb248ec81953276e388359a66e2689f8e234c9f847309ad1e`
 
-## Concordance et ambiguïté
+## Ambiguïté constatée
 
 Le README et `LICENSE.md` ne se contredisaient pas sur la répartition annoncée. En revanche, le champ unique de `CITATION.cff` peut être lu comme la licence de l'ensemble du travail cité et ne représente pas explicitement la double portée documentation/code. L'ajout de scripts rend cette ambiguïté concrète.
 
-La présence de liens vers CC BY 4.0 et Apache 2.0 dans `LICENSE.md` exprime une intention existante, mais cet audit ne détermine ni la suffisance juridique de la notice, ni la titularité de tous les contenus, ni la compatibilité des éventuels éléments tiers.
+La présence de liens vers CC BY 4.0 et Apache 2.0 dans `LICENSE.md` exprimait une intention existante, mais ne distinguait pas explicitement les données synthétiques des schémas JSON. L'audit ne détermine ni la titularité de tous les contenus ni la compatibilité des éventuels éléments tiers.
 
-## Action de cette branche
+## Décision validée
 
-- `LICENSE.md` n'est pas modifié.
-- `CITATION.cff` n'est pas modifié.
-- Le README décrit ces licences comme un état hérité et renvoie au présent audit ; il ne les confirme pas comme décision juridique nouvelle.
+L'auteur a validé la répartition suivante :
 
-## Décision requise avant fusion ou diffusion
+- documentation, textes scientifiques et illustrations originales : **CC-BY-4.0** ;
+- données synthétiques de recherche JSON/CSV : **CC-BY-4.0** ;
+- code, scripts, tests et schémas JSON : **Apache-2.0** ;
+- contenus tiers : leurs licences ou droits propres.
 
-Le titulaire du projet doit confirmer explicitement :
+Les textes complets sont conservés dans `LICENSES/CC-BY-4.0.txt` et `LICENSES/Apache-2.0.txt`. `LICENSE.md` définit la portée par catégories et chemins. Les droits ne sont accordés que dans la mesure où les contributeurs sont autorisés à les concéder.
 
-1. s'il maintient CC BY 4.0 pour la documentation et Apache 2.0 pour le code ;
-2. si `CITATION.cff` doit rester limité à la documentation/cadre ou représenter plusieurs catégories de fichiers ;
-3. si les textes complets, fichiers de licence normalisés ou en-têtes d'identifiant de licence de la *Software Package Data Exchange* (SPDX) doivent être ajoutés ;
-4. si des éléments tiers ou générés par IA nécessitent des mentions supplémentaires.
+## Traitement de `CITATION.cff`
 
-La branche peut être soumise à revue avec cette ambiguïté signalée, mais elle ne devrait pas être fusionnée ni diffusée comme édition licenciée définitive avant décision explicite.
+Le champ `license: CC-BY-4.0` décrit le cadre scientifique cité. Il n'est pas transformé en expression d'alternatives `CC-BY-4.0 OR Apache-2.0`. Le message de citation précise que le code, les scripts, les tests et les schémas relèvent d'Apache-2.0 et renvoie à `LICENSE.md` pour la répartition complète.
+
+## Points qui restent à surveiller
+
+- Identifier séparément tout contenu tiers avant une release.
+- Ne pas supposer qu'une illustration générée par intelligence artificielle crée des droits exclusifs ; la licence ne porte que sur les droits que le projet peut effectivement concéder.
+- Conserver les notices applicables lors de toute réutilisation ou redistribution.
+- Réexaminer les en-têtes SPDX fichier par fichier si le dépôt accueille ultérieurement plusieurs catégories dans un même répertoire.
