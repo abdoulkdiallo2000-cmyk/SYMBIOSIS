@@ -24,3 +24,7 @@ Une seconde passe le 14 septembre 2026 a ajouté : recalcul indépendant des 96 
 La banque est désormais structurée en 96 paquets : six formes pour chacun des seize prototypes. Chaque paquet A1–B4 porte cinq essais naturels (40 essais naturels pour une forme complète) ; chaque paquet C1–D4 porte trois essais exploratoires. Les conseils, expositions H4, registres H9 et profils d'interaction/ablation sont séparés dans des banques versionnées et reliés par identifiants.
 
 Les 384 vérités instanciées passent un recalcul logiciel séparé. Ce résultat atteste la cohérence interne des règles codées, pas leur validité scientifique. La vérification humaine externe, les entretiens cognitifs, l'équivalence réelle des interfaces/temps, le pilote et l'avis éthique restent ouverts.
+
+## Contrôle ciblé final — 17 septembre 2026
+
+Les duplications inter-formes C2/C3/C4/D2/D3/D4 ont été supprimées et un contrôle canonique impose six stimuli substantiellement distincts par prototype. Les six allocations H4 contiennent exactement vingt expositions uniques, explicitement exclues de H2. Les 576 vérités conditionnelles des ablations passent un recalcul séparé ; les douze contrôles négatifs sont conservés. La comparabilité d'interface et de durée reste en attente de validation pré-pilote et le calcul des gains est donc bloqué.

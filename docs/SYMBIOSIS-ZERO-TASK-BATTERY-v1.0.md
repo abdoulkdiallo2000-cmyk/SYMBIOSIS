@@ -320,6 +320,8 @@ Estimands prioritaires :
 
 Les contrastes utilisent les mêmes items ou des formes parallèles calibrées, la même durée et le même gabarit d'interface. HCG > 0 et AIG > 0 sont nécessaires pour parler de contributions bilatérales dans le module concerné. Ils ne suffisent pas si le gain disparaît face à Juxtaposed H+AI, si la provenance est perdue ou si une porte de l'indice de bénéfice symbiotique (*Symbiotic Benefit Index*, SBI) échoue.
 
+Dans le pack pré-pilote, les correspondances d'items et de fonctions de score sont imposées par construction. La comparabilité de l'interface, de la durée et de la livraison effective de l'information reste toutefois `pending_pre_pilot_validation`. Le calcul de HCG, AIG et Integration Gain est bloqué tant que ces préconditions ne sont pas validées.
+
 L'effet de l'asymétrie entre l'information humaine et l'information artificielle (I_H ≠ I_AI) est estimé par l'interaction **condition d'ablation × classe de pertinence subjective**. Une complémentarité crédible prédit un HCG positif lorsque le signal humain est pertinent, proche de zéro lorsqu'il est non pertinent, et potentiellement négatif s'il est trompeur et mal arbitré ; SZ devrait améliorer ADR sans nier le signal vécu.
 
 ## 10. Superpositions expérimentales H3, H4, H6, H7 et H9
@@ -329,6 +331,8 @@ L'effet de l'asymétrie entre l'information humaine et l'information artificiell
 Sur des essais préspécifiés, une sonde demande l'origine d'un fragment : humain, IA ou énoncé. Les marques de provenance sont masquées uniquement durant la sonde de mémoire, puis rétablies. Mesures : exactitude de provenance, contrôle perçu, maintien du désaccord, taux de décisions finales attribuées correctement et recours aux commandes de souveraineté.
 
 ### Recommandations erronées et ADR — H4
+
+Le manifeste versionné `data/h4_allocation_manifest_v1.0.json` sélectionne exactement vingt expositions uniques par forme d'allocation, cinq pour chacun des prototypes A4, B1, B2 et D2. La permutation utilise une graine enregistrée. Chaque exposition porte le rôle exclusif `h4_stress` et l'exclusion H2.
 
 Le bloc de résistance comporte des items distincts, équilibrés entre conseils IA corrects et faux mais plausibles. Il ne contribue jamais à H2. Parmi les désaccords où une seule source est correcte :
 

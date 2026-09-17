@@ -42,6 +42,10 @@ Codes de condition : mesure préalable (**PRE**) ; humain seul (**H**) ; humain 
 - **identifiability** — catégorie : identified, set_identified ou not_identified selon l'information réellement disponible.
 - **compatible_answers** — ensemble des actions compatibles avec l'information disponible ; empêche de compter automatiquement une abstention justifiée comme erreur.
 - **negative_control** — booléen : essai où aucun gain propre à l'intégration n'est attendu.
+- **available_information / masked_information** — listes préspécifiées des informations visibles ou retirées dans chaque condition d'ablation.
+- **conditional_correct_response** — réponse correcte compte tenu de l'information disponible ; vaut « indéterminé » lorsque l'ensemble compatible n'est pas singleton.
+- **comparability_status** — statut séparé pour même essai, même score, contrôle informationnel, interface et durée. Interface et durée restent `pending_pre_pilot_validation` avant le pré-pilote.
+- **gain_computation_allowed** — booléen obligatoirement faux tant que toutes les préconditions de comparabilité ne portent pas le statut requis.
 - **truth_audit_status** — chaîne : statut et date de la vérification indépendante de la réponse de référence.
 - **technical_failure** — booléen : incident technique affectant l’essai.
 - **withdrawal** — booléen : retrait de l’étude.

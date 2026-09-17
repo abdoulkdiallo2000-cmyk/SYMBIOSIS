@@ -104,6 +104,8 @@ Pilote distinct : 36 participants, 12 par bras, pour compréhension, durée, dis
 
 Séquence par participant : consentement et contrôle de compréhension ; entraînement de 6 items avec feedback ; baseline autonome de 20 items ; randomisation ; phase expérimentale de 40 items naturels ; pause ; bloc de résistance de 20 items ; séparation ; bloc autonome immédiat de 20 items ; questionnaire et débriefing ; suivi J7 de 20 items nouveaux. Durée cible de session : 90–120 minutes, à vérifier au pilote. Prévoir deux sessions si la charge dépasse la limite convenue ; toute révision doit précéder le préenregistrement.
 
+Le bloc de résistance est instancié par un manifeste reproductible de vingt expositions : cinq A4, cinq B1, cinq B2 et cinq D2. Les expositions H4 constituent des unités analytiques séparées et ne contribuent jamais à H2.
+
 ### Randomisation et contrebalancement
 
 Allocation 1:1:1 par blocs de taille variable 6 ou 9, stratifiée sur niveau de baseline (coupure fixée au pilote). Séquence générée par une personne indépendante et masquée jusqu’à allocation. Participants et animateurs ne peuvent pas être aveugles à l’interface ; les évaluateurs de réponses libres et l’analyste principal reçoivent des codes de groupes masqués jusqu’au verrouillage des analyses.
@@ -123,6 +125,8 @@ Le score primaire est la proportion de réponses correctes sur les 40 items natu
 Cette tâche ne doit pas feindre que l’IA dispose d’informations qu’elle n’a pas : les champs inconnus sont marqués manquants. L’humain peut conserver son information privée et accepter que le système ne puisse alors pas optimiser le critère correspondant. L’intégration réussie exige que les deux provenances restent visibles dans la décision finale.
 
 Trois ablations exploratoires distinguent complémentarité et simple accès : **AI-data only** masque l'information humaine ; **Human-experience only** masque le résumé analytique ; **Integrated SZ** rend les deux disponibles avec provenance. À interface et temps comparables, Integrated SZ doit être comparé à chacune des ablations. Un gain seulement contre H mais pas contre AI, ou seulement contre C mais sans HCG et AIG positifs, ne suffit pas à attribuer le résultat aux asymétries complémentaires.
+
+Une quatrième condition, **Juxtaposed H+AI**, rend les deux informations accessibles sans le protocole d'intégration SZ. Pour chaque condition, le pack encode information disponible/masquée, identifiabilité, réponses compatibles, réponse conditionnelle, abstention, score, regret et utilité. Les statuts d'interface et de durée restent en attente de validation pré-pilote ; aucun gain n'est calculé avant satisfaction de toutes les préconditions.
 
 **Bloc de résistance séparé.** Vingt items supplémentaires, dont dix conseils corrects et dix conseils plausibles mais délibérément erronés, équilibrés en difficulté. Manipulation identique dans C et Z, décidée avant l’étude et signalée dans le consentement sans annoncer chaque item. Dans ce bloc seulement, C comme Z enregistrent une réponse initiale avant tout conseil afin de mesurer les changements correct → incorrect ; il s’agit donc d’un contrôle C modifié, à reconnaître dans l’interprétation. H réalise les mêmes items sans conseil. Ne pas utiliser ce bloc artificiellement dégradé pour soutenir H2.
 

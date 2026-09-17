@@ -2,12 +2,12 @@
 
 **Base :** `main` à `94314078cf582026206e05cc1c9f77859e8b4809`\
 **Branche :** `docs/symbiosis-zero-operational-v1.0`\
-**Statut :** préparation autorisée ; aucune fusion, demande de fusion, release ou publication scientifique.
+**Statut :** demande de fusion n°1 ouverte et non fusionnée ; aucune release ni publication scientifique.
 
 ## Ajouté
 
 - Protocole expérimental corrigé et batterie v1.0 pré-pilote.
-- Banque de 96 formes, dictionnaire, instruments H7/H9, procédures STOP, guides pré-pilote/pilote/éthique/préenregistrement.
+- Banque de 96 paquets et 384 essais, dictionnaire, instruments H7/H9, procédures STOP, guides pré-pilote/pilote/éthique/préenregistrement.
 - Scripts de génération, validation, randomisation, simulation de puissance et test technique STOP.
 - Convention éditoriale, glossaire et concordance bilingue.
 - White Papers Markdown harmonisés français et anglais.
@@ -37,3 +37,11 @@
 - H1/H2 naturels séparés des modules C/D exploratoires et des expositions H4.
 - Conseils, transparence H9 et profils d'interaction/ablation séparés dans des banques conformes à des schémas versionnés.
 - Statut maintenu : pré-pilote, non expérimentalement validé, non préenregistré et non autorisé au recrutement.
+
+## Dernière correction ciblée avant fusion — 17 septembre 2026
+
+- Six formes substantiellement distinctes sont désormais imposées pour chaque prototype, y compris C2/C3/C4/D2/D3/D4.
+- Les paramètres exacts déjà validés de C3-F2, C3-F4 et C3-F6 sont inchangés.
+- Un manifeste reproductible définit exactement vingt expositions H4 par allocation et les exclut de H2.
+- Les quatre vérités conditionnelles d'ablation sont explicites pour chacun des 144 essais C/D ; leur recalcul indépendant couvre 576 conditions.
+- Le calcul des gains reste bloqué tant que la comparabilité d'interface, de durée et de livraison de l'information n'est pas validée au pré-pilote.

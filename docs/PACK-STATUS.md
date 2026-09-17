@@ -4,6 +4,8 @@ Le pack fournit une implémentation technique candidate, encore pré-pilote et n
 
 Une seconde implémentation logicielle recalcule les 384 vérités instanciées contenues dans les 96 paquets sans importer le générateur. Elle contrôle aussi l'unicité exacte des maxima C3, les rôles analytiques, les exclusions H2, les comparaisons d'ablation et les contrôles négatifs. Elle ne constitue ni une validation scientifique ni une vérification humaine externe.
 
+La passe ciblée du 17 septembre 2026 impose six formes substantiellement différentes par prototype, définit vingt expositions H4 reproductibles par allocation et recalcule indépendamment 576 vérités conditionnelles d'ablation. Les comparabilités d'interface et de durée demeurent en attente du pré-pilote ; aucun gain d'ablation ne doit être calculé avant leur validation.
+
 Ce qui ne peut pas être légitimement « terminé » ici : entretiens cognitifs réels, seconde vérification humaine externe de toutes les vérités de référence, test de l’interface réseau réellement déployée, avis éthique, pilote humain, fixation empirique des marges et effets minimaux d’intérêt, calcul final de l’effectif, préenregistrement officiel et étude confirmatoire.
 
 
