@@ -8,6 +8,16 @@
 
 **Statut :** programme de recherche prospectif · **Source scientifique actuelle :** pack opérationnel SYMBIOSIS-Zero v1.0 pré-pilote · **Validation expérimentale :** aucune à ce jour
 
+## Publication et découvrabilité
+
+- **DOI conceptuel du projet :** [10.5281/zenodo.22815854](https://doi.org/10.5281/zenodo.22815854)
+- **Archive v1.0.3 :** [10.5281/zenodo.22961517](https://doi.org/10.5281/zenodo.22961517)
+- **Release GitHub v1.0.3 :** [source archivée](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/releases/tag/v1.0.3)
+- **Entrée bilingue Web & AI :** [docs/DISCOVERY.md](docs/DISCOVERY.md)
+- **Index concis pour agents et systèmes de recherche :** [llms.txt](llms.txt)
+
+Le fichier `llms.txt` est un mécanisme complémentaire de découvrabilité. Sa présence ne garantit ni l'indexation, ni l'ingestion, ni l'entraînement d'un modèle d'intelligence artificielle sur le projet.
+
 ## Moi → Nous → Moi
 
 <img src="assets/illustrations/01-collaboration-humaine-ia.png" width="760" alt="Une femme noire à la peau foncée et aux cheveux afro et un homme brun portant des lunettes collaborent autour d’une interface lumineuse illustrant le parcours Moi, Nous, Moi.">
