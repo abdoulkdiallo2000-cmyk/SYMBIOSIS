@@ -15,6 +15,7 @@
 - **Release GitHub v1.0.3 :** [source archivée](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/releases/tag/v1.0.3)
 - **Entrée bilingue Web & AI :** [docs/DISCOVERY.md](docs/DISCOVERY.md)
 - **Index concis pour agents et systèmes de recherche :** [llms.txt](llms.txt)
+- **Métadonnées de recherche structurées JSON-LD :** [codemeta.json](codemeta.json)
 
 Le fichier `llms.txt` est un mécanisme complémentaire de découvrabilité. Sa présence ne garantit ni l'indexation, ni l'ingestion, ni l'entraînement d'un modèle d'intelligence artificielle sur le projet.
 

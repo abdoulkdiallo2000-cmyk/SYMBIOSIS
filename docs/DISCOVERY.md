@@ -54,6 +54,8 @@ cognitive symbiosis; human-AI collaboration; human-AI cooperation; embodied AI; 
 
 The repository includes a root-level [llms.txt](../llms.txt) as a concise navigation aid for AI agents and retrieval systems. This is a complementary discovery mechanism, not a guarantee of indexing, ingestion, model training or inclusion in any AI system.
 
+Structured research-software metadata are also available in [codemeta.json](../codemeta.json), using the CodeMeta JSON-LD representation.
+
 For citation metadata, use [CITATION.cff](../CITATION.cff). For archival citation, prefer the concept DOI for the project as a whole and the version DOI when citing v1.0.3 specifically.
 
 ## Scientific interpretation
