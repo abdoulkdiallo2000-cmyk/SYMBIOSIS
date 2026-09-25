@@ -1,0 +1,38 @@
+{
+  "@context": "https://w3id.org/codemeta/3.1",
+  "@type": "SoftwareSourceCode",
+  "name": "SYMBIOSIS",
+  "version": "1.0.3",
+  "datePublished": "2026-09-25",
+  "description": "Research framework for voluntary, reversible and pluralistic cognitive symbiosis between humans and artificial intelligence. SYMBIOSIS-Zero is the current operational pre-pilot framework and is not experimentally validated or preregistered.",
+  "codeRepository": "https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS",
+  "issueTracker": "https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/issues",
+  "downloadUrl": "https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/releases/tag/v1.0.3",
+  "identifier": "https://doi.org/10.5281/zenodo.22961517",
+  "sameAs": "https://doi.org/10.5281/zenodo.22815854",
+  "author": {
+    "@type": "Person",
+    "givenName": "Abdoul Karim",
+    "familyName": "Diallo",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Independent Researcher"
+    }
+  },
+  "keywords": [
+    "cognitive symbiosis",
+    "human-AI collaboration",
+    "human-AI cooperation",
+    "human-AI interaction",
+    "human-AI teaming",
+    "hybrid intelligence",
+    "complementary cognition",
+    "embodied AI",
+    "human agency",
+    "mental sovereignty",
+    "reversibility",
+    "functional transparency",
+    "automation bias",
+    "AI safety"
+  ]
+}
