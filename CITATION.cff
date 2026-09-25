@@ -7,14 +7,23 @@ authors:
     given-names: "Abdoul Karim"
     alias: "AKD"
     affiliation: "Independent Researcher"
-version: 1.0.1
-date-released: 2026-09-17
+version: 1.0.3
+date-released: 2026-09-25
+doi: "10.5281/zenodo.22961517"
+url: "https://doi.org/10.5281/zenodo.22815854"
 repository-code: "https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS"
+repository-artifact: "https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/releases/tag/v1.0.3"
+commit: "530e1726a2765287ce08635e1495441072b0ee06"
 license: CC-BY-4.0
 abstract: "Research framework including SYMBIOSIS-Zero v1.0, an operational pre-pilot framework that is not experimentally validated, not preregistered, and not authorized for participant recruitment. Thresholds, smallest effect sizes of interest, equivalence and non-inferiority margins, and final sample size remain to be fixed after cognitive interviews and pilot work and before preregistration."
 keywords:
   - cognitive symbiosis
   - human-AI collaboration
+  - human-AI cooperation
+  - human-AI interaction
+  - human-AI teaming
+  - hybrid intelligence
+  - complementary cognition
   - embodied AI
   - human agency
   - mental sovereignty
