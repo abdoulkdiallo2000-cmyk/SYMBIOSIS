@@ -1,9 +1,5 @@
 # SYMBIOSIS
 
-![Illustration conceptuelle de deux identités distinctes coopérant dans un espace partagé](assets/illustrations/symbiosis-hero.webp)
-
-*Illustration principale historique de SYMBIOSIS — collaboration humaine et IA.*
-
 > Cadre de recherche pour une symbiose cognitive volontaire, réversible et pluraliste entre humains et intelligence artificielle incarnée.
 
 **Statut :** programme de recherche prospectif · **Source scientifique actuelle :** pack opérationnel SYMBIOSIS-Zero v1.0 pré-pilote · **Validation expérimentale :** aucune à ce jour
@@ -32,7 +28,7 @@ SYMBIOSIS-Zero est le premier niveau directement testable : interfaces conventio
 
 Les hypothèses H1–H5 constituent le noyau confirmatoire. H6 (calibration mutuelle) et H8 (subjectivité complémentaire) sont exploratoires dans la première étude. H7 (intégrité humaine) et H9 (transparence fonctionnelle de l'IA) sont des contraintes obligatoires de validité. Leurs seuils psychométriques restent candidats avant le pilote, mais tout incident critique prédéfini est immédiatement non compensatoire.
 
-L'expérience subjective humaine — sensations, émotions, valeurs, expérience vécue et intuition corporelle — peut être une information pertinente, et pas seulement une source de biais. La batterie teste donc des asymétries où l'information humaine diffère de l'information accessible à l'IA : $I_H \neq I_{IA}$.
+L'expérience subjective humaine — sensations, émotions, valeurs, expérience vécue et intuition corporelle — peut être une information pertinente, et pas seulement une source de biais. La batterie teste donc des asymétries où l'information humaine diffère de l'information accessible à l'IA : I<sub>H</sub> ≠ I<sub>IA</sub>.
 
 ## Garde-fous
 
@@ -79,4 +75,3 @@ Le projet ne démontre ni conscience artificielle, ni fusion mentale, ni communi
 Métadonnées de citation : [CITATION.cff](CITATION.cff). La [politique de licence](LICENSE.md) applique Creative Commons Attribution 4.0 International (CC BY 4.0) à la documentation, aux textes scientifiques, aux illustrations originales et aux données synthétiques JSON/CSV ; elle applique Apache License 2.0 au code, aux scripts, aux tests et aux schémas JSON. Les textes complets figurent dans [`LICENSES/`](LICENSES/). Les contenus tiers restent soumis à leurs droits propres. Voir également l'[audit et registre de décision](docs/LICENSE-AUDIT.md).
 
 SYMBIOSIS a été initié par **Abdoul Karim Diallo (AKD — Independent Researcher)**.
-
