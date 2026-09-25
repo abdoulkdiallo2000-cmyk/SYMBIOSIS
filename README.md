@@ -1,5 +1,9 @@
 # SYMBIOSIS
 
+![Illustration conceptuelle de deux identités distinctes coopérant dans un espace partagé](assets/illustrations/symbiosis-hero.webp)
+
+*Illustration principale historique de SYMBIOSIS — collaboration humaine et IA.*
+
 > Cadre de recherche pour une symbiose cognitive volontaire, réversible et pluraliste entre humains et intelligence artificielle incarnée.
 
 **Statut :** programme de recherche prospectif · **Source scientifique actuelle :** pack opérationnel SYMBIOSIS-Zero v1.0 pré-pilote · **Validation expérimentale :** aucune à ce jour
