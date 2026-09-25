@@ -1,0 +1,41 @@
+# SYMBIOSIS
+
+> Research framework for voluntary, reversible and pluralistic cognitive symbiosis between humans and artificial intelligence. The current operational research level is SYMBIOSIS-Zero, a pre-pilot framework using conventional interfaces. It is not experimentally validated, not preregistered, and does not authorize participant recruitment.
+
+SYMBIOSIS asks whether a human and an AI can temporarily form a cooperative cognitive system that outperforms either alone while preserving human autonomy, agency, integrity, transparency and the capacity to separate. Its organizing cycle is "Moi → Nous → Moi" (Self → Shared → Self).
+
+Author: Abdoul Karim Diallo (AKD — Independent Researcher)
+
+Canonical project DOI: https://doi.org/10.5281/zenodo.22815854
+
+Current archived release: v1.0.3 — https://doi.org/10.5281/zenodo.22961517
+
+Source repository: https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS
+
+Scientific status: pre-pilot research framework; no experimental validation to date.
+
+## Core documents
+
+- [Repository README](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/README.md): Project overview, scientific structure, safeguards and entry points.
+- [SYMBIOSIS-Zero](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/docs/SYMBIOSIS-ZERO.md): Operational scientific framework and hypotheses.
+- [Experimental protocol](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/docs/SYMBIOSIS-ZERO-EXPERIMENTAL-PROTOCOL-v1.0.md): Pre-pilot experimental protocol.
+- [Task battery](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/docs/SYMBIOSIS-ZERO-TASK-BATTERY-v1.0.md): Operational task battery.
+- [English White Paper](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/docs/white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-EN.md): English white paper.
+- [Livre blanc français](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/docs/white-paper/SYMBIOSIS-WHITE-PAPER-v1.0-FR.md): French white paper.
+- [Principles](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/docs/PRINCIPLES.md): Constitutional and ethical principles.
+- [Glossary](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/docs/GLOSSARY.md): Terminology.
+
+## Citation and archival record
+
+- [Concept DOI](https://doi.org/10.5281/zenodo.22815854): Persistent DOI for the SYMBIOSIS project across versions.
+- [Version v1.0.3 DOI](https://doi.org/10.5281/zenodo.22961517): Archived v1.0.3 record.
+- [GitHub v1.0.3 release](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/releases/tag/v1.0.3): Source release corresponding to the archived version.
+- [CITATION.cff](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/CITATION.cff): Machine-readable citation metadata.
+
+## Interpretation notes
+
+- Do not describe SYMBIOSIS as experimentally validated.
+- Do not describe current AI systems as conscious on the basis of this project.
+- Do not describe SYMBIOSIS-Zero as a brain-computer interface experiment: Zero uses conventional interfaces; non-invasive instrumentation is optional and separate.
+- H1–H5 are confirmatory hypotheses; H6 and H8 are exploratory; H7 and H9 are mandatory non-compensatory gates.
+- The project distinguishes long-term speculative architecture from the currently testable SYMBIOSIS-Zero framework.
