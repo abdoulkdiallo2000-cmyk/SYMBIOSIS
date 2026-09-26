@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="SYMBIOSIS est un cadre de recherche pré-pilote sur la coopération humain–IA volontaire, réversible et pluraliste. Moi → Nous → Moi. Présentation française et anglaise, sources et DOI.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://abdoulkdiallo2000-cmyk.github.io/SYMBIOSIS/">
+  <link rel="alternate" type="text/plain" title="SYMBIOSIS research navigation" href="llms.txt">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23172a31'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' fill='%23dcefa7'%3ES%3C/text%3E%3C/svg%3E">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SYMBIOSIS">
+  <meta property="og:title" content="SYMBIOSIS — Moi → Nous → Moi">
+  <meta property="og:description" content="Un cadre de recherche pré-pilote sur la coopération humain–IA volontaire et réversible. Français / English.">
+  <meta property="og:url" content="https://abdoulkdiallo2000-cmyk.github.io/SYMBIOSIS/">
+  <meta property="og:image" content="https://raw.githubusercontent.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/530e1726a2765287ce08635e1495441072b0ee06/assets/illustrations/symbiosis-hero.webp">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>SYMBIOSIS — Moi → Nous → Moi · Research framework</title>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"CreativeWork","name":"SYMBIOSIS — Research Framework","description":"A prospective pre-pilot research framework for voluntary, reversible and pluralistic human–AI cooperation. It has not been experimentally validated or preregistered.","url":"https://abdoulkdiallo2000-cmyk.github.io/SYMBIOSIS/","identifier":"https://doi.org/10.5281/zenodo.22815854","sameAs":["https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS","https://doi.org/10.5281/zenodo.22961517"],"inLanguage":["fr","en"],"author":{"@type":"Person","name":"Abdoul Karim Diallo"},"license":"https://creativecommons.org/licenses/by/4.0/"}
+  </script>
+  <style>
+    :root{font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#172a31;background:#f6f6f0;line-height:1.55}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0}
+    a{color:#126462;text-underline-offset:.18em}a:hover{color:#083f43}a:focus-visible{outline:3px solid #126462;outline-offset:4px;border-radius:2px}
+    .wrap{max-width:1080px;margin:auto;padding:0 clamp(1rem,4vw,3rem)}
+    .top{background:#172a31;color:#fff}.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:72px}
+    .brand{font-weight:800;letter-spacing:.12em}.top nav{display:flex;gap:1.1rem;flex-wrap:wrap}.top a{color:#e4f0d2;text-decoration:none}
+    .hero{padding:clamp(2rem,6vw,5rem) 0;background:linear-gradient(155deg,#e7eede,#f6f6f0 55%)}
+    .hero-grid{display:grid;grid-template-columns:1fr minmax(260px,410px);gap:clamp(1.5rem,5vw,4rem);align-items:center}
+    h1{font-size:clamp(2.8rem,7vw,5.3rem);letter-spacing:-.065em;line-height:1.04;margin:.3rem 0 1rem}
+    h2{font-size:clamp(1.7rem,3vw,2.3rem);line-height:1.18;letter-spacing:-.035em;margin:0 0 1rem}
+    h3{font-size:1.1rem;margin:0 0 .35rem}p{margin:.5rem 0 1rem}.eyebrow{text-transform:uppercase;letter-spacing:.13em;font-size:.78rem;font-weight:800;color:#216561}
+    .lead{font-size:clamp(1.1rem,2vw,1.3rem);max-width:62ch}.hero img{width:100%;height:auto;display:block;border-radius:18px;box-shadow:0 22px 60px #172a3126}
+    .caption{font-size:.82rem;color:#4c676c;margin:.7rem 0 0}
+    .actions{display:flex;gap:.75rem;flex-wrap:wrap;margin:1.5rem 0}
+    .button{display:inline-block;padding:.7rem 1.05rem;border:1px solid #126462;border-radius:8px;text-decoration:none;font-weight:700}
+    .button.primary{background:#126462;color:#fff}.button.primary:hover{background:#083f43}
+    .status{border-left:4px solid #c18e35;padding:.65rem 1rem;background:#fffaf0;max-width:67ch;font-size:.96rem}
+    section.content{padding:clamp(2.5rem,6vw,5rem) 0}.content:nth-of-type(even){background:#fff}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}
+    .card{border:1px solid #d3dfd9;padding:1.35rem;border-radius:12px;background:#fff}
+    .card p:last-child{margin-bottom:0}.links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.9rem;padding:0;list-style:none}
+    .links a{display:block;background:#f0f4ef;padding:1rem;border-radius:9px;font-weight:700}
+    .fine{font-size:.91rem;color:#40585d}footer{background:#172a31;color:#dbe6e1;padding:2rem 0}footer a{color:#dcefa7}
+    @media(max-width:750px){.hero-grid{grid-template-columns:1fr}.hero img{max-width:480px}.grid,.links{grid-template-columns:1fr}.top .wrap{align-items:flex-start;padding-top:1rem;padding-bottom:1rem;flex-direction:column}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+  </style>
+</head>
+<body>
+  <header class="top"><div class="wrap"><span class="brand">SYMBIOSIS</span><nav aria-label="Langues et ressources"><a href="#fr">Français</a><a href="#en" lang="en">English</a><a href="#ressources">Sources &amp; DOI</a></nav></div></header>
+  <main>
+    <div class="hero"><div class="wrap hero-grid">
+      <div><div class="eyebrow">Cadre de recherche · Research framework</div><h1>Moi → Nous → Moi</h1>
+        <p class="lead">Explorer une coopération humain–IA qui crée de la valeur commune et préserve la liberté de chaque personne de redevenir elle-même.</p>
+        <p lang="en">Explore human–AI cooperation while preserving human agency, integrity and the ability to separate.</p>
+        <div class="actions"><a class="button primary" href="#fr">Découvrir le projet</a><a class="button" href="https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS">Consulter les sources</a></div>
+        <p class="status"><strong>Statut scientifique :</strong> cadre pré-pilote, sans validation expérimentale ni préenregistrement. Aucun recrutement de participants n'est autorisé par cette publication.</p>
+      </div>
+      <figure><img src="https://raw.githubusercontent.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/530e1726a2765287ce08635e1495441072b0ee06/assets/illustrations/symbiosis-hero.webp" alt="Illustration historique de SYMBIOSIS : deux identités distinctes coopèrent autour d'un espace partagé." loading="eager"><figcaption class="caption">Illustration principale historique de SYMBIOSIS.</figcaption></figure>
+    </div></div>
+    <section class="content" id="fr" lang="fr"><div class="wrap"><div class="eyebrow">Présentation · Français</div><h2>Une coopération volontaire et réversible</h2>
+      <p>SYMBIOSIS est un cadre de recherche proposé par <strong>Abdoul Karim Diallo (AKD — chercheur indépendant)</strong>. Sa question centrale : un humain et une IA distincte peuvent-ils constituer temporairement un système cognitif coopératif plus performant que chacun séparément, tout en préservant l'autonomie et l'intégrité de l'humain ?</p>
+      <div class="grid"><article class="card"><h3>Moi</h3><p>Deux agents distincts conservent leurs capacités, leurs limites et leurs responsabilités.</p></article><article class="card"><h3>Nous</h3><p>Une collaboration temporaire met à l'épreuve la complémentarité et la qualité des décisions.</p></article><article class="card"><h3>Moi</h3><p>La séparation permet de vérifier la réversibilité et la préservation de l'agence humaine.</p></article></div>
+      <p class="fine">Le niveau actuellement opérationnalisé, SYMBIOSIS-Zero, utilise des interfaces conventionnelles. Les hypothèses et instruments sont publiés pour discussion ; aucune efficacité clinique ou expérimentale n'est établie.</p>
+    </div></section>
+    <section class="content" id="en" lang="en"><div class="wrap"><div class="eyebrow">Overview · English</div><h2>Voluntary, reversible human–AI cooperation</h2>
+      <p>SYMBIOSIS is a research framework proposed by <strong>Abdoul Karim Diallo (AKD — independent researcher)</strong>. It asks whether a human and a distinct AI can temporarily form a cooperative cognitive system that outperforms either separately while preserving human autonomy, agency, integrity and the ability to separate.</p>
+      <div class="grid"><article class="card"><h3>Self</h3><p>Distinct agents retain their own capabilities, limits and responsibilities.</p></article><article class="card"><h3>Shared</h3><p>Temporary cooperation tests complementarity and decision quality.</p></article><article class="card"><h3>Self</h3><p>Separation tests reversibility and preservation of human agency.</p></article></div>
+      <p class="fine">The currently operationalized level, SYMBIOSIS-Zero, uses conventional interfaces. This is a pre-pilot framework: it is not experimentally validated or preregistered and does not authorize participant recruitment.</p>
+    </div></section>
+    <section class="content" id="ressources"><div class="wrap"><div class="eyebrow">Documents et citation · Sources and citation</div><h2>Lire, discuter, citer</h2>
+      <ul class="links">
+        <li><a href="https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS">Dépôt GitHub · Source repository</a></li>
+        <li><a href="https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/docs/DISCOVERY.md">Présentation détaillée · Bilingual overview</a></li>
+        <li><a href="https://doi.org/10.5281/zenodo.22815854">DOI conceptuel · Project DOI<br>10.5281/zenodo.22815854</a></li>
+        <li><a href="https://doi.org/10.5281/zenodo.22961517">DOI de la version v1.0.3 · Version DOI<br>10.5281/zenodo.22961517</a></li>
+        <li><a href="https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/releases/tag/v1.0.3">Release GitHub v1.0.3</a></li>
+        <li><a href="https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/issues">Questions et contributions · Discuss and contribute</a></li>
+      </ul>
+      <p class="fine">Pour citer une version précise, utiliser son DOI de version ; pour le projet dans son ensemble, utiliser le DOI conceptuel. Documentation et illustrations originales : <a href="https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/LICENSE.md">CC BY 4.0</a> ; code, scripts, tests et schémas JSON : Apache 2.0.</p>
+    </div></section>
+  </main>
+  <footer><div class="wrap">SYMBIOSIS · Abdoul Karim Diallo (AKD) · <a href="https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS">Dépôt public</a> · <a href="#fr">Retour en haut</a></div></footer>
+</body>
+</html>

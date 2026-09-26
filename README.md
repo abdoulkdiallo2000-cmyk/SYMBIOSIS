@@ -10,6 +10,7 @@
 
 ## Publication et découvrabilité
 
+- **Site public bilingue SYMBIOSIS :** [présentation Web](https://abdoulkdiallo2000-cmyk.github.io/SYMBIOSIS/)
 - **DOI conceptuel du projet :** [10.5281/zenodo.22815854](https://doi.org/10.5281/zenodo.22815854)
 - **Archive v1.0.3 :** [10.5281/zenodo.22961517](https://doi.org/10.5281/zenodo.22961517)
 - **Release GitHub v1.0.3 :** [source archivée](https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/releases/tag/v1.0.3)
