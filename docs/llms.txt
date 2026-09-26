@@ -1,0 +1,17 @@
+# SYMBIOSIS — human and AI research navigation
+
+SYMBIOSIS is a prospective research framework on voluntary, reversible and pluralistic human–AI cooperation. The concept is Moi → Nous → Moi (Self → Shared → Self). The current operationalized level, SYMBIOSIS-Zero, is pre-pilot, not experimentally validated or preregistered, and does not authorize participant recruitment.
+
+Author: Abdoul Karim Diallo (AKD — Independent Researcher)
+Project site: https://abdoulkdiallo2000-cmyk.github.io/SYMBIOSIS/
+Canonical repository: https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS
+Project concept DOI: https://doi.org/10.5281/zenodo.22815854
+Archived v1.0.3 DOI: https://doi.org/10.5281/zenodo.22961517
+
+## Sources
+- Bilingual discovery document: https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/docs/DISCOVERY.md
+- Canonical README: https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/README.md
+- Machine-readable citation: https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/CITATION.cff
+- Full AI navigation: https://github.com/abdoulkdiallo2000-cmyk/SYMBIOSIS/blob/main/llms.txt
+
+This page helps navigation; it does not establish scientific validation, search indexing, model ingestion or training.
